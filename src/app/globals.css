@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main: #e65e1c;
+  --primary: #dc6e39;
+  --secondary: #e48d63;
+  --tertiary: #22864a;
+
+  --bg-one: #eeeeee;
+  --bg-two: #e5e5e5;
+}
+
+body {
+  background-color: #22864a;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  background-color: var(--bg-one);
+
+  background-repeat: no-repeat;
+}
+
+.arrows-black div {
+  color: #00000030;
+  font-size: 10px;
+}
