@@ -30,3 +30,8 @@ body {
   color: #00000030;
   font-size: 10px;
 }
+
+.white-svg {
+  filter: invert(100%) sepia(7%) saturate(27%) hue-rotate(102deg)
+    brightness(106%) contrast(106%);
+}

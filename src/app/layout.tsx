@@ -1,3 +1,4 @@
+import { ContextProvider } from "@/context";
 import { IChildren } from "@/interfaces/global";
 import { Footer } from "@/layouts/Footer";
 import { Header } from "@/layouts/Header";
@@ -16,7 +17,6 @@ const conduit = localfont({
     { path: "../../public/fonts/Conduit ITC Bold.otf", weight: "700" },
     { path: "../../public/fonts/Conduit ITC Bold.otf", weight: "800" },
   ],
-
   variable: "--font-conduit",
 });
 
@@ -28,7 +28,7 @@ const RootLayout = ({ children }: IChildren) => (
       {/* <NavBar /> */}
       <Header />
 
-      {children}
+      <ContextProvider>{children}</ContextProvider>
 
       <Footer />
     </body>

@@ -50,10 +50,10 @@ export const NavOptions = () => {
   ];
 
   const liClassDefault =
-    "h-[176px] w-2/5 p-4 rounded-[14px] text-white flex flex-col justify-between";
+    "h-[176px] w-2/5 p-4 rounded-[14px] text-white flex flex-col justify-between max-w-xs cursor-pointer";
 
   return (
-    <ul className="flex flex-wrap gap-8 justify-center">
+    <ul className="flex flex-wrap gap-8 justify-center lg:flex-col lg:w-full lg:h-[408px] lg:items-center">
       {listOptions.map((elem, index) => (
         <li
           key={index}

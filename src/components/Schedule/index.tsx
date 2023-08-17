@@ -1,23 +1,12 @@
-import { Team } from "@/interfaces/global";
-import { api } from "@/services/axios";
-import { useEffect, useState } from "react";
+import { useTeamsContext } from "@/context/teams_context";
 
 export const Schedule = () => {
-  const [teams, setTeams] = useState<Team[]>([]);
-
-  const getTeams = async () => {
-    if (!teams.length) {
-      const teams = await api.get("/teams");
-      setTeams(teams.data);
-    }
-  };
-  useEffect(() => {
-    getTeams();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  const { teams } = useTeamsContext();
 
   const baseClassLi =
     "flex w-full justify-between px-2 h-[32px] items-center text-xs";
+
+  const baseClassSpan = "flex justify-center w-[12px]";
 
   const renderTeams = [
     {
@@ -32,39 +21,34 @@ export const Schedule = () => {
       goals_difference: "SG",
       points: "P",
     },
-    ...teams,
+    ...teams.reverse(),
   ].map((elem, index) => (
     <li
       key={elem.id}
       className={
-        index % 2 == 0 ? `${baseClassLi} bg-bgone` : `${baseClassLi} bg-bgtwo`
+        index % 2 == 0
+          ? `${index == 0 && "font-bold"} ${baseClassLi} bg-bgone`
+          : `${baseClassLi} bg-bgtwo`
       }
     >
       <div className="flex gap-2">
         <span className="flex justify-center w-[18px]">
           {index != 0 ? `${index}º` : "P"}
         </span>
-        <span className="flex w-[80px] font-bold justify-center">
+
+        <span className="flex w-[80px] font-bold justify-left">
           {elem.name}
         </span>
       </div>
 
       <div className="flex gap-2">
-        <span className="flex justify-center w-[12px]">
-          {elem.matches_played}
-        </span>
-        <span className="flex justify-center w-[12px]">{elem.wins}</span>
-        <span className="flex justify-center w-[12px]">{elem.draws}</span>
-        <span className="flex justify-center w-[12px]">{elem.loses}</span>
-        <span className="flex justify-center w-[12px]">
-          {elem.goals_scored}
-        </span>
-        <span className="flex justify-center w-[12px]">
-          {elem.goals_suffered}
-        </span>
-        <span className="flex justify-center w-[12px]">
-          {elem.goals_difference}
-        </span>
+        <span className={baseClassSpan}>{elem.matches_played}</span>
+        <span className={baseClassSpan}>{elem.wins}</span>
+        <span className={baseClassSpan}>{elem.draws}</span>
+        <span className={baseClassSpan}>{elem.loses}</span>
+        <span className={baseClassSpan}>{elem.goals_scored}</span>
+        <span className={baseClassSpan}>{elem.goals_suffered}</span>
+        <span className={baseClassSpan}>{elem.goals_difference}</span>
       </div>
 
       <div>

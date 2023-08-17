@@ -1,64 +1,101 @@
 "use client";
 
-import { api } from "@/services/axios";
+import { useMatchesContext } from "@/context/matches_context";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import Vasco from "../../assets/escudo.png";
-import { Match } from "../../interfaces/global";
+
+interface RenderTeamInMatch {
+  name: string;
+}
 
 export const Table = () => {
-  const [matches, setMatches] = useState<Match[]>([]);
+  const { matches } = useMatchesContext();
 
-  const getMatches = async () => {
-    if (!matches.length) {
-      const matches = await api.get("/matches/");
-      setMatches(matches.data);
+  const listTeamsFiltered = [
+    "Pedro Fernandes",
+    "FC Lambedouro",
+    "Meninos da Vila",
+  ];
+
+  const teamsChanged = ["P. Fernandes", "Lambedouro", "M. da Vila"];
+
+  const filteredMatches = matches.map((elem) => {
+    if (listTeamsFiltered.includes(elem.visitant.name)) {
+      const index = listTeamsFiltered.indexOf(elem.visitant.name);
+      elem.visitant.name = teamsChanged[index];
+      return elem;
     }
+
+    if (listTeamsFiltered.includes(elem.principal.name)) {
+      const index = listTeamsFiltered.indexOf(elem.principal.name);
+      elem.principal.name = teamsChanged[index];
+      return elem;
+    }
+
+    return elem;
+  });
+
+  const RenderPrincipal = ({ name }: RenderTeamInMatch) => {
+    return (
+      <div className="w-5/12 flex justify-center items-center">
+        <div className="w-1/3 border-4 border-main rounded-lg">
+          <Image src={Vasco} alt="Vasco" height={48} width={48} />
+        </div>
+
+        <div className="w-2/3 flex p-0 border-y-4 border-main">
+          <span className="w-full text-base text-center px-1 font-bold">
+            {name}
+          </span>
+        </div>
+      </div>
+    );
   };
 
-  useEffect(() => {
-    getMatches();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const liBaseClass = "flex w-2/3 justify-center";
-
-  const renderMatches = matches.map((elem, index) => (
-    <li key={index} className={`${liBaseClass} `}>
-      <div className="flex justify-center items-center">
-        <div className="border-4 border-main rounded-lg">
-          <Image src={Vasco} alt="Vasco" height={64} width={64} />
-        </div>
-
-        <div className="w-[204px] flex p-0 border-y-4 border-main">
-          <span className="w-full text-2xl text-left px-4">
-            {elem.principal.name}
-          </span>
-        </div>
-      </div>
-
-      <div className="bg-main text-2xl p-2 w-2/3 text-white flex justify-between items-center">
-        <span>0</span>
-        <span>X</span>
-        <span>0</span>
-      </div>
-
-      <div className="flex justify-center items-center">
-        <div className="w-[204px] flex p-0 border-y-4 border-main ">
-          <span className="w-full text-2xl text-right px-4">
-            {elem.visitant.name}
+  const RenderVisitant = ({ name }: RenderTeamInMatch) => {
+    return (
+      <div className="w-5/12 flex justify-center items-center">
+        <div className="w-2/3 flex p-0 border-y-4 border-main ">
+          <span className="w-full text-base text-center px-1 font-bold">
+            {name}
           </span>
         </div>
 
-        <div className="border-4 p-2 border-main rounded-lg">
-          <Image src={Vasco} alt="Vasco" height={64} width={64} />
+        <div className="w-1/3 border-4 border-main rounded-lg">
+          <Image src={Vasco} alt="Vasco" height={48} width={48} />
         </div>
+      </div>
+    );
+  };
+
+  const liBaseClass = "flex flex-col w-full ";
+
+  const renderMatches = filteredMatches.map((elem, index) => (
+    <li
+      key={index}
+      className={
+        index % 2 === 0 ? `${liBaseClass} bg-bgtwo ` : `${liBaseClass} bg-bgone`
+      }
+    >
+      <h3 className="flex w-full justify-center font-bold relative top-2">
+        SÁBADO - 26/08 - 14:30H
+      </h3>
+
+      <div className="flex justify-center p-2 pt-0 w-full">
+        <RenderPrincipal name={elem.principal.name} />
+
+        <div className=" w-2/12 bg-main text-2xl p-1 h-[32px] my-auto text-white flex justify-around items-center font-bold">
+          <span>{elem.goals_principal}</span>
+          <span>X</span>
+          <span>{elem.goals_visitant}</span>
+        </div>
+
+        <RenderVisitant name={elem.visitant.name} />
       </div>
     </li>
   ));
 
   return (
-    <ul className="flex flex-col w-1/3 m-auto justify-center items-center gap-4">
+    <ul className="flex flex-col w-11/12 m-auto justify-center items-center p-4 max-w-6xl">
       {renderMatches}
     </ul>
   );

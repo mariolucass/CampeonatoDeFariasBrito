@@ -4,7 +4,7 @@ import FooterLogo from "../../assets/footerLogo.svg";
 
 export const Footer = () => {
   return (
-    <footer className="flex-col w-full justify-center  mt-4 ">
+    <footer className="flex-col w-full justify-center mt-4 ">
       <div className=" flex w-full bg-footer items-center justify-center">
         <span className="font-bold">TODOS OS DIREITOS RESERVADOS. 2023</span>
       </div>
