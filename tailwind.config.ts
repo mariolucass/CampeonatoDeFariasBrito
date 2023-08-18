@@ -6,7 +6,8 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/layouts/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/flowbite/**/*.js",
+    "./node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     colors: {
@@ -39,7 +40,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("flowbite/plugin")],
 };
 
 export default config;

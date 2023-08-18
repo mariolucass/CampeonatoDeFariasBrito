@@ -98,7 +98,6 @@ export const SectionTitle = () => {
 
   type PageKey = keyof typeof dictPages;
   const path = pathName.substring(1) as PageKey;
-  console.log(dictPages[path]);
 
   return (
     <section className="flex flex-col justify-center items-center p-6 bg-bgtwo h-[172px] w-full">

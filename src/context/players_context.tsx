@@ -19,5 +19,4 @@ export function PlayersProvider({ children }: IChildren) {
     </PlayersContext.Provider>
   );
 }
-
 export const usePlayersContext = () => useContext(PlayersContext);

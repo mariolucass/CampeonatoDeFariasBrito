@@ -26,11 +26,13 @@ const RootLayout = ({ children }: IChildren) => (
 
     <body className={`${conduit.variable} font-sans`}>
       {/* <NavBar /> */}
-      <Header />
+      <ContextProvider>
+        <Header />
 
-      <ContextProvider>{children}</ContextProvider>
+        {children}
 
-      <Footer />
+        <Footer />
+      </ContextProvider>
     </body>
   </html>
 );

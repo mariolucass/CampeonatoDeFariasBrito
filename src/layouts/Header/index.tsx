@@ -1,5 +1,8 @@
 "use client";
 
+import { NavBar } from "@/components/NavBar";
+import { useGlobalContext } from "@/context/global_context";
+import { Drawer } from "@material-tailwind/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -15,6 +18,9 @@ import Search from "../../assets/search.svg";
 
 export const Header = () => {
   const router = useRouter();
+
+  const { drawerState, openDrawer, closeDrawer } = useGlobalContext();
+
   const listOptions = [
     {
       component: TabelaIcon,
@@ -69,7 +75,8 @@ export const Header = () => {
         alt="logo"
         width={30}
         height={30}
-        className="lg:hidden"
+        className="lg:hidden cursor:pointer"
+        onClick={openDrawer}
       />
 
       <Image
@@ -78,6 +85,14 @@ export const Header = () => {
         className="cursor-pointer"
         onClick={() => router.push("/")}
       />
+
+      <Drawer
+        open={drawerState}
+        onClose={closeDrawer}
+        className="w-1/2 rounded-r-[12px] lg:hidden"
+      >
+        <NavBar />
+      </Drawer>
 
       <ul className="hidden lg:flex lg:gap-8 lg:font-bold lg:text-white">
         {items}

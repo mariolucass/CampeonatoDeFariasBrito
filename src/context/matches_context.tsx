@@ -19,5 +19,4 @@ export function MatchesProvider({ children }: IChildren) {
     </MatchesContext.Provider>
   );
 }
-
 export const useMatchesContext = () => useContext(MatchesContext);

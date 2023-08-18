@@ -1,9 +1,12 @@
+import { useGlobalContext } from "@/context/global_context";
 import Image from "next/image";
 import Link from "next/link";
-import Ms from "../../assets/logos/MsProjects.svg";
-import Rights from "../../assets/logos/Rights.svg";
+import CloseNavbar from "../../assets/closeNav.svg";
+import LogoNav from "../../assets/logoNav.svg";
 
 export const NavBar = () => {
+  const { closeDrawer } = useGlobalContext();
+
   const listNavigation = [
     { title: "TABELA", page: "/tabela" },
     { title: "CLASSIFICAÇÃO", page: "/classificacao" },
@@ -11,34 +14,45 @@ export const NavBar = () => {
     { title: "SÚMULAS", page: "/sumulas" },
     { title: "EQUIPES", page: "/equipes" },
     { title: "ARTILHARIA", page: "/artilharia" },
-    { title: "PÁGINA INICIAL", page: "/" },
   ];
 
   const renderNavigation = listNavigation.map((elem) => (
     <li key={elem.title}>
-      <Link href={elem.page} className="text-2xl">
+      <Link href={elem.page} className="text-2xl" onClick={closeDrawer}>
         {elem.title}
       </Link>
     </li>
   ));
 
   return (
-    <div className="w-full min-h-full bg-bgmodal absolute top-0 left-0 right-0 z-40 flex">
-      <div className="w-1/2 min-h-full bg-main z-50 flex flex-col gap-3 rounded-r-[12px]">
-        <div></div>
+    <div className="w-full min-h-full bg-main z-50 flex flex-col gap-3 rounded-r-[12px] lg:hidden">
+      <div
+        className="absolute right-0 p-4 flex justify-center"
+        onClick={closeDrawer}
+      >
+        <Image src={CloseNavbar} alt="CloseNavbar" />
+      </div>
 
-        <div className="w-[105px] h-[1px] bg-white self-center"></div>
+      <div className="mt-16">
+        <Image src={LogoNav} alt="CloseNavbar" />
+      </div>
 
-        <ul className=" flex flex-col p-4 gap-4 text-white text-xl">
-          {renderNavigation}
-        </ul>
+      <div className="w-[105px] h-[1px] bg-white self-center"></div>
 
-        <div className="w-[105px] h-[1px] bg-white self-center"></div>
+      <ul className="flex flex-col p-4 gap-4 text-white text-xl">
+        {renderNavigation}
+      </ul>
 
-        <div className="flex flex-col w-full gap-2 justify-center items-center self-end">
-          <Image src={Ms} alt={"MsProjects"} width={128} height={128} />
-          <Image src={Rights} alt={"Rights"} width={128} height={128} />
-        </div>
+      <div className="w-[105px] h-[1px] bg-white self-center"></div>
+
+      <div className="flex flex-col p-4 gap-4 text-white text-xl">
+        <Link href={"/"} className="text-2xl" onClick={closeDrawer}>
+          PÁGINA INICIAL
+        </Link>
+      </div>
+
+      <div className="absolute bottom-5 p-4 text-sm text-white text-center">
+        <span>TODOS OS DIREITOS RESERVADOS. 2023</span>
       </div>
     </div>
   );

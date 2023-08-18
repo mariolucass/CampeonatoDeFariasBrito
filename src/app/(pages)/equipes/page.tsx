@@ -1,46 +1,75 @@
 "use client";
 
+import { PlayersCards } from "@/components/PlayersCards";
 import { SectionTitle } from "@/components/SectionTitle";
-import { usePlayersContext } from "@/context/players_context";
 import { useTeamsContext } from "@/context/teams_context";
+import { teams_data } from "@/data/teams_data";
+import { Card, Collapse } from "@material-tailwind/react";
 import Image from "next/image";
+import { useState } from "react";
 import Arrow from "../../../assets/arrowMatches.svg";
 import Vasco from "../../../assets/escudo.png";
 
+type OpenState = { [key: string]: boolean };
+
 const EquipesPage = () => {
   const { teams } = useTeamsContext();
-  const { players } = usePlayersContext();
 
-  const renderTeams = teams.map((elem) => (
-    <>
-      <li
-        key={elem.id}
-        className="bg-bgtwo p-4 rounded-lg flex justify-between text-center items-center"
-        data-dropdown-toggle="dropdown"
-      >
-        <div className="w-[104px] h-[56px]">
-          <Image
-            src={Vasco}
-            alt="vasco"
-            objectFit="contain"
-            style={{ width: "100%", height: "100%", objectFit: "contain" }}
-          />
+  const defaultOpenState: OpenState = teams_data.reduce((acc, team) => {
+    acc[team.name] = false;
+    return acc;
+  }, {} as OpenState);
+
+  const [collapse, setCollapse] = useState<OpenState>(defaultOpenState);
+
+  const toggleCollapse = (teamName: string) => {
+    setCollapse((prevState) => ({
+      ...prevState,
+      [teamName]: !prevState[teamName],
+    }));
+  };
+
+  const renderTeams = teams.map((elem) => {
+    return (
+      <li key={elem.name}>
+        <div
+          className="bg-bgtwo p-4 rounded-lg flex justify-between text-center items-center active:rounded-none"
+          onClick={() => toggleCollapse(elem.name)}
+        >
+          <div className="w-[104px] h-[56px]">
+            <Image
+              src={Vasco}
+              alt="vasco"
+              objectFit="contain"
+              style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            />
+          </div>
+
+          <span className="text-2xl font-bold w-60 text-left">{elem.name}</span>
+
+          <div>
+            <Image src={Arrow} alt="arrow" height={7} width={14} />
+          </div>
         </div>
 
-        <span className="text-2xl font-bold w-60 text-left">{elem.name}</span>
+        <Collapse open={collapse[elem.name]}>
+          <Card className="w-full bg-bgtwo flex flex-col p-2 gap-4 rounded-none">
+            <h1 className="w-2/3 mx-auto  p-1 text-2xl text-black bg-bgone flex justify-center items-center rounded-xl">
+              JOGADORES
+            </h1>
 
-        <div>
-          <Image src={Arrow} alt="arrow" height={7} width={14} />
-        </div>
+            <PlayersCards teamId={elem.id} />
+
+            <h1 className="w-2/3 mx-auto p-1 text-2xl text-black  bg-bgone flex justify-center items-center rounded-xl">
+              COMISSÃO TÉCNICA
+            </h1>
+
+            <PlayersCards teamId={elem.id} isCommitte />
+          </Card>
+        </Collapse>
       </li>
-
-      <div id="dropdown">
-        <ul className="hidden">
-          <li></li>
-        </ul>
-      </div>
-    </>
-  ));
+    );
+  });
 
   return (
     <main className="flex flex-col gap-4 justify-center items-center w-full">
@@ -51,7 +80,7 @@ const EquipesPage = () => {
           EQUIPES 1ª DIVISÃO
         </h1>
 
-        <ul className="flex flex-col gap-4 w-9/12 my-8">{renderTeams}</ul>
+        <ul className="flex flex-col gap-4 w-10/12 my-8">{renderTeams}</ul>
       </section>
     </main>
   );

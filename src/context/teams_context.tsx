@@ -19,5 +19,4 @@ export function TeamsProvider({ children }: IChildren) {
     </TeamsContext.Provider>
   );
 }
-
 export const useTeamsContext = () => useContext(TeamsContext);
