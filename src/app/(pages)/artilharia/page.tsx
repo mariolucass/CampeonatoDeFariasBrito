@@ -1,25 +1,12 @@
-import Image from "next/image";
-import ArtilhariaIcon from "../../../assets/pages/artilharia.svg";
+import { SectionTitle } from "@/components/SectionTitle";
 
 const ArtilhariaPage = () => {
   return (
     <main className="flex flex-col gap-4 justify-center items-center w-full">
-      <section className="flex flex-col w-full justify-center items-center p-6 bg-bgtwo ">
-        <div className="w-full flex justify-center items-center">
-          <Image
-            src={ArtilhariaIcon}
-            alt="Artilharia"
-            className="white-svg"
-            width={64}
-            height={64}
-          />
-        </div>
-        <h1 className="text-4xl font-bold">ARTILHARIA </h1>
-        <span className="text-sm">Confira os artilheiros do campeonato</span>
-      </section>
+      <SectionTitle />
 
-      <section className="flex w-full flex-col max-w-5xl">
-        <h1 className="flex bg-main mt-4 text-2xl w-3/4 m-auto justify-center items-center text-white py-1">
+      <section className="w-full max-w-7xl margin-auto flex flex-col items-center">
+        <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
           ARTILHARIA
         </h1>
 

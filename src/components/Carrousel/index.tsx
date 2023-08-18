@@ -43,7 +43,7 @@ export const CarrouselPageMain = () => {
       <Image
         src={elem!.image}
         alt={elem!.name}
-        className="h-full w-full rounded-lg lg:w-full object-cover lg:h-full lg:m-auto"
+        className="h-full w-full rounded-lg lg:w-full object-cover lg:h-full lg:m-auto drop-shadow-lg"
       />
     </SwiperSlide>
   ));
@@ -74,7 +74,7 @@ export const CarrouselPageMain = () => {
         modules={[EffectCoverflow, Autoplay, Navigation]}
         navigation={true}
         className="w-full arrows-black"
-        initialSlide={3}
+        initialSlide={2}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,

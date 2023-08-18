@@ -1,9 +1,10 @@
 "use client";
 
+import { SectionTitle } from "@/components/SectionTitle";
 import { usePlayersContext } from "@/context/players_context";
 import { useTeamsContext } from "@/context/teams_context";
 import Image from "next/image";
-import Arrow from "../../../assets/arrow.svg";
+import Arrow from "../../../assets/arrowMatches.svg";
 import Vasco from "../../../assets/escudo.png";
 
 const EquipesPage = () => {
@@ -42,9 +43,11 @@ const EquipesPage = () => {
   ));
 
   return (
-    <main className="flex min-h-screen flex-col items-center w-full">
+    <main className="flex flex-col gap-4 justify-center items-center w-full">
+      <SectionTitle />
+
       <section className="w-full max-w-7xl margin-auto flex flex-col items-center">
-        <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white mt-12">
+        <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
           EQUIPES 1ª DIVISÃO
         </h1>
 

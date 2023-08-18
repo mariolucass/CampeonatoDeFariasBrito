@@ -50,7 +50,7 @@ export const NavOptions = () => {
   ];
 
   const liClassDefault =
-    "h-[176px] w-2/5 p-4 rounded-[14px] text-white flex flex-col justify-between max-w-xs cursor-pointer";
+    "h-[176px] w-2/5 p-4 rounded-[14px] text-white flex flex-col justify-between max-w-xs cursor-pointer hover:drop-shadow-xl hover:scale-110 transition ease-in-out delay-150 ";
 
   return (
     <ul className="flex flex-wrap gap-8 justify-center lg:flex-col lg:w-full lg:h-[408px] lg:items-center">
@@ -74,7 +74,9 @@ export const NavOptions = () => {
 
           <div className="w-full">
             <h3 className="text-xl">{elem.title}</h3>
-            <span className={`h[12px] text-xs leading-[0.1em] font-light`}>
+            <span
+              className={`h[12px] text-xs leading-[0.1em] font-light lg:text-base `}
+            >
               {elem.description}
             </span>
           </div>

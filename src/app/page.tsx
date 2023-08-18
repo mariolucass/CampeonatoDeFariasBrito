@@ -2,6 +2,7 @@
 
 import { CarrouselPageMain } from "@/components/Carrousel";
 import { NavOptions } from "@/components/NavOptions";
+import { WeekendPictures } from "@/components/WeekendPictures";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col w-10/12 text-center m-auto gap-4">
-              <h1 className="text-2xl bg-tertiary text-white w-[164px] m-auto rounded font-medium">
+              <h1 className="text-2xl bg-tertiary text-white w-[164px] m-auto rounded font-medium lg:relative lg:bottom-8 lg:z-50 lg:drop-shadow-lg">
                 SAIBA MAIS
               </h1>
             </div>
@@ -32,17 +33,19 @@ export default function Home() {
         </div>
 
         <section className="flex flex-col justify-center items-center lg:w-full max-w-7xl">
-          <span className="text-lg font-bold mb-4 lg:text-3xl lg:w-full lg:pl-11">
+          <span className="lg:flex text-lg font-bold mb-4 lg:text-3xl lg:m-w-full lg:items-center ">
             Clique na opção para saber mais!
           </span>
 
           <NavOptions />
         </section>
-        <div className=" w-full bg-bgtwo ">
-          <section className="flex flex-col justify-center items-center lg:w-full max-w-7xl">
-            <h1>FOTOS DO FIM DE SEMANA</h1>
+        <div className="flex justify-center items-center w-full bg-bgtwo">
+          <section className="flex flex-col justify-center items-center lg:w-full max-w-7xl lg:my-4">
+            <h1 className="lg:flex text-lg font-bold mb-4 lg:text-3xl lg:m-w-full lg:items-center ">
+              FOTOS DO FIM DE SEMANA
+            </h1>
 
-            <div></div>
+            <WeekendPictures />
           </section>
         </div>
       </main>

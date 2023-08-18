@@ -1,24 +1,12 @@
+import { SectionTitle } from "@/components/SectionTitle";
 import { Regulamento } from "@/layouts/Regulamento";
 import Image from "next/image";
 import DownloadIcon from "../../../assets/download.svg";
-import RegulamentoIcon from "../../../assets/pages/regulamento.svg";
 
 const RegulamentoPage = () => {
   return (
     <main className="flex flex-col gap-4">
-      <section className="flex flex-col justify-center items-center p-6 bg-bgtwo">
-        <div>
-          <Image
-            src={RegulamentoIcon}
-            alt="Regulamento"
-            className="white-svg"
-            width={64}
-            height={64}
-          />
-        </div>
-        <h1 className="text-4xl font-bold">REGULAMENTO </h1>
-        <span className="text-sm">Regulamento do campeonato - 1ª divisão</span>
-      </section>
+      <SectionTitle />
 
       <section className="w-10/12 m-auto max-w-5xl margin-auto h-[400px] overflow-y-auto">
         <Regulamento />

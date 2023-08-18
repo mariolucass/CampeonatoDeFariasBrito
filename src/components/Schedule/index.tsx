@@ -4,9 +4,9 @@ export const Schedule = () => {
   const { teams } = useTeamsContext();
 
   const baseClassLi =
-    "flex w-full justify-between px-2 h-[32px] items-center text-xs";
+    "flex w-full justify-between px-2 h-[32px] items-center text-xs  lg:text-xl";
 
-  const baseClassSpan = "flex justify-center w-[12px]";
+  const baseClassSpan = "flex justify-center w-[12px] lg:w-[36px]";
 
   const renderTeams = [
     {
@@ -32,11 +32,11 @@ export const Schedule = () => {
       }
     >
       <div className="flex gap-2">
-        <span className="flex justify-center w-[18px]">
-          {index != 0 ? `${index}º` : "P"}
+        <span className="flex justify-center w-[18px] lg:w-[48px] ">
+          {index != 0 ? `${index}º` : "POS"}
         </span>
 
-        <span className="flex w-[80px] font-bold justify-left">
+        <span className="flex w-[80px] font-bold justify-left lg:w-[160px]">
           {elem.name}
         </span>
       </div>
@@ -52,7 +52,9 @@ export const Schedule = () => {
       </div>
 
       <div>
-        <span className="font-bold w-[18px]">{elem.points}</span>
+        <span className=" flex justify-center font-bold w-[18px] lg:w-[48px] ">
+          {elem.points}
+        </span>
       </div>
     </li>
   ));
