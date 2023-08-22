@@ -18,7 +18,7 @@ const Home = () => {
 
         <div className="flex justify-center items-center w-full bg-bgtwo">
           <section className="flex flex-col  w-full items-center justify-center gap-4 py-4 max-w-7xl">
-            <div className="py-4 flex flex-col w-10/12 text-center m-auto gap-4">
+            <div className="py-4 flex flex-col w-10/12 text-center m-auto gap-4 lg:py-2">
               <h1 className="font-bold text-3xl lg:text-5xl">
                 CAMPEONATO FARIASBRITENSE DE FUTEBOL 2023
               </h1>
@@ -45,7 +45,11 @@ const Home = () => {
                   </button>
                 </a>
 
-                <a className="w-10/12">
+                <a
+                  className="w-10/12"
+                  href="https://drive.google.com/uc?id=1Ot9VwW4FowPCcyBkuwHeu-1vdFhkLzUa&export=download"
+                  download="ficha.pdf"
+                >
                   <button className="bg-main w-10/12 m-auto text-white p-2 flex items-center gap-1 rounded-lg justify-center max-w-xs my-2 lg:text-xl">
                     <Image src={DownloadIcon} alt="Download" />
                     BAIXAR FICHA DE INSCRIÇÃO
@@ -76,9 +80,9 @@ const Home = () => {
         </section>
 
         <div className="flex justify-center items-center w-full bg-bgtwo">
-          <section className=" w-full p-4 flex flex-col justify-center items-center lg:w-full max-w-7xl lg:my-4">
+          <section className=" w-full p-4 flex flex-col justify-center items-center lg:w-full max-w-7xl lg:my-4 lg:mb-8">
             <h1 className="lg:flex text-lg font-bold mb-4 lg:text-3xl lg:m-w-full lg:items-center ">
-              FOTOS DO FIM DE SEMANA
+              FOTOS DO CAMPEONATO
             </h1>
 
             <div className="w-full flex justify-center items-center">

@@ -11,7 +11,7 @@ const ArtilhariaPage = () => {
         <SectionTitle />
 
         <section className="w-full max-w-7xl margin-auto flex flex-col items-center">
-          <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
+          <h1 className="bg-main text-2xl p-2 w-10/12 text-center text-white lg:mt-4">
             ARTILHARIA
           </h1>
 

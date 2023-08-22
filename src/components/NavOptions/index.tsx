@@ -15,7 +15,7 @@ export const NavOptions = () => {
           className={
             index % 2 != 0
               ? `${liClassDefault} bg-tertiary`
-              : `${liClassDefault} bg-main`
+              : `${liClassDefault} bg-main `
           }
           onClick={() => router.push(elem.page)}
         >

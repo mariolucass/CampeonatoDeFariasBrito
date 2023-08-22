@@ -18,7 +18,7 @@ export const CarrouselPageMain = () => {
   const renderSwiperSlide = imgsWeekends.map((elem) => (
     <SwiperSlide
       key={elem!.name}
-      className="h-full rounded-lg lg:w-full lg:h-max lg:flex lg:justify-center lg:items-center"
+      className="h-full rounded-lg lg:w-full lg:min-h-max lg:flex lg:justify-center lg:items-center "
     >
       <Image
         src={elem!.image}
@@ -29,7 +29,7 @@ export const CarrouselPageMain = () => {
   ));
 
   return (
-    <div className="flex w-9/12 lg:w-full">
+    <div className="flex w-9/12 lg:w-full lg:min-h-[480px]">
       {size.width! < 1024 ? (
         <Swiper
           effect={"cards"}
@@ -45,8 +45,9 @@ export const CarrouselPageMain = () => {
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
+          autoplay={true}
           centeredSlides={true}
-          slidesPerView={3}
+          slidesPerView={2}
           modules={[EffectCoverflow, Autoplay, Navigation]}
           navigation={true}
           className="w-full arrows-black"
@@ -56,7 +57,7 @@ export const CarrouselPageMain = () => {
             stretch: 0,
             depth: 100,
             modifier: 2.5,
-            slideShadows: false,
+            slideShadows: true,
           }}
         >
           {renderSwiperSlide}

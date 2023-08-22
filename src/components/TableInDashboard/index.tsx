@@ -90,7 +90,7 @@ export const TableInDashboard = () => {
     return (
       <SwiperSlide
         key={index}
-        className="flex flex-col w-full bg-bgone mt-3 lg:w-1/3"
+        className="flex flex-col w-full bg-bgone mt-4 lg:w-1/3"
       >
         <h3 className="flex w-full justify-center font-bold relative top-2 mb-4">
           {handleDate()}

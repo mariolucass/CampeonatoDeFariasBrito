@@ -96,8 +96,8 @@ const EquipesPage = () => {
         <section className="flex flex-col w-3/4 m-auto justify-center items-center text-center p-4">
           <a
             className="w-full"
-            href="https://drive.google.com/uc?id=1l-ny0TyMXirILio_4kV2zMbRjMWzmvVI&export=download"
-            download="tabela.pdf"
+            href="https://drive.google.com/uc?id=1Ot9VwW4FowPCcyBkuwHeu-1vdFhkLzUa&export=download"
+            download="ficha.pdf"
           >
             <button className="bg-tertiary w-10/12 m-auto text-white p-2 flex items-center gap-1 rounded-lg justify-center max-w-xs my-2 lg:text-xl">
               <Image src={DownloadIcon} alt="Download" />
@@ -107,7 +107,7 @@ const EquipesPage = () => {
         </section>
 
         <section className="w-full max-w-7xl margin-auto flex flex-col items-center">
-          <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
+          <h1 className="bg-main text-2xl p-2 w-10/12 text-center text-white lg:mt-0">
             EQUIPES 1ª DIVISÃO
           </h1>
 

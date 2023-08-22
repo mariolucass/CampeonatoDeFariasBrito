@@ -9,7 +9,6 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import Burguer from "../../assets/burguer.svg";
 import Logo from "../../assets/logo.svg";
-import Search from "../../assets/search.svg";
 
 export const Header = () => {
   const pathName = usePathname();
@@ -37,7 +36,7 @@ export const Header = () => {
 
       {pathName === elem.page ? (
         <div className="h-1 w-full justify-end items-end flex">
-          <div className="bg-secondary w-[40px] h-1 rounded-lg " />
+          <div className="bg-white w-[40px] h-1 rounded-lg " />
         </div>
       ) : (
         <></>
@@ -46,7 +45,7 @@ export const Header = () => {
   ));
 
   return (
-    <header className="w-full bg-main p-6 flex justify-between lg:justify-around">
+    <header className="w-full bg-main p-6 flex  lg:justify-around">
       <Image
         src={Burguer}
         alt="logo"
@@ -59,7 +58,7 @@ export const Header = () => {
       <Image
         src={Logo}
         alt="logo"
-        className="cursor-pointer"
+        className="cursor-pointer ml-12 lg:ml-0"
         onClick={() => router.push("/")}
       />
 
@@ -74,14 +73,6 @@ export const Header = () => {
       <ul className="hidden lg:flex lg:gap-8 lg:font-bold lg:text-white lg:items-center lg:justify-center">
         {items}
       </ul>
-
-      <Image
-        src={Search}
-        alt="logo"
-        width={30}
-        height={30}
-        className="lg:hidden"
-      />
     </header>
   );
 };

@@ -141,7 +141,7 @@ export const Table = () => {
       <Spinner className="h-12 w-12" />
     </div>
   ) : (
-    <ul className="flex flex-col w-11/12 m-auto justify-center items-center py-4 max-w-3xl">
+    <ul className="flex flex-col w-10/12 m-auto justify-center items-center pb-4 max-w-3xl">
       {renderMatches}
     </ul>
   );

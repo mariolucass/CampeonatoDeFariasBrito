@@ -17,11 +17,11 @@ export const dictPages = {
   artilharia: {
     icon: ArtilhariaIcon,
     title: "ARTILHARIA",
-    description: "Confira as equipes do campeonato.",
+    description: "Verifique os artilheiros do campeonato.",
   },
   equipes: {
     icon: EquipesIcon,
     title: "EQUIPES",
-    description: "Confira os artilheiros do campeonato.",
+    description: "Verifique as equipes do campeonato.",
   },
 };

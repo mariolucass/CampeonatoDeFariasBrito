@@ -78,6 +78,6 @@ export const Schedule = () => {
       <Spinner className="h-12 w-12" />
     </div>
   ) : (
-    <ul className="w-3/4 m-auto">{renderTeams}</ul>
+    <ul className="w-10/12 m-auto">{renderTeams}</ul>
   );
 };

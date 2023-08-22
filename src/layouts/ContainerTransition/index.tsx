@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const ContainerTransition = ({ children }: IChildren) => {
   return (
     <motion.div
-      className="min-h-screenHeightWithoutHeader"
+      className=""
       initial={{ x: 300, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       exit={{ x: -300, opacity: 0 }}

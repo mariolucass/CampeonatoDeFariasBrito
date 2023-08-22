@@ -17,7 +17,7 @@ const SumulasPage = () => {
         key={index}
       >
         <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
-          JOGOS DOS DIAS 26 E 27 DE AGOSTO
+          JOGOS DOS DIA 27 DE AGOSTO
         </h1>
       </section>
     );
@@ -29,12 +29,12 @@ const SumulasPage = () => {
         <SectionTitle />
 
         <section className="w-full max-w-7xl margin-auto flex flex-col items-center">
-          <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
-            SÚMULAS
+          <h1 className="bg-main text-2xl p-2 w-10/12 text-center text-white lg:mt-4">
+            DIA 27 DE AGOSTO
           </h1>
 
           {!sumulas.length ? (
-            <div className="w-2/3 flex flex-col justify-center items-center gap-4 lg:p-8 ">
+            <div className="w-2/3 flex flex-col justify-center items-center gap-4 lg:p-8 py-12">
               <Image
                 src={SumulasNoInfoIcon}
                 alt="noInfo"

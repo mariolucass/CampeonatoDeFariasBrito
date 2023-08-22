@@ -25,7 +25,7 @@ export const NavBar = () => {
       </div>
 
       <div className="mt-16">
-        <Image src={LogoNav} alt="CloseNavbar" />
+        <Image src={LogoNav} alt="LogoNav" />
       </div>
 
       <div className="w-[105px] h-[1px] bg-white self-center"></div>
@@ -42,7 +42,7 @@ export const NavBar = () => {
         </Link>
       </div>
 
-      <div className="absolute bottom-5 p-4 text-sm text-white text-center">
+      <div className="absolute bottom-5 p-4 pt-6 text-sm text-white text-center">
         <span>TODOS OS DIREITOS RESERVADOS. 2023</span>
       </div>
     </div>
