@@ -6,10 +6,12 @@ import { SectionTitle } from "@/components/SectionTitle";
 const ClassificacaoPage = () => {
   return (
     <main className="flex flex-col justify-center items-center">
-      <SectionTitle />
+      <div className="w-full flex justify-center items-center bg-bgtwo">
+        <SectionTitle />
+      </div>
 
       <section className="flex flex-col w-3/4 m-auto justify-center items-center p-4 max-w-5xl">
-        <h1 className="text-2xl font-bold">Classificação - 1ª divisão</h1>
+        <h1 className="text-2xl font-bold">CLASSIFICAÇÃO - 1ª DIVISÃO</h1>
 
         <h4 className="text-sm">
           (O campeonato será realizado em grupo único)

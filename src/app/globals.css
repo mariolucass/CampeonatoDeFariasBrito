@@ -10,6 +10,7 @@
 
   --bg-one: #eeeeee;
   --bg-two: #e5e5e5;
+  --swiper-navigation-size: 16px;
 }
 
 body {
@@ -39,4 +40,39 @@ body {
 .black-svg {
   filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%)
     contrast(104%);
+}
+
+.arrows-2 .swiper-button-next {
+  color: #00000040;
+  width: 25px;
+}
+.arrows-2 .swiper-button-next::after {
+  font-size: 32px;
+}
+
+.arrows-2 .swiper-button-prev {
+  color: #00000040;
+  width: 25px;
+}
+
+.arrows-2 .swiper-button-prev::after {
+  font-size: 32px;
+}
+
+.arrows-3 .swiper-button-next::after {
+  margin-left: 16px;
+}
+
+.arrows-3 .swiper-button-prev::after {
+  margin-right: 16px;
+}
+
+@media (max-width: 1024px) {
+  .arrows-3 .swiper-button-next::after {
+    margin-left: 24px;
+  }
+
+  .arrows-3 .swiper-button-prev::after {
+    margin-right: 24px;
+  }
 }

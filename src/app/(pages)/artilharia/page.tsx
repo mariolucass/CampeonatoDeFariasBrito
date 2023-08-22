@@ -15,7 +15,7 @@ const ArtilhariaPage = () => {
 
         <Strikers />
 
-        <span className="w-3/4 m-auto text-center text-small my-4">
+        <span className="w-2/3 m-auto text-center text-small my-4">
           Ao final do campeonato o artilheiro ganhará um troféu e cem reais. Se
           houver empate no número de gols, o jogador mais velho se consagrará
           artilheiro do campeonato!

@@ -2,13 +2,9 @@ import { Dispatch, SetStateAction } from "react";
 
 export interface Match {
   id: string;
-  visitant: {
-    id: string;
-    name: string;
-    points: number;
-    matches_played: number;
-  };
+  date: string;
 
+  goals_principal: number;
   principal: {
     id: string;
     name: string;
@@ -17,8 +13,12 @@ export interface Match {
   };
 
   goals_visitant: number;
-  goals_principal: number;
-  date: null;
+  visitant: {
+    id: string;
+    name: string;
+    points: number;
+    matches_played: number;
+  };
 }
 
 export interface IMatchesState {

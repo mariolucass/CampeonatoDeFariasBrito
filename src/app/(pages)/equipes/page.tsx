@@ -4,7 +4,7 @@ import { PlayersCards } from "@/components/PlayersCards";
 import { SectionTitle } from "@/components/SectionTitle";
 import { useTeamsContext } from "@/context/teams_context";
 import { teams_data } from "@/data/teams_data";
-import { Card, Collapse } from "@material-tailwind/react";
+import { Card, Collapse, Spinner } from "@material-tailwind/react";
 import Image from "next/image";
 import { useState } from "react";
 import Arrow from "../../../assets/arrowMatches.svg";
@@ -21,17 +21,20 @@ const EquipesPage = () => {
   }, {} as OpenState);
 
   const [collapse, setCollapse] = useState<OpenState>(defaultOpenState);
+  const [expandedTeam, setExpandedTeam] = useState("");
 
   const toggleCollapse = (teamName: string) => {
     setCollapse((prevState) => ({
       ...prevState,
       [teamName]: !prevState[teamName],
     }));
+
+    setExpandedTeam(teamName);
   };
 
   const renderTeams = teams.map((elem) => {
     return (
-      <li key={elem.name}>
+      <li key={elem.name} className="cursor-pointer">
         <div
           className="bg-bgtwo p-4 rounded-lg flex justify-between text-center items-center active:rounded-none"
           onClick={() => toggleCollapse(elem.name)}
@@ -51,22 +54,25 @@ const EquipesPage = () => {
             <Image src={Arrow} alt="arrow" height={7} width={14} />
           </div>
         </div>
+        {expandedTeam === elem.name ? (
+          <Collapse open={collapse[elem.name]}>
+            <Card className="w-full bg-bgtwo flex flex-col p-2 gap-4 rounded-none">
+              <h1 className="w-2/3 mx-auto  p-1 text-2xl text-black bg-bgone flex justify-center items-center rounded-lg">
+                JOGADORES
+              </h1>
 
-        <Collapse open={collapse[elem.name]}>
-          <Card className="w-full bg-bgtwo flex flex-col p-2 gap-4 rounded-none">
-            <h1 className="w-2/3 mx-auto  p-1 text-2xl text-black bg-bgone flex justify-center items-center rounded-xl">
-              JOGADORES
-            </h1>
+              <PlayersCards teamId={elem.id} />
 
-            <PlayersCards teamId={elem.id} />
+              <h1 className="w-2/3 mx-auto p-1 text-2xl text-black  bg-bgone flex justify-center items-center rounded-lg">
+                COMISSÃO TÉCNICA
+              </h1>
 
-            <h1 className="w-2/3 mx-auto p-1 text-2xl text-black  bg-bgone flex justify-center items-center rounded-xl">
-              COMISSÃO TÉCNICA
-            </h1>
-
-            <PlayersCards teamId={elem.id} isCommitte />
-          </Card>
-        </Collapse>
+              <PlayersCards teamId={elem.id} isCommitte />
+            </Card>
+          </Collapse>
+        ) : (
+          <></>
+        )}
       </li>
     );
   });
@@ -80,7 +86,15 @@ const EquipesPage = () => {
           EQUIPES 1ª DIVISÃO
         </h1>
 
-        <ul className="flex flex-col gap-4 w-10/12 my-8">{renderTeams}</ul>
+        {!teams.length ? (
+          <div className="flex items-start gap-8 text-bgmodal p-16 min-h-[500px]">
+            <Spinner className="h-12 w-12" />
+          </div>
+        ) : (
+          <ul className="flex flex-col gap-4 w-10/12 lg:w-2/3 mb-12 ">
+            {renderTeams}
+          </ul>
+        )}
       </section>
     </main>
   );

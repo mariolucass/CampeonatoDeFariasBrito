@@ -15,15 +15,10 @@ export const PlayersCards = ({ teamId, isCommitte }: PlayersCardsProps) => {
   const [players, setPlayers] = useState<Player[]>([]);
   const [committees, setCommittees] = useState<CommitteeMember[]>([]);
 
-  console.log(committees);
-
   useEffect(() => {
-    if (isCommitte) {
-      getComitteesByTeam({ teamId, setCommittees });
-    } else {
-      getPlayersByTeam({ teamId, setPlayers });
-    }
-
+    isCommitte
+      ? getComitteesByTeam({ teamId, setCommittees })
+      : getPlayersByTeam({ teamId, setPlayers });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [teamId]);
 
@@ -55,5 +50,11 @@ export const PlayersCards = ({ teamId, isCommitte }: PlayersCardsProps) => {
     </li>
   ));
 
-  return <ul className="flex flex-col flex-wrap gap-2">{renderPlayerCard}</ul>;
+  return listToUse.length ? (
+    <ul className="flex flex-col flex-wrap gap-4 p-4">{renderPlayerCard}</ul>
+  ) : (
+    <div className=" w-full flex flex-col flex-wrap gap-4 p-4 justify-center items-center">
+      <h2 className="text-xl">Ainda sem informações</h2>
+    </div>
+  );
 };

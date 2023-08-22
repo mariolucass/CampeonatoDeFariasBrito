@@ -7,6 +7,8 @@ export interface Team {
   players: Player[];
   matches_played: number;
   wins: number;
+  wins_penalty: number;
+  loses_penalty: number;
   loses: number;
   draws: number;
 

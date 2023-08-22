@@ -1,19 +1,24 @@
 import { usePlayersContext } from "@/context/players_context";
+import Image from "next/image";
+import Neymar from "../../assets/neymar.jpg";
 
 export const Strikers = () => {
   const { players } = usePlayersContext();
 
   const baseClassLi =
-    "flex w-full justify-between px-2 h-[32px] items-center text-xs  lg:text-xl";
+    "flex w-full justify-between px-2 h-[32px] items-center text-xs lg:text-xl";
 
-  const baseClassSpan = "flex justify-center ";
+  const baseClassSpan = "flex justify-center";
 
   const renderStrikers = [
     {
       id: "",
-      nickname: "JOGADOR",
-      matches_played: "PARTIDAS",
+      nickname: "JOG",
+      matches_played: "PJ",
       goals: "GOLS",
+      team: {
+        name: "TIME",
+      },
     },
     ...players.reverse(),
   ].map((elem, index) => (
@@ -25,22 +30,42 @@ export const Strikers = () => {
           : `${baseClassLi} bg-bgtwo`
       }
     >
-      <div className="flex gap-2">
-        <span className="flex justify-center w-[18px] lg:w-[48px] ">
+      <div className="flex lg:gap-8 h-[26px] items-center">
+        <span className="flex justify-center w-[18px] lg:w-[80px] ">
           {index != 0 ? `${index}º` : "POS"}
         </span>
 
-        <span className="flex w-[80px] font-bold justify-left lg:w-[160px]">
+        <span className="ml-4 flex w-[56px] font-bold justify-left lg:w-[80px] lg:ml-0">
           {elem.nickname}
         </span>
+
+        <span className="flex w-[56px] font-bold justify-left lg:w-[80px]">
+          {elem.team.name}
+        </span>
+
+        {index !== 0 && (
+          <div className="justify-left">
+            <Image
+              src={Neymar}
+              alt={elem.nickname}
+              height={40}
+              width={40}
+              className="rounded-lg"
+            />
+          </div>
+        )}
       </div>
 
-      <div className="flex gap-2">
-        <span className={baseClassSpan}>{elem.matches_played}</span>
-        <span className={baseClassSpan}>{elem.goals}</span>
+      <div className="flex gap-2 h-[26px] items-center">
+        <span className={` ${baseClassSpan} w-[32px] lg:w-[72px]`}>
+          {elem.matches_played}
+        </span>
+        <span className={`${baseClassSpan} w-[32px] lg:w-[40px]`}>
+          {elem.goals}
+        </span>
       </div>
     </li>
   ));
 
-  return <ul className="w-3/4 m-auto">{renderStrikers}</ul>;
+  return <ul className="w-2/3 m-auto">{renderStrikers}</ul>;
 };

@@ -14,16 +14,17 @@ export const SectionTitle = () => {
   const router = useRouter();
 
   const listTableAndSchedule = ["tabela", "classificacao"];
+  const divDefaultClass =
+    " flex flex-col justify-center items-center w-1/2 cursor-pointer";
 
   if (listTableAndSchedule.includes(pathName.substring(1))) {
-    const divDefaultClass = " flex flex-col justify-center items-center w-1/2";
     return (
       <section className="flex w-full h-[172px] max-w-5xl">
         <div
           className={
             pathName.substring(1) === "tabela"
               ? `${divDefaultClass}  bg-tertiary text-white`
-              : `${divDefaultClass} bg-bgtwo black-svg `
+              : `${divDefaultClass} bg-bgtwo`
           }
           onClick={() => {
             if (pathName.substring(1) !== "tabela") {
@@ -35,14 +36,14 @@ export const SectionTitle = () => {
             <Image
               src={TabelaIcon}
               alt="Tabela"
+              width={56}
+              height={56}
               className={
-                pathName.substring(1) === "classificacao"
-                  ? " black-svg m-2"
-                  : "m-2"
+                pathName.substring(1) === "classificacao" ? "white-svg " : ""
               }
             />
           </div>
-          <h1 className="mt-1">TABELA</h1>
+          <h1 className="mt-[6px] text-xl">TABELA</h1>
         </div>
 
         <div
@@ -57,17 +58,19 @@ export const SectionTitle = () => {
             }
           }}
         >
-          <div className="flex justify-center items-center w-1/3">
+          <div className="flex justify-center items-center w-1/3 ">
             <Image
               src={ClassificacaoIcon}
               alt="Classificação"
+              width={63}
+              height={63}
               className={
-                pathName.substring(1) !== "classificacao" ? " black-svg" : ""
+                pathName.substring(1) !== "classificacao" ? " white-svg" : ""
               }
             />
           </div>
 
-          <h1>CLASSIFICAÇÃO</h1>
+          <h1 className="text-xl">CLASSIFICAÇÃO</h1>
         </div>
       </section>
     );

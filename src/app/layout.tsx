@@ -3,6 +3,13 @@ import { IChildren } from "@/interfaces/global";
 import { Footer } from "@/layouts/Footer";
 import { Header } from "@/layouts/Header";
 import localfont from "@next/font/local";
+import "swiper/css";
+import "swiper/css/bundle";
+import "swiper/css/effect-cards";
+import "swiper/css/effect-coverflow";
+import "swiper/css/effect-creative";
+import "swiper/css/effect-fade";
+import "swiper/css/navigation";
 import "./globals.css";
 import Head from "./head";
 
@@ -23,14 +30,10 @@ const conduit = localfont({
 const RootLayout = ({ children }: IChildren) => (
   <html lang="pt-br" suppressHydrationWarning={true}>
     <Head />
-
     <body className={`${conduit.variable} font-sans`}>
-      {/* <NavBar /> */}
       <ContextProvider>
         <Header />
-
         {children}
-
         <Footer />
       </ContextProvider>
     </body>

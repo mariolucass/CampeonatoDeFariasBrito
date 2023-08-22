@@ -8,6 +8,10 @@ export interface Player {
   city: string;
   nickname: string;
   goals: number;
+
+  team: {
+    name: string;
+  };
 }
 
 export interface IPlayersState {

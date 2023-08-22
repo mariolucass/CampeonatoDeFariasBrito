@@ -20,6 +20,7 @@ const config: Config = {
 
       bgone: "#eeeeee",
       bgtwo: "#e5e5e5",
+      bginput: "#d9d9d9",
       bgmodal: "#00000075",
 
       white: "#FFFFFF",
