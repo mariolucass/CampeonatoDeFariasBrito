@@ -29,11 +29,11 @@ const config: Config = {
 
     extend: {
       minHeight: {
-        screenHeightWithoutHeader: "calc(100vh - 128px)",
+        screenHeightWithoutHeader: "calc(100vh - 80px)",
       },
 
       height: {
-        screenHeightWithoutHeader: "calc(100vh - 101px)",
+        screenHeightWithoutHeader: "calc(100vh - 80px)",
       },
 
       fontFamily: {

@@ -3,24 +3,30 @@
 import { PlayersCards } from "@/components/PlayersCards";
 import { SectionTitle } from "@/components/SectionTitle";
 import { useTeamsContext } from "@/context/teams_context";
-import { teams_data } from "@/data/teams_data";
+import { teamsData } from "@/data/teamsData";
+import { ContainerTransition } from "@/layouts/ContainerTransition";
+import { getTeams } from "@/services/teams_service";
 import { Card, Collapse, Spinner } from "@material-tailwind/react";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Arrow from "../../../assets/arrowMatches.svg";
-import Vasco from "../../../assets/escudo.png";
+import DownloadIcon from "../../../assets/download.svg";
 
-type OpenState = { [key: string]: boolean };
+type OpenCollapseState = { [key: string]: boolean };
 
 const EquipesPage = () => {
-  const { teams } = useTeamsContext();
+  const { teams, setTeams } = useTeamsContext();
+  useEffect(() => {
+    getTeams({ teams, setTeams });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
-  const defaultOpenState: OpenState = teams_data.reduce((acc, team) => {
+  const defaultOpenState: OpenCollapseState = teamsData.reduce((acc, team) => {
     acc[team.name] = false;
     return acc;
-  }, {} as OpenState);
+  }, {} as OpenCollapseState);
 
-  const [collapse, setCollapse] = useState<OpenState>(defaultOpenState);
+  const [collapse, setCollapse] = useState<OpenCollapseState>(defaultOpenState);
   const [expandedTeam, setExpandedTeam] = useState("");
 
   const toggleCollapse = (teamName: string) => {
@@ -39,18 +45,23 @@ const EquipesPage = () => {
           className="bg-bgtwo p-4 rounded-lg flex justify-between text-center items-center active:rounded-none"
           onClick={() => toggleCollapse(elem.name)}
         >
-          <div className="w-[104px] h-[56px]">
+          <div className="w-[104px] h-[56px] flex justify-center">
             <Image
-              src={Vasco}
-              alt="vasco"
-              objectFit="contain"
-              style={{ width: "100%", height: "100%", objectFit: "contain" }}
+              src={
+                elem.crest
+                  ? elem.crest
+                  : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
+              }
+              className="multiplyimage"
+              alt="crestTeam"
+              width={48}
+              height={48}
             />
           </div>
 
           <span className="text-2xl font-bold w-60 text-left">{elem.name}</span>
 
-          <div>
+          <div className="w-[104px] flex justify-center">
             <Image src={Arrow} alt="arrow" height={7} width={14} />
           </div>
         </div>
@@ -78,25 +89,40 @@ const EquipesPage = () => {
   });
 
   return (
-    <main className="flex flex-col gap-4 justify-center items-center w-full">
-      <SectionTitle />
+    <ContainerTransition>
+      <main className="flex flex-col gap-4 justify-center items-center w-full">
+        <SectionTitle />
 
-      <section className="w-full max-w-7xl margin-auto flex flex-col items-center">
-        <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
-          EQUIPES 1ª DIVISÃO
-        </h1>
+        <section className="flex flex-col w-3/4 m-auto justify-center items-center text-center p-4">
+          <a
+            className="w-full"
+            href="https://drive.google.com/uc?id=1l-ny0TyMXirILio_4kV2zMbRjMWzmvVI&export=download"
+            download="tabela.pdf"
+          >
+            <button className="bg-tertiary w-10/12 m-auto text-white p-2 flex items-center gap-1 rounded-lg justify-center max-w-xs my-2 lg:text-xl">
+              <Image src={DownloadIcon} alt="Download" />
+              BAIXAR FICHA DE INSCRIÇÃO
+            </button>
+          </a>
+        </section>
 
-        {!teams.length ? (
-          <div className="flex items-start gap-8 text-bgmodal p-16 min-h-[500px]">
-            <Spinner className="h-12 w-12" />
-          </div>
-        ) : (
-          <ul className="flex flex-col gap-4 w-10/12 lg:w-2/3 mb-12 ">
-            {renderTeams}
-          </ul>
-        )}
-      </section>
-    </main>
+        <section className="w-full max-w-7xl margin-auto flex flex-col items-center">
+          <h1 className="bg-main text-2xl p-2 w-2/3 text-center text-white lg:mt-4">
+            EQUIPES 1ª DIVISÃO
+          </h1>
+
+          {!teams.length ? (
+            <div className="flex items-start gap-8 text-bgmodal p-16 min-h-[500px]">
+              <Spinner className="h-12 w-12" />
+            </div>
+          ) : (
+            <ul className="flex flex-col gap-4 w-10/12 lg:w-2/3 mb-12 ">
+              {renderTeams}
+            </ul>
+          )}
+        </section>
+      </main>
+    </ContainerTransition>
   );
 };
 

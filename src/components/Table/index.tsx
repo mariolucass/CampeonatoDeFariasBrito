@@ -1,47 +1,39 @@
 "use client";
 
 import { useMatchesContext } from "@/context/matches_context";
+import { RenderTeamInMatch } from "@/interfaces/teams_interface";
+import { getMatches } from "@/services/matches_service";
+import { changeNameTeamsInMatches } from "@/utils/changeNameTeams";
 import { Spinner } from "@material-tailwind/react";
 import moment from "moment";
 import "moment/locale/pt-br";
 import Image from "next/image";
-import Vasco from "../../assets/escudo.png";
-
-interface RenderTeamInMatch {
-  name: string;
-}
+import { useEffect } from "react";
 
 export const Table = () => {
-  const { matches } = useMatchesContext();
+  const { matches, setMatches } = useMatchesContext();
+  useEffect(() => {
+    getMatches({ matches, setMatches });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
-  const listTeamsFiltered = [
-    "Pedro Fernandes",
-    "Meninos da Vila",
-    "Atlético Lázio",
-  ];
-  const teamsChanged = ["P. Fernandes", "M. da Vila", "Atl. Lázio"];
+  const filteredMatches = matches.map((elem) => changeNameTeamsInMatches(elem));
 
-  const filteredMatches = matches.map((elem) => {
-    if (listTeamsFiltered.includes(elem.visitant.name)) {
-      const index = listTeamsFiltered.indexOf(elem.visitant.name);
-      elem.visitant.name = teamsChanged[index];
-      return elem;
-    }
-
-    if (listTeamsFiltered.includes(elem.principal.name)) {
-      const index = listTeamsFiltered.indexOf(elem.principal.name);
-      elem.principal.name = teamsChanged[index];
-      return elem;
-    }
-
-    return elem;
-  });
-
-  const RenderPrincipal = ({ name }: RenderTeamInMatch) => {
+  const RenderPrincipal = ({ name, image }: RenderTeamInMatch) => {
     return (
       <div className="w-5/12 flex justify-end items-right self-center">
         <div className="w-1/3 border-4 border-main rounded-lg max-w-[64px] flex justify-center items-center">
-          <Image src={Vasco} alt="Vasco" height={48} width={48} />
+          <Image
+            src={
+              image
+                ? image
+                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
+            }
+            className="multiplyimage"
+            alt="crestTeam"
+            width={64}
+            height={64}
+          />
         </div>
 
         <div className="w-2/3 flex p-0 border-y-4 border-main lg:h-[32px] self-center">
@@ -53,7 +45,8 @@ export const Table = () => {
     );
   };
 
-  const RenderVisitant = ({ name }: RenderTeamInMatch) => {
+  const RenderVisitant = ({ name, image }: RenderTeamInMatch) => {
+    console.log(image);
     return (
       <div className="w-5/12 flex justify-start items-right self-center">
         <div className="w-2/3 flex p-0 border-y-4 border-main lg:h-[32px] self-center">
@@ -63,7 +56,17 @@ export const Table = () => {
         </div>
 
         <div className="w-1/3 border-4 border-main rounded-lg max-w-[64px] flex justify-center items-center">
-          <Image src={Vasco} alt="Vasco" height={48} width={48} />
+          <Image
+            src={
+              image
+                ? image
+                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
+            }
+            className="multiplyimage"
+            alt="crestTeam"
+            width={64}
+            height={64}
+          />
         </div>
       </div>
     );
@@ -107,7 +110,10 @@ export const Table = () => {
         </h3>
 
         <div className="flex justify-center p-2 pt-0 w-full">
-          <RenderPrincipal name={elem.principal.name} />
+          <RenderPrincipal
+            name={elem.principal.name}
+            image={elem.principal.crest}
+          />
 
           <div className="w-2/12 bg-main text-2xl p-1 h-[32px] my-auto text-white flex justify-around items-center font-bold">
             {gameIsOver ? (
@@ -121,7 +127,10 @@ export const Table = () => {
             )}
           </div>
 
-          <RenderVisitant name={elem.visitant.name} />
+          <RenderVisitant
+            name={elem.visitant.name}
+            image={elem.visitant.crest}
+          />
         </div>
       </li>
     );

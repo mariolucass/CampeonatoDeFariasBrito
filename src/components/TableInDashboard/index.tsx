@@ -1,79 +1,46 @@
+import { useGlobalContext } from "@/context/global_context";
 import { useMatchesContext } from "@/context/matches_context";
+import { RenderTeamInMatch } from "@/interfaces/teams_interface";
+import { getMatches } from "@/services/matches_service";
+import { changeNameTeamsInMatches } from "@/utils/changeNameTeams";
+import { Spinner } from "@material-tailwind/react";
 import moment from "moment";
 import "moment/locale/pt-br";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Vasco from "../../assets/escudo.png";
 
-interface RenderTeamInMatch {
-  name: string;
-}
+export const TableInDashboard = () => {
+  const { useWindowSize } = useGlobalContext();
+  const size = useWindowSize();
 
-const useWindowSize = () => {
-  const isClient = typeof window === "object";
-
-  const [windowSize, setWindowSize] = useState({
-    width: isClient ? window.innerWidth : undefined,
-    height: isClient ? window.innerHeight : undefined,
-  });
-
+  const { matches, setMatches } = useMatchesContext();
   useEffect(() => {
-    if (!isClient) {
-      return; // Exit if running on the server or non-browser environment
-    }
-
-    function handleResize() {
-      setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    }
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => window.removeEventListener("resize", handleResize);
+    getMatches({ matches, setMatches });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return windowSize;
-};
-
-export const TableInDashboard = () => {
-  const size = useWindowSize();
-  const { matches } = useMatchesContext();
-
   const listFiltered = matches.slice(0, 4);
+  const filterList = listFiltered.map((elem) => changeNameTeamsInMatches(elem));
 
-  const listTeamsFiltered = [
-    "Pedro Fernandes",
-    "Meninos da Vila",
-    "Atlético Lázio",
-  ];
-  const teamsChanged = ["P. Fernandes", "M. da Vila", "Atl. Lázio"];
-
-  const filterList = listFiltered.map((elem) => {
-    if (listTeamsFiltered.includes(elem.visitant.name)) {
-      const index = listTeamsFiltered.indexOf(elem.visitant.name);
-      elem.visitant.name = teamsChanged[index];
-      return elem;
-    }
-
-    if (listTeamsFiltered.includes(elem.principal.name)) {
-      const index = listTeamsFiltered.indexOf(elem.principal.name);
-      elem.principal.name = teamsChanged[index];
-      return elem;
-    }
-
-    return elem;
-  });
-
-  const RenderPrincipal = ({ name }: RenderTeamInMatch) => {
+  const RenderPrincipal = ({ name, image }: RenderTeamInMatch) => {
     return (
       <div className="m-w-2/3 rounded-lg flex flex-col justify-center items-center">
-        <Image src={Vasco} alt="Vasco" height={48} width={48} />
+        <div className="w-[48px] h-[48px]">
+          <Image
+            src={
+              image
+                ? image
+                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
+            }
+            className="multiplyimage"
+            alt="crestTeam"
+            width={48}
+            height={48}
+            style={{ width: "48px", height: "48px" }}
+          />
+        </div>
 
         <span className="w-full text-base text-center px-1 font-bold lg:text-xl">
           {name}
@@ -82,10 +49,23 @@ export const TableInDashboard = () => {
     );
   };
 
-  const RenderVisitant = ({ name }: RenderTeamInMatch) => {
+  const RenderVisitant = ({ name, image }: RenderTeamInMatch) => {
     return (
       <div className="m-w-2/3 rounded-lg flex flex-col justify-center items-center">
-        <Image src={Vasco} alt="Vasco" height={48} width={48} />
+        <div className="w-[48px] h-[48px]">
+          <Image
+            src={
+              image
+                ? image
+                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
+            }
+            className="multiplyimage"
+            alt="crestTeam"
+            width={48}
+            height={48}
+            style={{ width: "48px", height: "48px" }}
+          />
+        </div>
 
         <span className="w-full text-base text-center px-1 font-bold lg:text-xl">
           {name}
@@ -117,20 +97,30 @@ export const TableInDashboard = () => {
         </h3>
 
         <div className="flex justify-center p-2 w-full">
-          <RenderPrincipal name={elem.principal.name.toUpperCase()} />
+          <RenderPrincipal
+            name={elem.principal.name.toUpperCase()}
+            image={elem.principal.crest}
+          />
 
           <div className="w-1/3 text-4xl p-1 h-[32px] my-auto text-black flex justify-around items-center font-bold">
             <span>X</span>
           </div>
 
-          <RenderVisitant name={elem.visitant.name.toUpperCase()} />
+          <RenderVisitant
+            name={elem.visitant.name.toUpperCase()}
+            image={elem.visitant.crest}
+          />
         </div>
       </SwiperSlide>
     );
   });
 
-  return (
-    <div className="flex lg:w-11/12 h-full">
+  return !matches.length ? (
+    <div className="flex items-start gap-8 text-bgmodal p-16">
+      <Spinner className="h-12 w-12" />
+    </div>
+  ) : (
+    <div className="flex lg:w-11/12 w-full h-full">
       <Swiper
         navigation={true}
         modules={[Navigation]}

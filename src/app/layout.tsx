@@ -1,5 +1,7 @@
+"use client";
 import { ContextProvider } from "@/context";
 import { IChildren } from "@/interfaces/global";
+import { ArrowFooter } from "@/layouts/ArrowFooter";
 import { Footer } from "@/layouts/Footer";
 import { Header } from "@/layouts/Header";
 import localfont from "@next/font/local";
@@ -35,6 +37,7 @@ const RootLayout = ({ children }: IChildren) => (
         <Header />
         {children}
         <Footer />
+        <ArrowFooter />
       </ContextProvider>
     </body>
   </html>

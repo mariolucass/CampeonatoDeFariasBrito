@@ -1,10 +1,9 @@
 import { usePlayersContext } from "@/context/players_context";
 import Image from "next/image";
-import Neymar from "../../assets/neymar.jpg";
+import ArtilhariaNoInfoIcon from "../../assets/artilhariaNoInfo.svg";
 
 export const Strikers = () => {
   const { players } = usePlayersContext();
-
   const baseClassLi =
     "flex w-full justify-between px-2 h-[32px] items-center text-xs lg:text-xl";
 
@@ -45,13 +44,13 @@ export const Strikers = () => {
 
         {index !== 0 && (
           <div className="justify-left">
-            <Image
+            {/* <Image
               src={Neymar}
               alt={elem.nickname}
               height={40}
               width={40}
               className="rounded-lg"
-            />
+            /> */}
           </div>
         )}
       </div>
@@ -67,5 +66,12 @@ export const Strikers = () => {
     </li>
   ));
 
-  return <ul className="w-2/3 m-auto">{renderStrikers}</ul>;
+  return !players.length ? (
+    <div className="w-2/3 flex flex-col justify-center items-center gap-4 p-8">
+      <Image src={ArtilhariaNoInfoIcon} alt="noInfo" width={400} height={400} />
+      <span className="font-bold">Ainda sem informações!</span>
+    </div>
+  ) : (
+    <ul className="w-2/3 m-auto">{renderStrikers}</ul>
+  );
 };

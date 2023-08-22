@@ -1,54 +1,14 @@
+import { useGlobalContext } from "@/context/global_context";
+import { imgsWeekends } from "@/data/imageWeekends";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import img1 from "../../../public/assets/img1.jpeg";
-import img2 from "../../../public/assets/img2.jpeg";
-import img3 from "../../../public/assets/img3.jpeg";
-import img4 from "../../../public/assets/img4.jpeg";
-import img5 from "../../../public/assets/img5.jpeg";
-
-const useWindowSize = () => {
-  const isClient = typeof window === "object";
-
-  const [windowSize, setWindowSize] = useState({
-    width: isClient ? window.innerWidth : undefined,
-    height: isClient ? window.innerHeight : undefined,
-  });
-
-  useEffect(() => {
-    if (!isClient) {
-      return; // Exit if running on the server or non-browser environment
-    }
-
-    function handleResize() {
-      setWindowSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    }
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => window.removeEventListener("resize", handleResize);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  return windowSize;
-};
 
 export const WeekendPictures = () => {
+  const { useWindowSize } = useGlobalContext();
   const size = useWindowSize();
-  const listImgs = [
-    { name: "image1", image: img1, description: "10 E 11 DE AGOSTO" },
-    { name: "image2", image: img2, description: "10 E 11 DE AGOSTO" },
-    { name: "image3", image: img3, description: "10 E 11 DE AGOSTO" },
-    { name: "image4", image: img4, description: "10 E 11 DE AGOSTO" },
-    { name: "image5", image: img5, description: "10 E 11 DE AGOSTO" },
-  ];
 
-  const renderImageList = listImgs.map((elem) => (
+  const renderImageList = imgsWeekends.map((elem) => (
     <SwiperSlide
       key={elem.name}
       className="h-full flex justify-center items-center w-[108px]"
@@ -61,7 +21,6 @@ export const WeekendPictures = () => {
           height={272}
           width={308}
         />
-
         <span className="m-auto w-full">{elem.description}</span>
       </div>
     </SwiperSlide>

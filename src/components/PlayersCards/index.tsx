@@ -4,7 +4,6 @@ import { getComitteesByTeam } from "@/services/committee_service";
 import { getPlayersByTeam } from "@/services/players_service";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import Neymar from "../../assets/neymar.jpg";
 
 interface PlayersCardsProps {
   teamId: string;
@@ -27,13 +26,13 @@ export const PlayersCards = ({ teamId, isCommitte }: PlayersCardsProps) => {
   const renderPlayerCard = listToUse.map((elem: any) => (
     <li key={elem.id} className="w-full flex bg-bgone rounded">
       <div>
-        <Image
+        {/* <Image
           src={Neymar}
           alt="Neymar"
           width={"104"}
           height={"100"}
           className="rounded-xl"
-        />
+        /> */}
       </div>
 
       <div className="flex flex-col ml-4 my-auto">

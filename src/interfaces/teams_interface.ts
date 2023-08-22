@@ -3,6 +3,7 @@ import { Player } from "./players_interface";
 
 export interface Team {
   id: string;
+  crest: string;
   name: string;
   players: Player[];
   matches_played: number;
@@ -25,3 +26,8 @@ export interface ITeamsState {
 }
 
 export interface ITeamsContext extends ITeamsState {}
+
+export interface RenderTeamInMatch {
+  name: string;
+  image: string;
+}

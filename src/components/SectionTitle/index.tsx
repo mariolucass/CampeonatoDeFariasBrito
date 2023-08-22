@@ -1,12 +1,9 @@
 "use client";
 
+import { dictPages } from "@/data/titlePages";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import ArtilhariaIcon from "../../assets/pages/artilharia.svg";
 import ClassificacaoIcon from "../../assets/pages/classificacao.svg";
-import EquipesIcon from "../../assets/pages/equipes.svg";
-import RegulamentoIcon from "../../assets/pages/regulamento.svg";
-import SumulasIcon from "../../assets/pages/sumulas.svg";
 import TabelaIcon from "../../assets/pages/tabela.svg";
 
 export const SectionTitle = () => {
@@ -75,29 +72,6 @@ export const SectionTitle = () => {
       </section>
     );
   }
-
-  const dictPages = {
-    regulamento: {
-      icon: RegulamentoIcon,
-      title: "REGULAMENTO",
-      description: "Regulamento do campeonato - 1ª divisão.",
-    },
-    sumulas: {
-      icon: SumulasIcon,
-      title: "SÚMULAS",
-      description: "Súmulas do campeonato - 1ª divisão.",
-    },
-    artilharia: {
-      icon: ArtilhariaIcon,
-      title: "ARTILHARIA",
-      description: "Confira as equipes do campeonato.",
-    },
-    equipes: {
-      icon: EquipesIcon,
-      title: "EQUIPES",
-      description: "Confira os artilheiros do campeonato.",
-    },
-  };
 
   type PageKey = keyof typeof dictPages;
   const path = pathName.substring(1) as PageKey;

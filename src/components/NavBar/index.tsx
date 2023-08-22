@@ -1,4 +1,5 @@
 import { useGlobalContext } from "@/context/global_context";
+import { navOptionsList } from "@/data/navOptions";
 import Image from "next/image";
 import Link from "next/link";
 import CloseNavbar from "../../assets/closeNav.svg";
@@ -6,17 +7,7 @@ import LogoNav from "../../assets/logoNav.svg";
 
 export const NavBar = () => {
   const { closeDrawer } = useGlobalContext();
-
-  const listNavigation = [
-    { title: "TABELA", page: "/tabela" },
-    { title: "CLASSIFICAÇÃO", page: "/classificacao" },
-    { title: "REGULAMENTO", page: "/regulamento" },
-    { title: "SÚMULAS", page: "/sumulas" },
-    { title: "EQUIPES", page: "/equipes" },
-    { title: "ARTILHARIA", page: "/artilharia" },
-  ];
-
-  const renderNavigation = listNavigation.map((elem) => (
+  const renderNavigation = navOptionsList.map((elem) => (
     <li key={elem.title}>
       <Link href={elem.page} className="text-2xl" onClick={closeDrawer}>
         {elem.title}

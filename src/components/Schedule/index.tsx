@@ -1,30 +1,22 @@
 import { useTeamsContext } from "@/context/teams_context";
+import { getTeams } from "@/services/teams_service";
+import { changeNameTeams } from "@/utils/changeNameTeams";
+import { Spinner } from "@material-tailwind/react";
+import { useEffect } from "react";
 
 export const Schedule = () => {
-  const { teams } = useTeamsContext();
+  const { teams, setTeams } = useTeamsContext();
+  useEffect(() => {
+    getTeams({ teams, setTeams });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const baseClassLi =
     "flex w-full justify-between px-2 h-[32px] items-center text-xs  lg:text-xl";
 
   const baseClassSpan = "flex justify-center w-[12px] lg:w-[36px]";
 
-  const listTeamsFiltered = [
-    "Pedro Fernandes",
-    "Meninos da Vila",
-    "Atlético Lázio",
-  ];
-
-  const teamsChanged = ["P. Fernandes", "M. da Vila", "Atl. Lázio"];
-
-  const listToRender = teams.map((elem) => {
-    if (listTeamsFiltered.includes(elem.name)) {
-      const index = listTeamsFiltered.indexOf(elem.name);
-      elem.name = teamsChanged[index];
-      return elem;
-    }
-
-    return elem;
-  });
+  const listToRender = teams.map((elem) => changeNameTeams(elem));
 
   const renderTeams = [
     {
@@ -81,5 +73,11 @@ export const Schedule = () => {
     );
   });
 
-  return <ul className="w-3/4 m-auto">{renderTeams}</ul>;
+  return !teams.length ? (
+    <div className="flex items-center justify-center gap-8 text-bgmodal p-16 w-3/4 m-auto">
+      <Spinner className="h-12 w-12" />
+    </div>
+  ) : (
+    <ul className="w-3/4 m-auto">{renderTeams}</ul>
+  );
 };

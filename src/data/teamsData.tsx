@@ -1,4 +1,4 @@
-export const teams_data = [
+export const teamsData = [
   { name: "Confiança" },
   { name: "Juventude" },
   { name: "Meninos da Vila" },

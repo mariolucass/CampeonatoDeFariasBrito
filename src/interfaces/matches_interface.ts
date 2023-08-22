@@ -8,16 +8,14 @@ export interface Match {
   principal: {
     id: string;
     name: string;
-    points: number;
-    matches_played: number;
+    crest: string;
   };
 
   goals_visitant: number;
   visitant: {
     id: string;
     name: string;
-    points: number;
-    matches_played: number;
+    crest: string;
   };
 }
 

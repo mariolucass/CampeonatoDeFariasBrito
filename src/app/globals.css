@@ -76,3 +76,7 @@ body {
     margin-right: 24px;
   }
 }
+
+.multiplyimage {
+  mix-blend-mode: multiply;
+}
