@@ -7,7 +7,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export const WeekendPictures = () => {
   const { useWindowSize } = useGlobalContext();
   const size = useWindowSize();
-
   const renderImageList = imgsWeekends.map((elem) => (
     <SwiperSlide
       key={elem.name}
@@ -31,7 +30,7 @@ export const WeekendPictures = () => {
       <Swiper
         navigation={true}
         modules={[Navigation]}
-        className="lg:h-[200px] arrows-2 arrows-3 w-full "
+        className="lg:h-[200px] h-[156px] arrows-2 arrows-3 w-full "
         slidesPerView={size.width! < 1024 ? 1 : 3}
       >
         {renderImageList}

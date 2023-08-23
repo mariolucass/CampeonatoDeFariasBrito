@@ -6,7 +6,6 @@ const PlayersContext = createContext<IPlayersContext>({} as IPlayersContext);
 
 export function PlayersProvider({ children }: IChildren) {
   const [players, setPlayers] = useState<Player[]>([]);
-
   return (
     <PlayersContext.Provider value={{ players, setPlayers }}>
       {children}

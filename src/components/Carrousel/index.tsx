@@ -14,7 +14,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export const CarrouselPageMain = () => {
   const { useWindowSize } = useGlobalContext();
   const size = useWindowSize();
-
   const renderSwiperSlide = imgsWeekends.map((elem) => (
     <SwiperSlide
       key={elem!.name}

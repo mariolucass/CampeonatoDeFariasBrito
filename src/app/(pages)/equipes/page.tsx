@@ -3,6 +3,7 @@
 import { PlayersCards } from "@/components/PlayersCards";
 import { SectionTitle } from "@/components/SectionTitle";
 import { useTeamsContext } from "@/context/teams_context";
+import { downloadFicha } from "@/data/downloadData";
 import { teamsData } from "@/data/teamsData";
 import { ContainerTransition } from "@/layouts/ContainerTransition";
 import { getTeams } from "@/services/teams_service";
@@ -56,10 +57,13 @@ const EquipesPage = () => {
               alt="crestTeam"
               width={48}
               height={48}
+              style={{ width: "100%", height: "100%", objectFit: "contain" }}
             />
           </div>
 
-          <span className="text-2xl font-bold w-60 text-left">{elem.name}</span>
+          <span className="text-2xl font-bold w-60 text-left ml-6 lg:ml-0">
+            {elem.name}
+          </span>
 
           <div className="w-[104px] flex justify-center">
             <Image src={Arrow} alt="arrow" height={7} width={14} />
@@ -94,11 +98,7 @@ const EquipesPage = () => {
         <SectionTitle />
 
         <section className="flex flex-col w-3/4 m-auto justify-center items-center text-center p-4">
-          <a
-            className="w-full"
-            href="https://drive.google.com/uc?id=1Ot9VwW4FowPCcyBkuwHeu-1vdFhkLzUa&export=download"
-            download="ficha.pdf"
-          >
+          <a className="w-full" href={downloadFicha} download="ficha.pdf">
             <button className="bg-tertiary w-10/12 m-auto text-white p-2 flex items-center gap-1 rounded-lg justify-center max-w-xs my-2 lg:text-xl">
               <Image src={DownloadIcon} alt="Download" />
               BAIXAR FICHA DE INSCRIÇÃO

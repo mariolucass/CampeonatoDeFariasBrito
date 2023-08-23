@@ -38,7 +38,7 @@ export const TableInDashboard = () => {
             alt="crestTeam"
             width={48}
             height={48}
-            style={{ width: "48px", height: "48px" }}
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
           />
         </div>
 
@@ -63,7 +63,7 @@ export const TableInDashboard = () => {
             alt="crestTeam"
             width={48}
             height={48}
-            style={{ width: "48px", height: "48px" }}
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
           />
         </div>
 

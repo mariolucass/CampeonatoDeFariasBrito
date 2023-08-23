@@ -8,8 +8,7 @@ import { useState } from "react";
 import SumulasNoInfoIcon from "../../../assets/sumulasNoInfo.svg";
 
 const SumulasPage = () => {
-  const [sumulas, setSumulas] = useState(sumulasData);
-
+  const [sumulas] = useState(sumulasData);
   const renderSumulas = sumulas.map((elem, index) => {
     return (
       <section
@@ -22,7 +21,6 @@ const SumulasPage = () => {
       </section>
     );
   });
-
   return (
     <ContainerTransition>
       <main className="flex flex-col justify-center items-center gap-4 w-full ">

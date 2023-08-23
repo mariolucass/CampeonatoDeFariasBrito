@@ -6,7 +6,6 @@ export const NavOptions = () => {
   const router = useRouter();
   const liClassDefault =
     "h-[176px] w-2/5 p-4 rounded-[14px] text-white flex flex-col justify-between max-w-xs cursor-pointer hover:drop-shadow-xl hover:scale-110 transition ease-in-out delay-150 ";
-
   return (
     <ul className="flex flex-wrap gap-8 justify-center lg:flex-col lg:w-full lg:h-[408px] lg:items-center">
       {navOptionsList.map((elem, index) => (

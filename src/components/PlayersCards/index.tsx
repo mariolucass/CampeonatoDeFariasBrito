@@ -2,7 +2,6 @@ import { CommitteeMember } from "@/interfaces/context_interface";
 import { Player } from "@/interfaces/players_interface";
 import { getComitteesByTeam } from "@/services/committee_service";
 import { getPlayersByTeam } from "@/services/players_service";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 interface PlayersCardsProps {
@@ -22,7 +21,6 @@ export const PlayersCards = ({ teamId, isCommitte }: PlayersCardsProps) => {
   }, [teamId]);
 
   const listToUse = isCommitte ? committees : players;
-
   const renderPlayerCard = listToUse.map((elem: any) => (
     <li key={elem.id} className="w-full flex bg-bgone rounded">
       <div>

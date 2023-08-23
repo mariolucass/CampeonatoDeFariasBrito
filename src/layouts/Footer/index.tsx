@@ -8,7 +8,6 @@ import FooterLogo from "../../assets/footerLogo.svg";
 export const Footer = () => {
   const { useWindowSize } = useGlobalContext();
   const size = useWindowSize();
-
   return (
     <footer className="flex-col w-full justify-center relative bottom-0">
       <div className=" flex w-full bg-footer items-center justify-center">

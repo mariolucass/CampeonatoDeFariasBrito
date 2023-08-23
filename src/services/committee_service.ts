@@ -12,6 +12,5 @@ export const getComitteesByTeam = async ({
   setCommittees,
 }: getCommittesByTeamProps) => {
   const { data } = await api.get(`teams/${teamId}/committees/`);
-
   setCommittees(data);
 };

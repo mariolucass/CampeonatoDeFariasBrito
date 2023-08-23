@@ -6,7 +6,6 @@ const TeamsContext = createContext<ITeamsContext>({} as ITeamsContext);
 
 export function TeamsProvider({ children }: IChildren) {
   const [teams, setTeams] = useState<Team[]>([]);
-
   return (
     <TeamsContext.Provider value={{ teams, setTeams }}>
       {children}

@@ -13,9 +13,7 @@ export const Schedule = () => {
 
   const baseClassLi =
     "flex w-full justify-between px-2 h-[32px] items-center text-xs  lg:text-xl";
-
   const baseClassSpan = "flex justify-center w-[12px] lg:w-[36px]";
-
   const listToRender = teams.map((elem) => changeNameTeams(elem));
 
   const renderTeams = [

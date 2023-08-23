@@ -23,7 +23,7 @@ export const Header = () => {
       page: "/",
     },
     ...navOptionsList,
-  ].map((elem, index) => (
+  ].map((elem) => (
     <li
       key={elem.title}
       className={

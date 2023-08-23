@@ -10,22 +10,18 @@ export function GlobalProvider({ children }: IChildren) {
       width: isClient ? window.innerWidth : undefined,
       height: isClient ? window.innerHeight : undefined,
     });
-
     useEffect(() => {
       if (!isClient) {
         return;
       }
-
-      function handleResize() {
+      const handleResize = () => {
         setWindowSize({
           width: window.innerWidth,
           height: window.innerHeight,
         });
-      }
-
+      };
       window.addEventListener("resize", handleResize);
       handleResize();
-
       return () => window.removeEventListener("resize", handleResize);
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
@@ -33,10 +29,8 @@ export function GlobalProvider({ children }: IChildren) {
   };
 
   const [drawerState, setDrawerState] = useState<boolean>(false);
-
   const openDrawer = () => setDrawerState(true);
   const closeDrawer = () => setDrawerState(false);
-
   return (
     <GlobalContext.Provider
       value={{ drawerState, openDrawer, closeDrawer, useWindowSize }}

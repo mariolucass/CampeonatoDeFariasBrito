@@ -22,7 +22,7 @@ export const Table = () => {
   const RenderPrincipal = ({ name, image }: RenderTeamInMatch) => {
     return (
       <div className="w-5/12 flex justify-end items-right self-center">
-        <div className="w-1/3 border-4 border-main rounded-lg max-w-[64px] flex justify-center items-center">
+        <div className="w-[48px] h-[48px] border-4 border-main rounded-lg max-w-[64px] flex justify-center items-center">
           <Image
             src={
               image
@@ -33,6 +33,7 @@ export const Table = () => {
             alt="crestTeam"
             width={64}
             height={64}
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
           />
         </div>
 
@@ -55,7 +56,7 @@ export const Table = () => {
           </span>
         </div>
 
-        <div className="w-1/3 border-4 border-main rounded-lg max-w-[64px] flex justify-center items-center">
+        <div className="w-[48px] h-[48px] border-4 border-main rounded-lg max-w-[64px] flex justify-center items-center">
           <Image
             src={
               image
@@ -66,6 +67,7 @@ export const Table = () => {
             alt="crestTeam"
             width={64}
             height={64}
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
           />
         </div>
       </div>
@@ -135,13 +137,12 @@ export const Table = () => {
       </li>
     );
   });
-
   return !matches.length ? (
     <div className="flex items-start justify-center gap-8 text-bgmodal p-16 min-h-[500px]">
       <Spinner className="h-12 w-12" />
     </div>
   ) : (
-    <ul className="flex flex-col w-10/12 m-auto justify-center items-center pb-4 max-w-3xl">
+    <ul className="flex flex-col w-11/12 m-auto justify-center items-center pb-4 max-w-3xl">
       {renderMatches}
     </ul>
   );

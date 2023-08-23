@@ -7,11 +7,9 @@ export const Regulamento = () => (
       MUNICÍPIO. ESTE LAZER É PROMOVIDO PELA PREFEITURA MUNICIPAL E SECRETARIA
       DE CULTURA, ESPORTE E JUVENTUDE.
     </p>
-
     <span className="font-bold">
       DAS INSCRIÇÕES, DAS EQUIPES E DOS ATLETAS:
     </span>
-
     <p>
       <span className="font-bold">ARTIGO 2 – </span> AS EQUIPES PARTICIPANTES
       DEVERÃO INSCREVER NO MÍNIMO 15 (QUINZE) E NO MÁXIMO 25 (VINTE E CINCO)
@@ -19,7 +17,6 @@ export const Regulamento = () => (
       ATLETA SER MENOR DE IDADE, A EQUIPE TERÁ A RESPONSABILIDADE TOTAL SOBRE O
       MESMO EM CASO DE ALGUMA EVENTUALIDADE QUE VENHA OCORRER.
     </p>
-
     <p>
       <span className="font-bold">PARÁGRAFO 1º – </span>
       AS EQUIPES PODERÃO INSCREVER 04 (QUATRO) ATLETAS LINHAS E UM ATLETA NA
@@ -27,7 +24,6 @@ export const Regulamento = () => (
       LOCALIDADES; CONSIDERA ESTRANGEIRO O ATLETA QUE NÃO TENHA VINCULO COM O
       MUNICÍPIO: TÍTULO DE ELEITOR, RESIDIR, NATURALIDADE E EMPREGATÍCIO...
     </p>
-
     <p>
       <span className="font-bold">PARÁGRAFO 2º: </span>CONSIDERA APTO A JOGAR
       COMO ATLETA DO MUNICÍPIO, OS ATLETAS QUE TIVEREM VINCULOS COM O MUNICÍPIO
@@ -36,7 +32,6 @@ export const Regulamento = () => (
       TRABALHAR COM DOCUMENTOS QUE COMPROVE E IDENTIFIQUE, ASSINADOS POR
       TESTEMUNHA...
     </p>
-
     <p>
       <span className="font-bold">PARÁGRAFO 3º: </span>O ATLETA QUE FOR INSCRITO
       EM UMA EQUIPE, NÃO PODERÁ IR PARA OUTRA EQUIPE, CASO SEJA LIBERADO, O
@@ -48,7 +43,6 @@ export const Regulamento = () => (
       3º. O ATLETA QUE ESTIVER INSCRITO NA COMPETIÇÃO OU NA SÚMULA PODERÁ ENTRAR
       A QUALQUER MOMENTO DA PARTIDA DE SUA EQUIPE.
     </p>
-
     <p>
       <span className="font-bold">ARTIGO 3 – </span> OS JOGOS SERÃO REALIZADOS
       NO ESTÁDIO MUNICIPAL NAS DATAS E HORÁRIOS CONFORME A TABELA. DATAS DOS
@@ -56,14 +50,12 @@ export const Regulamento = () => (
       INTERESSES DA ORGANIZAÇÃO – DEPARTAMENTO DE ESPORTE E LAZER
       FARIASBRITENSE.
     </p>
-
     <p>
       <span className="font-bold">ARTIGO 4 – </span>
       NA HIPÓTESE DE UMA EQUIPE NÃO COMPARECER E SE CONCRETIZAR O WXO ESTARÁ
       ELIMINADA DO CAMPEONATO POR DOIS ANOS. RESULTADO DA PARTIDA SERÁ POR 1 X 0
       PARA O VENCEDOR; O MESMO ACONTECERÁ NAS PARTIDAS ANTERIORES...
     </p>
-
     <p>
       <span className="font-bold">ARTIGO 5 – </span>SERÁ EXIGIDA DAS EQUIPES A
       PADRONIZAÇÃO DO UNIFORME (CAMISAS, CALÇÃO, MEIÃO E NÚMERO VÍSIVEL
@@ -71,7 +63,6 @@ export const Regulamento = () => (
       DIREITO DA TABELA TROCARÁ O UNIFORME OU USARÁ COLETES CEDIDOS PELO
       DEPARTAMENTO.
     </p>
-
     <p>
       <span className="font-bold">ARTIGO 6 – </span>O ATLETA QUE FOR EXPULSO COM
       CARTÃO VERMELHO DE UMA PARTIDA ESTARÁ AUTOMATICAMENTE SUSPENSO PARA A
@@ -82,9 +73,7 @@ export const Regulamento = () => (
       (MESÁRIO, ÁRBITROS, DIRETORIA E ETC.), O ATLETA SERÁ ELIMINADO DO
       CAMPEONATO...
     </p>
-
     <span className="font-bold">DA FORMA DE DISPUTA:</span>
-
     <p>
       <span className="font-bold">ARTIGO 7 – </span>A FORMULA DE DISPUTA SE
       ENCONTRA EXPOSTA NA TABELA. CADA PARTIDA SERÁ DISPUTADA EM 02 (DOIS)
@@ -98,20 +87,16 @@ export const Regulamento = () => (
       CADA EQUIPE PODERÁ, NO DECORRER DA PARTIDA, REALIZAR 05 (CINCO)
       SUBSTITUIÇÕES.
     </p>
-
     <span className="font-bold">
       DA POSSÍVEL FORMA DE DESEMPATE ENTRE DUAS OU MAIS EQUIPES NA 1ª E 2ª FASE,
       SEGUE O ARTIGO 08:
     </span>
-
     <p>
       <span className="font-bold"> ARTIGO 8 –</span>
       A- SALDO DE GOLS B- GOLS PRÓS (MARCADOS), C- GOLS CONTRA (SOFRIDOS), D-
       MENOR Nº DE CARTÕES AMARELOS.
     </p>
-
     <span className="font-bold">DAS DISPOSIÇÕES GERAIS:</span>
-
     <p>
       <span className="font-bold">ARTIGO 9 – </span>
       OS ASSUNTOS OMISSOS A ESTE REGULAMENTO SERÃO RESOLVIDOS
