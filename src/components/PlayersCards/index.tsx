@@ -2,6 +2,7 @@ import { CommitteeMember } from "@/interfaces/context_interface";
 import { Player } from "@/interfaces/players_interface";
 import { getComitteesByTeam } from "@/services/committee_service";
 import { getPlayersByTeam } from "@/services/players_service";
+import { Spinner } from "@material-tailwind/react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -13,11 +14,20 @@ interface PlayersCardsProps {
 export const PlayersCards = ({ teamId, isCommitte }: PlayersCardsProps) => {
   const [players, setPlayers] = useState<Player[]>([]);
   const [committees, setCommittees] = useState<CommitteeMember[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+
+  const getInfos = async () => {
+    if (isCommitte) {
+      await getComitteesByTeam({ teamId, setCommittees });
+      setLoading(false);
+    } else {
+      await getPlayersByTeam({ teamId, setPlayers });
+      setLoading(false);
+    }
+  };
 
   useEffect(() => {
-    isCommitte
-      ? getComitteesByTeam({ teamId, setCommittees })
-      : getPlayersByTeam({ teamId, setPlayers });
+    getInfos();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [teamId]);
 
@@ -47,7 +57,11 @@ export const PlayersCards = ({ teamId, isCommitte }: PlayersCardsProps) => {
     </li>
   ));
 
-  return listToUse.length ? (
+  return loading ? (
+    <div className=" w-full flex flex-col flex-wrap gap-4 p-4 justify-center items-center text-bgmodal">
+      <Spinner className="h-12 w-12" />
+    </div>
+  ) : listToUse.length ? (
     <ul className="flex flex-wrap gap-0 p-0 justify-center items-center bg-bgone rounded-lg pb-2">
       {renderPlayerCard}
     </ul>
