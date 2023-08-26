@@ -3,7 +3,7 @@ import { navOptionsList } from "@/data/navOptions";
 import Image from "next/image";
 import Link from "next/link";
 import CloseNavbar from "../../assets/closeNav.svg";
-import LogoNav from "../../assets/logoNav.svg";
+import LogoNav from "../../assets/logo.png";
 
 export const NavBar = () => {
   const { closeDrawer } = useGlobalContext();
@@ -24,8 +24,12 @@ export const NavBar = () => {
         <Image src={CloseNavbar} alt="CloseNavbar" />
       </div>
 
-      <div className="mt-16">
-        <Image src={LogoNav} alt="LogoNav" />
+      <div className="mt-16 h-[168px] p-4">
+        <Image
+          src={LogoNav}
+          alt="LogoNav"
+          style={{ width: "100%", height: "100%", objectFit: "contain" }}
+        />
       </div>
 
       <div className="w-[105px] h-[1px] bg-white self-center"></div>

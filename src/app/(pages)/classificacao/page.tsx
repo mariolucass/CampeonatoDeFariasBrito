@@ -33,8 +33,8 @@ const ClassificacaoPage = () => (
           <span className="font-bold"> VP:</span> Vitória por Penâltis
           <span className="font-bold"> DP:</span> Derrota por Penâltis
           <span className="font-bold"> D:</span>
-          Derrotas <span className="font-bold">GP:</span> Gols Pró
-          <span className="font-bold"> GS:</span> Gols Sofridos
+          Derrotas <span className="font-bold">GP:</span> Gols Pró (Marcados)
+          <span className="font-bold"> GC:</span> Gols Contra (Sofridos)
           <span className="font-bold"> SG:</span> Saldo de Gols
           <span className="font-bold"> P:</span> Pontos
         </h4>

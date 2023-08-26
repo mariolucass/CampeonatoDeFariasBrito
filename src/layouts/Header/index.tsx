@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import Burguer from "../../assets/burguer.svg";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo.png";
 
 export const Header = () => {
   const pathName = usePathname();
@@ -45,7 +45,7 @@ export const Header = () => {
   ));
 
   return (
-    <header className="w-full bg-main p-6 flex  lg:justify-around">
+    <header className="w-full bg-main p-4 flex lg:justify-around h-[104px]">
       <Image
         src={Burguer}
         alt="logo"
@@ -55,12 +55,15 @@ export const Header = () => {
         onClick={openDrawer}
       />
 
-      <Image
-        src={Logo}
-        alt="logo"
-        className="cursor-pointer ml-12 lg:ml-0"
-        onClick={() => router.push("/")}
-      />
+      <div className="h-full w-2/3 lg:w-44">
+        <Image
+          src={Logo}
+          alt="logo"
+          className="cursor-pointer ml-8 lg:ml-0"
+          onClick={() => router.push("/")}
+          style={{ width: "100%", height: "100%", objectFit: "contain" }}
+        />
+      </div>
 
       <Drawer
         open={drawerState}

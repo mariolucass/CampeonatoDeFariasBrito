@@ -26,7 +26,7 @@ export const Schedule = () => {
       loses_penalty: "DP",
       loses: "D",
       goals_scored: "GP",
-      goals_suffered: "GS",
+      goals_suffered: "GC",
       goals_difference: "SG",
       points: "P",
     },

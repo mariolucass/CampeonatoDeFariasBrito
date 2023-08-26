@@ -14,7 +14,7 @@ const config: Config = {
       main: "#e65e1c",
       primary: "#dc6e39",
       secondary: "#e48d63",
-      tertiary: "#22864a",
+      tertiary: "#008566",
 
       footer: "#B5B5B5",
 
