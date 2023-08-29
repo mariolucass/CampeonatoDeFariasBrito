@@ -5,6 +5,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { useTeamsContext } from "@/context/teams_context";
 import { downloadFicha } from "@/data/downloadData";
 import { teamsData } from "@/data/teamsData";
+import { Team } from "@/interfaces/teams_interface";
 import { ContainerTransition } from "@/layouts/ContainerTransition";
 import { getTeams } from "@/services/teams_service";
 import { Card, Collapse, Spinner } from "@material-tailwind/react";
@@ -39,7 +40,23 @@ const EquipesPage = () => {
     setExpandedTeam(teamName);
   };
 
-  const renderTeams = teams.map((elem) => {
+  const compareName = (a: Team, b: Team) => {
+    const nomeA = a.name.toUpperCase();
+    const nomeB = b.name.toUpperCase();
+
+    if (nomeA < nomeB) {
+      return -1;
+    }
+    if (nomeA > nomeB) {
+      return 1;
+    }
+    return 0;
+  };
+
+  const sortedList = [...teams];
+  sortedList.sort((a, b) => a.name.localeCompare(b.name));
+
+  const renderTeams = sortedList.map((elem) => {
     return (
       <li key={elem.name} className="cursor-pointer">
         <div

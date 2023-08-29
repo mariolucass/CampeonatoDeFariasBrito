@@ -8,6 +8,13 @@ export const getTeams = async ({ teams, setTeams }: ITeamsState) => {
   }
 };
 
+export const getRankings = async ({ teams, setTeams }: ITeamsState) => {
+  if (!teams.length) {
+    const { data } = await api.get("/rankings/");
+    setTeams(data);
+  }
+};
+
 export const retrieveTeam = async () => {};
 export const createTeam = async () => {};
 export const updateTeam = async () => {};

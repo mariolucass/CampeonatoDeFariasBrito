@@ -36,7 +36,7 @@ export const CarrouselPageMain = () => {
           modules={[EffectCards, Autoplay, Navigation]}
           navigation={true}
           className="w-full arrows-black"
-          initialSlide={2}
+          initialSlide={3}
         >
           {renderSwiperSlide}
         </Swiper>
@@ -50,7 +50,7 @@ export const CarrouselPageMain = () => {
           modules={[EffectCoverflow, Autoplay, Navigation]}
           navigation={true}
           className="w-full arrows-black"
-          initialSlide={2}
+          initialSlide={3}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
