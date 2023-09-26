@@ -26,7 +26,13 @@ const ClassificacaoPage = () => (
 
         <Schedule />
 
-        <h4 className="w-10/12 m-auto pt-4 text-left">
+        <span className="w-10/12 m-auto pt-2 text-justify font-bold text-lg">
+          *Os 16 times mais bem classificados avançarão para a segunda fase,
+          logo os 5 últimos da classificação (grifados em vermelho) serão
+          eliminados do campeonato.
+        </span>
+
+        <h4 className="w-10/12 m-auto pt-2 text-justify">
           <span className="font-bold">POS:</span> Posição
           <span className="font-bold"> PJ:</span> Partidas Jogadas
           <span className="font-bold"> V:</span> Vitória

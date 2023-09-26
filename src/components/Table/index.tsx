@@ -1,6 +1,7 @@
 "use client";
 
 import { useMatchesContext } from "@/context/matches_context";
+import { secondMatches } from "@/data/secondfase";
 import { RenderTeamInMatch } from "@/interfaces/teams_interface";
 import { getMatches } from "@/services/matches_service";
 import { changeNameTeamsInMatches } from "@/utils/changeNameTeams";
@@ -10,14 +11,20 @@ import "moment/locale/pt-br";
 import Image from "next/image";
 import { useEffect } from "react";
 
-export const Table = () => {
+interface IProps {
+  second?: boolean;
+}
+
+export const Table = ({ second }: IProps) => {
   const { matches, setMatches } = useMatchesContext();
   useEffect(() => {
     getMatches({ matches, setMatches });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const filteredMatches = matches.map((elem) => changeNameTeamsInMatches(elem));
+  const filteredMatches = second
+    ? secondMatches
+    : matches.map((elem) => changeNameTeamsInMatches(elem));
 
   const RenderPrincipal = ({ name, image }: RenderTeamInMatch) => {
     return (
@@ -84,7 +91,9 @@ export const Table = () => {
         .replace("às", " -")
         .replace("de 2023", "")
         .toUpperCase();
-      return time;
+
+      const time2 = time != "DATA INVÁLIDA" ? time : "A DEFINIR";
+      return time2;
     };
 
     const gameIsOver =
@@ -99,7 +108,7 @@ export const Table = () => {
         key={index}
         className={
           index % 2 === 0
-            ? `${liBaseClass} bg-bgtwo `
+            ? `${liBaseClass} bg-bgtwo`
             : `${liBaseClass} bg-bgone`
         }
       >
@@ -110,7 +119,11 @@ export const Table = () => {
         <div className="flex justify-center p-2 pt-0 w-full">
           <RenderPrincipal
             name={elem.principal.name}
-            image={elem.principal.crest}
+            image={
+              elem.principal.crest
+                ? elem.principal.crest
+                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
+            }
           />
 
           <div className="w-2/12 bg-main text-2xl p-1 h-[32px] my-auto text-white flex justify-around items-center font-bold">
@@ -139,7 +152,11 @@ export const Table = () => {
 
           <RenderVisitant
             name={elem.visitant.name}
-            image={elem.visitant.crest}
+            image={
+              elem.visitant.crest
+                ? elem.visitant.crest
+                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
+            }
           />
         </div>
       </li>

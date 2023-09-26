@@ -79,6 +79,17 @@ const SumulasPage = () => {
                               height={400}
                             />
                           </div>
+
+                          {elem.principal === "CARIUTABA" &&
+                          elem.visitante === "JUVENTUDE" ? (
+                            <span className="mt-4 text-center">
+                              (Correção de súmula: o autor do segundo gol da
+                              equipe do Cariutaba foi marcado por Silvestre dos
+                              Santos (07))
+                            </span>
+                          ) : (
+                            <></>
+                          )}
                         </section>
                       );
                     }

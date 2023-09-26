@@ -35,19 +35,15 @@ export const Schedule = () => {
     if (index > 20) {
     }
 
-    const backgroundBg = index > 16 ? "bg-[#ff8a8a]" : "";
+    const backgroundBg =
+      index > 16
+        ? `${baseClassLi} bg-[#ff8a8a]`
+        : index % 2 == 0
+        ? `${index == 0 && "font-bold"} ${baseClassLi} bg-bgone`
+        : `${baseClassLi} bg-bgtwo`;
 
     return (
-      <li
-        key={elem.id}
-        className={
-          index % 2 == 0
-            ? `${
-                index == 0 && "font-bold"
-              } ${baseClassLi} ${backgroundBg} bg-bgone`
-            : `${baseClassLi} ${backgroundBg} bg-bgtwo`
-        }
-      >
+      <li key={elem.id} className={backgroundBg}>
         <div className="flex gap-2">
           <span className="flex justify-center w-[18px] lg:w-[48px] ">
             {index != 0 ? `${index}º` : "POS"}
