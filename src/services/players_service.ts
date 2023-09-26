@@ -8,9 +8,7 @@ interface getPlayersByTeamProps {
 
 export const getPlayers = async ({ players, setPlayers }: IPlayersState) => {
   if (!players.length) {
-    const { data } = await api.get(
-      "teams/ff28018a-a3c9-496d-ac64-02dd27aebb7f/players/"
-    );
+    const { data } = await api.get("/players/");
     setPlayers(data);
   }
 };

@@ -6,7 +6,7 @@ import { ContainerTransition } from "@/layouts/ContainerTransition";
 
 const ArtilhariaPage = () => (
   <ContainerTransition>
-    <main className="flex flex-col gap-4 justify-center items-center w-full">
+    <main className="flex flex-col gap-4 justify-center items-center w-full h">
       <SectionTitle />
 
       <section className="w-full max-w-7xl margin-auto flex flex-col items-center">

@@ -15,22 +15,17 @@ export const Strikers = () => {
 
   const baseClassSpan = "flex justify-center";
 
-  const sortedList = [...players.filter((elem) => elem.goals > 0)];
-
-  console.log(sortedList);
-
   const renderStrikers = [
     {
       id: "",
       nickname: "JOG",
       image: "",
-      matches_played: "PJ",
       goals: "GOLS",
       team: {
         name: "TIME",
       },
     },
-    ...sortedList.reverse(),
+    ...players.reverse(),
   ].map((elem, index) => (
     <li
       key={elem.id}
@@ -49,15 +44,12 @@ export const Strikers = () => {
           {elem.nickname}
         </span>
 
-        <span className="flex w-[56px] font-bold justify-left lg:w-[80px]">
+        <span className="flex w-[56px] font-bold justify-left lg:w-[112px]">
           {elem.team.name}
         </span>
       </div>
 
       <div className="flex gap-2 h-[26px] items-center">
-        <span className={` ${baseClassSpan} w-[32px] lg:w-[72px]`}>
-          {elem.matches_played}
-        </span>
         <span className={`${baseClassSpan} w-[32px] lg:w-[40px]`}>
           {elem.goals}
         </span>

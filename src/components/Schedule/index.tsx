@@ -32,13 +32,20 @@ export const Schedule = () => {
     },
     ...listToRender.reverse(),
   ].map((elem, index) => {
+    if (index > 20) {
+    }
+
+    const backgroundBg = index > 16 ? "bg-[#ff8a8a]" : "";
+
     return (
       <li
         key={elem.id}
         className={
           index % 2 == 0
-            ? `${index == 0 && "font-bold"} ${baseClassLi} bg-bgone`
-            : `${baseClassLi} bg-bgtwo`
+            ? `${
+                index == 0 && "font-bold"
+              } ${baseClassLi} ${backgroundBg} bg-bgone`
+            : `${baseClassLi} ${backgroundBg} bg-bgtwo`
         }
       >
         <div className="flex gap-2">

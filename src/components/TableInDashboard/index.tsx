@@ -21,8 +21,7 @@ export const TableInDashboard = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const listFiltered = matches.slice(2, 6);
-
+  const listFiltered = matches.slice(18);
   const filterList = listFiltered.map((elem) => changeNameTeamsInMatches(elem));
 
   const RenderPrincipal = ({ name, image }: RenderTeamInMatch) => {

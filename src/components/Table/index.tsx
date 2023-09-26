@@ -47,7 +47,6 @@ export const Table = () => {
   };
 
   const RenderVisitant = ({ name, image }: RenderTeamInMatch) => {
-    console.log(image);
     return (
       <div className="w-5/12 flex justify-start items-right self-center">
         <div className="w-2/3 flex p-0 border-y-4 border-main lg:h-[32px] self-center">
@@ -85,18 +84,15 @@ export const Table = () => {
         .replace("às", " -")
         .replace("de 2023", "")
         .toUpperCase();
-
       return time;
     };
 
-    const handleDiffDate = () => {
-      moment.locale("pt-br");
-      const dateNow = new Date();
-
-      return moment(elem.date).isBefore(dateNow);
-    };
-
-    const gameIsOver = handleDiffDate();
+    const gameIsOver =
+      elem.goals_visitant +
+        elem.goals_principal +
+        elem.goals_penalty_principal +
+        elem.goals_penalty_visitant !==
+      0;
 
     return (
       <li
@@ -120,9 +116,21 @@ export const Table = () => {
           <div className="w-2/12 bg-main text-2xl p-1 h-[32px] my-auto text-white flex justify-around items-center font-bold">
             {gameIsOver ? (
               <>
+                {elem.goals_principal == elem.goals_visitant && (
+                  <span className="text-xl">
+                    ({elem.goals_penalty_principal})
+                  </span>
+                )}
+
                 <span>{elem.goals_principal}</span>
                 <span>X</span>
                 <span>{elem.goals_visitant}</span>
+
+                {elem.goals_principal == elem.goals_visitant && (
+                  <span className="text-xl">
+                    ({elem.goals_penalty_visitant})
+                  </span>
+                )}
               </>
             ) : (
               <span>X</span>
