@@ -20,12 +20,36 @@ export interface Team {
   points: number;
 }
 
+export interface TeamSecondRound {
+  id: string;
+  crest: string;
+  name: string;
+  players: Player[];
+  matches_played_second_round: number;
+  wins_second_round: number;
+  wins_penalty_second_round: number;
+  loses_penalty_second_round: number;
+  loses_second_round: number;
+  draws_second_round: number;
+
+  goals_scored_second_round: number;
+  goals_suffered_second_round: number;
+  goals_difference_second_round: number;
+
+  points_second_round: number;
+}
+
 export interface ITeamsState {
   teams: Team[];
   setTeams: Dispatch<SetStateAction<Team[]>>;
 }
 
-export interface ITeamsContext extends ITeamsState {}
+export interface ITeamsSecondRoundState {
+  teamsSecondRound: TeamSecondRound[];
+  setTeamsSecondRound: Dispatch<SetStateAction<TeamSecondRound[]>>;
+}
+
+export interface ITeamsContext extends ITeamsState, ITeamsSecondRoundState {}
 
 export interface RenderTeamInMatch {
   name: string;

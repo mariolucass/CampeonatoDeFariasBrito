@@ -1,7 +1,7 @@
-import ArtilhariaIcon from "../assets/pages/artilharia.svg";
-import EquipesIcon from "../assets/pages/equipes.svg";
-import RegulamentoIcon from "../assets/pages/regulamento.svg";
-import SumulasIcon from "../assets/pages/sumulas.svg";
+import ArtilhariaIcon from "../../public/assets/pages/artilharia.svg";
+import EquipesIcon from "../../public/assets/pages/equipes.svg";
+import RegulamentoIcon from "../../public/assets/pages/regulamento.svg";
+import SumulasIcon from "../../public/assets/pages/sumulas.svg";
 
 export const dictPages = {
   regulamento: {

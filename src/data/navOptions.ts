@@ -1,9 +1,9 @@
-import ArtilhariaIcon from "../assets/pages/artilharia.svg";
-import ClassificacaoIcon from "../assets/pages/classificacao.svg";
-import EquipesIcon from "../assets/pages/equipes.svg";
-import RegulamentoIcon from "../assets/pages/regulamento.svg";
-import SumulasIcon from "../assets/pages/sumulas.svg";
-import TabelaIcon from "../assets/pages/tabela.svg";
+import ArtilhariaIcon from "../../public/assets/pages/artilharia.svg";
+import ClassificacaoIcon from "../../public/assets/pages/classificacao.svg";
+import EquipesIcon from "../../public/assets/pages/equipes.svg";
+import RegulamentoIcon from "../../public/assets/pages/regulamento.svg";
+import SumulasIcon from "../../public/assets/pages/sumulas.svg";
+import TabelaIcon from "../../public/assets/pages/tabela.svg";
 
 export const navOptionsList = [
   {

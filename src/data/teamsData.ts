@@ -21,3 +21,6 @@ export const teamsData = [
   { name: "Cariutaba" },
   { name: "Milan" },
 ];
+
+export const defaultCrest =
+  "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg";
