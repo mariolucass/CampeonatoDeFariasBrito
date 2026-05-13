@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["live.staticflickr.com"],
+    // Serve AVIF first (best compression), fall back to WebP, then original.
+    // This is the primary fix for the "Improve image delivery" Lighthouse insight.
+    formats: ["image/avif", "image/webp"],
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
+        hostname: "live.staticflickr.com",
       },
     ],
   },

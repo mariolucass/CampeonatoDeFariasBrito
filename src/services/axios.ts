@@ -5,5 +5,5 @@ const localUrl = "http://127.0.0.1:8000/api";
 
 export const api = axios.create({
   baseURL: baseURL,
-  timeout: 12000,
+  timeout: 25000,
 });

@@ -1,0 +1,794 @@
+[
+  {
+    "id": "251fc9f8-8348-4a13-9722-e9e176ef2667",
+    "date": "2023-08-27T18:00:00",
+    "goals_principal": 3,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "868b712c-99ed-443d-a702-44cc18a12b44",
+      "name": "Cariutaba",
+      "crest": "https://live.staticflickr.com/65535/53128206261_43502802a6_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8674c513-08f8-4a6e-81df-8e20880b8fb8",
+      "name": "Juventude",
+      "crest": "https://live.staticflickr.com/65535/53128418054_fe2e1f7cb8_n.jpg"
+    }
+  },
+  {
+    "id": "aad77881-845a-4482-bf75-c1ab7b1dfdb3",
+    "date": "2023-08-27T19:30:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "6fe4cb98-f1e6-4d63-912d-a194e0de8465",
+      "name": "Ríver",
+      "crest": "https://live.staticflickr.com/65535/53127614077_aba3188ac1_n.jpg"
+    },
+    "goals_visitant": 3,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "ff28018a-a3c9-496d-ac64-02dd27aebb7f",
+      "name": "Milan",
+      "crest": "https://live.staticflickr.com/65535/53128687533_2066724cdf_n.jpg"
+    }
+  },
+  {
+    "id": "640151df-2ccb-47ab-ab3a-d6c5b48a5b3e",
+    "date": "2023-09-02T15:15:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "21b1442e-c5c4-466d-a65b-e2dc3a2124f2",
+      "name": "Atlético Lázio",
+      "crest": "https://live.staticflickr.com/65535/53133559024_0dccdaab14_n.jpg"
+    },
+    "goals_visitant": 6,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8827c070-c5f3-48d6-9ff8-8e904160518b",
+      "name": "Lagoa Seca",
+      "crest": "https://live.staticflickr.com/65535/53128418074_88cd06d169_n.jpg"
+    }
+  },
+  {
+    "id": "efdd0071-f505-42d6-bb1c-69c1de70f778",
+    "date": "2023-09-02T16:30:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "68e34bb4-297b-494b-90cd-c069d2b77a3b",
+      "name": "Pedro Fernandes",
+      "crest": "https://live.staticflickr.com/65535/53128687538_35184c5d1c_n.jpg"
+    },
+    "goals_visitant": 2,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "ec2b39b1-5899-42dc-9a83-326ad5aca4b0",
+      "name": "Escondido",
+      "crest": "https://live.staticflickr.com/65535/53128687578_8b581ab45e_n.jpg"
+    }
+  },
+  {
+    "id": "2303c2b9-da89-49c9-ad93-dbd0cf2858c4",
+    "date": "2023-09-02T18:00:00",
+    "goals_principal": 2,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "b37d34ea-6467-4de1-b317-c549f20f3e02",
+      "name": "Lamaju",
+      "crest": "https://live.staticflickr.com/65535/53133831458_2af214735b_n.jpg"
+    },
+    "goals_visitant": 3,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "f4c494fb-8d26-4650-b72e-c292b51d8eea",
+      "name": "Confiança",
+      "crest": "https://live.staticflickr.com/65535/53133352821_ae2aa65f19_n.jpg"
+    }
+  },
+  {
+    "id": "8c911d53-9584-41e9-a3f3-a35543ff038e",
+    "date": "2023-09-09T15:15:00",
+    "goals_principal": 2,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "3e609d33-7137-4396-9e96-ff878dc5c8c3",
+      "name": "Suturno",
+      "crest": "https://live.staticflickr.com/65535/53133846388_df059d0cd0_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8827c070-c5f3-48d6-9ff8-8e904160518b",
+      "name": "Lagoa Seca",
+      "crest": "https://live.staticflickr.com/65535/53128418074_88cd06d169_n.jpg"
+    }
+  },
+  {
+    "id": "131160f3-4599-4cac-9177-552655991e19",
+    "date": "2023-09-09T16:30:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "cab83126-1c7f-42d9-b448-5ec779632a07",
+      "name": "Holanda",
+      "crest": "https://live.staticflickr.com/65535/53128418064_6f69cffe84_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "38a0e50f-b72d-41e9-ab50-448533242773",
+      "name": "Borussia",
+      "crest": "https://live.staticflickr.com/65535/53128206281_bc34f27aa1_n.jpg"
+    }
+  },
+  {
+    "id": "9bab7284-4658-45d5-9fa1-19204d516222",
+    "date": "2023-09-09T18:00:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "5e0e7e54-a5a4-421f-9149-2d44e31c68ca",
+      "name": "Meninos da Vila",
+      "crest": "https://live.staticflickr.com/65535/53133558974_f8aed92098_n.jpg"
+    },
+    "goals_visitant": 6,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "060d4439-03ff-4357-985b-d76783acfa15",
+      "name": "Canabrava",
+      "crest": "https://live.staticflickr.com/65535/53128206266_a6133a0f0f_n.jpg"
+    }
+  },
+  {
+    "id": "dddcc20b-a37f-43a3-b860-363e7925eccf",
+    "date": "2023-09-16T15:15:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 1,
+    "principal": {
+      "id": "7b69ae9f-8559-40a4-82c2-2151a9c0be29",
+      "name": "Ajax",
+      "crest": "https://live.staticflickr.com/65535/53132751772_8c015a7391_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 2,
+    "visitant": {
+      "id": "c574a266-ba02-4330-adde-92a77c499ab7",
+      "name": "Lambedouro",
+      "crest": "https://live.staticflickr.com/65535/53128206191_e3ea230967_n.jpg"
+    }
+  },
+  {
+    "id": "e082f746-013e-45c4-9ca0-bcf97a65451b",
+    "date": "2023-09-16T16:30:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 9,
+    "principal": {
+      "id": "cab83126-1c7f-42d9-b448-5ec779632a07",
+      "name": "Holanda",
+      "crest": "https://live.staticflickr.com/65535/53128418064_6f69cffe84_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 8,
+    "visitant": {
+      "id": "21b1442e-c5c4-466d-a65b-e2dc3a2124f2",
+      "name": "Atlético Lázio",
+      "crest": "https://live.staticflickr.com/65535/53133559024_0dccdaab14_n.jpg"
+    }
+  },
+  {
+    "id": "bca0cbd0-d2ea-40a6-b9c9-3c4d7b98830e",
+    "date": "2023-09-16T18:00:00",
+    "goals_principal": 3,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "3e609d33-7137-4396-9e96-ff878dc5c8c3",
+      "name": "Suturno",
+      "crest": "https://live.staticflickr.com/65535/53133846388_df059d0cd0_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "37c40288-d9ae-4155-8588-b1e76193b2c7",
+      "name": "Betânia",
+      "crest": "https://live.staticflickr.com/65535/53128418119_4014ec3500_n.jpg"
+    }
+  },
+  {
+    "id": "0cfc7583-eeca-41bf-b8c9-8059458494ce",
+    "date": "2023-09-17T15:30:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 3,
+    "principal": {
+      "id": "6fe4cb98-f1e6-4d63-912d-a194e0de8465",
+      "name": "Ríver",
+      "crest": "https://live.staticflickr.com/65535/53127614077_aba3188ac1_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 1,
+    "visitant": {
+      "id": "38a0e50f-b72d-41e9-ab50-448533242773",
+      "name": "Borussia",
+      "crest": "https://live.staticflickr.com/65535/53128206281_bc34f27aa1_n.jpg"
+    }
+  },
+  {
+    "id": "fe24577d-2d11-49cd-b4b9-070c4efc3a1a",
+    "date": "2023-09-17T17:00:00",
+    "goals_principal": 3,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "e2cef575-d252-45e6-8df5-87177780f40c",
+      "name": "Carás",
+      "crest": "https://live.staticflickr.com/65535/53132751677_4a1f616eb8_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "dbd5d586-bf51-4645-9ab1-22499189be8b",
+      "name": "Monte Pio",
+      "crest": "https://live.staticflickr.com/65535/53140723714_ab33657e48_n.jpg"
+    }
+  },
+  {
+    "id": "68d32874-6b1e-45ff-9582-02e1edb4f850",
+    "date": "2023-09-23T15:15:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "5e0e7e54-a5a4-421f-9149-2d44e31c68ca",
+      "name": "Meninos da Vila",
+      "crest": "https://live.staticflickr.com/65535/53133558974_f8aed92098_n.jpg"
+    },
+    "goals_visitant": 4,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "cbd7b8f3-bd7b-4c02-91cc-89c829f28cd8",
+      "name": "Ribeirinha",
+      "crest": "https://live.staticflickr.com/65535/53135568871_4582b92fd2_n.jpg"
+    }
+  },
+  {
+    "id": "2a20031c-5bcf-4f40-9fd8-ed93f2c2f945",
+    "date": "2023-09-23T16:30:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "b37d34ea-6467-4de1-b317-c549f20f3e02",
+      "name": "Lamaju",
+      "crest": "https://live.staticflickr.com/65535/53133831458_2af214735b_n.jpg"
+    },
+    "goals_visitant": 3,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "e2cef575-d252-45e6-8df5-87177780f40c",
+      "name": "Carás",
+      "crest": "https://live.staticflickr.com/65535/53132751677_4a1f616eb8_n.jpg"
+    }
+  },
+  {
+    "id": "d8db980c-f26d-4867-9bb8-079ee55e04ee",
+    "date": "2023-09-23T18:00:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "f4c494fb-8d26-4650-b72e-c292b51d8eea",
+      "name": "Confiança",
+      "crest": "https://live.staticflickr.com/65535/53133352821_ae2aa65f19_n.jpg"
+    },
+    "goals_visitant": 8,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "868b712c-99ed-443d-a702-44cc18a12b44",
+      "name": "Cariutaba",
+      "crest": "https://live.staticflickr.com/65535/53128206261_43502802a6_n.jpg"
+    }
+  },
+  {
+    "id": "f66d98f6-8f3a-484e-b7f4-cf391b8934e8",
+    "date": "2023-09-24T15:30:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "ff28018a-a3c9-496d-ac64-02dd27aebb7f",
+      "name": "Milan",
+      "crest": "https://live.staticflickr.com/65535/53128687533_2066724cdf_n.jpg"
+    },
+    "goals_visitant": 5,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "060d4439-03ff-4357-985b-d76783acfa15",
+      "name": "Canabrava",
+      "crest": "https://live.staticflickr.com/65535/53128206266_a6133a0f0f_n.jpg"
+    }
+  },
+  {
+    "id": "cc2e7dc2-cf87-45a9-b590-fc0000d35729",
+    "date": "2023-09-24T17:00:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "c574a266-ba02-4330-adde-92a77c499ab7",
+      "name": "Lambedouro",
+      "crest": "https://live.staticflickr.com/65535/53128206191_e3ea230967_n.jpg"
+    },
+    "goals_visitant": 2,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8674c513-08f8-4a6e-81df-8e20880b8fb8",
+      "name": "Juventude",
+      "crest": "https://live.staticflickr.com/65535/53128418054_fe2e1f7cb8_n.jpg"
+    }
+  },
+  {
+    "id": "09b45819-5b2d-4c68-b7e8-f67e067a4ff4",
+    "date": "2023-09-30T15:15:00",
+    "goals_principal": 6,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "37c40288-d9ae-4155-8588-b1e76193b2c7",
+      "name": "Betânia",
+      "crest": "https://live.staticflickr.com/65535/53128418119_4014ec3500_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "dbd5d586-bf51-4645-9ab1-22499189be8b",
+      "name": "Monte Pio",
+      "crest": "https://live.staticflickr.com/65535/53140723714_ab33657e48_n.jpg"
+    }
+  },
+  {
+    "id": "80a886eb-5d4f-40a3-b620-ba65465dcbf3",
+    "date": "2023-09-30T16:30:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "68e34bb4-297b-494b-90cd-c069d2b77a3b",
+      "name": "Pedro Fernandes",
+      "crest": "https://live.staticflickr.com/65535/53128687538_35184c5d1c_n.jpg"
+    },
+    "goals_visitant": 3,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "7b69ae9f-8559-40a4-82c2-2151a9c0be29",
+      "name": "Ajax",
+      "crest": "https://live.staticflickr.com/65535/53132751772_8c015a7391_n.jpg"
+    }
+  },
+  {
+    "id": "0d92f2de-16be-439b-ac0f-13d3c15db31f",
+    "date": "2023-09-30T18:00:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 3,
+    "principal": {
+      "id": "ec2b39b1-5899-42dc-9a83-326ad5aca4b0",
+      "name": "Escondido",
+      "crest": "https://live.staticflickr.com/65535/53128687578_8b581ab45e_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 2,
+    "visitant": {
+      "id": "cbd7b8f3-bd7b-4c02-91cc-89c829f28cd8",
+      "name": "Ribeirinha",
+      "crest": "https://live.staticflickr.com/65535/53135568871_4582b92fd2_n.jpg"
+    }
+  },
+  {
+    "id": "b85037ad-e3b4-4156-ab0d-b1d46f514ad5",
+    "date": "2023-10-12T15:15:00",
+    "goals_principal": 9,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "868b712c-99ed-443d-a702-44cc18a12b44",
+      "name": "Cariutaba",
+      "crest": "https://live.staticflickr.com/65535/53128206261_43502802a6_n.jpg"
+    },
+    "goals_visitant": 3,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "38a0e50f-b72d-41e9-ab50-448533242773",
+      "name": "Borussia",
+      "crest": "https://live.staticflickr.com/65535/53128206281_bc34f27aa1_n.jpg"
+    }
+  },
+  {
+    "id": "a430d278-8fa6-4d9e-8b8f-93ac4a9f521e",
+    "date": "2023-10-12T16:30:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "7b69ae9f-8559-40a4-82c2-2151a9c0be29",
+      "name": "Ajax",
+      "crest": "https://live.staticflickr.com/65535/53132751772_8c015a7391_n.jpg"
+    },
+    "goals_visitant": 4,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8827c070-c5f3-48d6-9ff8-8e904160518b",
+      "name": "Lagoa Seca",
+      "crest": "https://live.staticflickr.com/65535/53128418074_88cd06d169_n.jpg"
+    }
+  },
+  {
+    "id": "d55b8dc7-e3e3-4954-a74c-6f4a94a61d03",
+    "date": "2023-10-12T18:00:00",
+    "goals_principal": 5,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "3e609d33-7137-4396-9e96-ff878dc5c8c3",
+      "name": "Suturno",
+      "crest": "https://live.staticflickr.com/65535/53133846388_df059d0cd0_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "f4c494fb-8d26-4650-b72e-c292b51d8eea",
+      "name": "Confiança",
+      "crest": "https://live.staticflickr.com/65535/53133352821_ae2aa65f19_n.jpg"
+    }
+  },
+  {
+    "id": "f492ddbf-3b07-4cda-b8ef-a2dd21d0ed11",
+    "date": "2023-10-14T15:15:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 3,
+    "principal": {
+      "id": "ec2b39b1-5899-42dc-9a83-326ad5aca4b0",
+      "name": "Escondido",
+      "crest": "https://live.staticflickr.com/65535/53128687578_8b581ab45e_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 2,
+    "visitant": {
+      "id": "8674c513-08f8-4a6e-81df-8e20880b8fb8",
+      "name": "Juventude",
+      "crest": "https://live.staticflickr.com/65535/53128418054_fe2e1f7cb8_n.jpg"
+    }
+  },
+  {
+    "id": "f939be99-dcc3-4de8-8708-2c078b53a716",
+    "date": "2023-10-14T16:30:00",
+    "goals_principal": 2,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "cab83126-1c7f-42d9-b448-5ec779632a07",
+      "name": "Holanda",
+      "crest": "https://live.staticflickr.com/65535/53128418064_6f69cffe84_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "ff28018a-a3c9-496d-ac64-02dd27aebb7f",
+      "name": "Milan",
+      "crest": "https://live.staticflickr.com/65535/53128687533_2066724cdf_n.jpg"
+    }
+  },
+  {
+    "id": "bc09e4b3-e563-45a1-ac79-8bc11a3c6422",
+    "date": "2023-10-14T18:00:00",
+    "goals_principal": 5,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "060d4439-03ff-4357-985b-d76783acfa15",
+      "name": "Canabrava",
+      "crest": "https://live.staticflickr.com/65535/53128206266_a6133a0f0f_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "6fe4cb98-f1e6-4d63-912d-a194e0de8465",
+      "name": "Ríver",
+      "crest": "https://live.staticflickr.com/65535/53127614077_aba3188ac1_n.jpg"
+    }
+  },
+  {
+    "id": "d42f3b86-2d0a-4f33-b8a9-7c2fd1f82999",
+    "date": "2023-10-15T15:15:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "e2cef575-d252-45e6-8df5-87177780f40c",
+      "name": "Carás",
+      "crest": "https://live.staticflickr.com/65535/53132751677_4a1f616eb8_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "c574a266-ba02-4330-adde-92a77c499ab7",
+      "name": "Lambedouro",
+      "crest": "https://live.staticflickr.com/65535/53128206191_e3ea230967_n.jpg"
+    }
+  },
+  {
+    "id": "a5cc5fd2-f034-4360-9c85-ef7cfc7e3438",
+    "date": "2023-10-15T16:30:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "cbd7b8f3-bd7b-4c02-91cc-89c829f28cd8",
+      "name": "Ribeirinha",
+      "crest": "https://live.staticflickr.com/65535/53135568871_4582b92fd2_n.jpg"
+    },
+    "goals_visitant": 6,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "37c40288-d9ae-4155-8588-b1e76193b2c7",
+      "name": "Betânia",
+      "crest": "https://live.staticflickr.com/65535/53128418119_4014ec3500_n.jpg"
+    }
+  },
+  {
+    "id": "fddb07a3-ba7b-4588-8d41-5a1dc8ee2e89",
+    "date": "2023-10-20T18:30:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "cab83126-1c7f-42d9-b448-5ec779632a07",
+      "name": "Holanda",
+      "crest": "https://live.staticflickr.com/65535/53128418064_6f69cffe84_n.jpg"
+    },
+    "goals_visitant": 2,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8674c513-08f8-4a6e-81df-8e20880b8fb8",
+      "name": "Juventude",
+      "crest": "https://live.staticflickr.com/65535/53128418054_fe2e1f7cb8_n.jpg"
+    }
+  },
+  {
+    "id": "d7e54d98-be26-4caf-ae39-92e38f6a72ce",
+    "date": "2023-10-20T20:00:00",
+    "goals_principal": 3,
+    "goals_penalty_principal": 2,
+    "principal": {
+      "id": "7b69ae9f-8559-40a4-82c2-2151a9c0be29",
+      "name": "Ajax",
+      "crest": "https://live.staticflickr.com/65535/53132751772_8c015a7391_n.jpg"
+    },
+    "goals_visitant": 3,
+    "goals_penalty_visitant": 3,
+    "visitant": {
+      "id": "37c40288-d9ae-4155-8588-b1e76193b2c7",
+      "name": "Betânia",
+      "crest": "https://live.staticflickr.com/65535/53128418119_4014ec3500_n.jpg"
+    }
+  },
+  {
+    "id": "824f554d-9387-4116-a55f-01392929bd0c",
+    "date": "2023-10-21T15:00:00",
+    "goals_principal": 8,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "e2cef575-d252-45e6-8df5-87177780f40c",
+      "name": "Carás",
+      "crest": "https://live.staticflickr.com/65535/53132751677_4a1f616eb8_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "f4c494fb-8d26-4650-b72e-c292b51d8eea",
+      "name": "Confiança",
+      "crest": "https://live.staticflickr.com/65535/53133352821_ae2aa65f19_n.jpg"
+    }
+  },
+  {
+    "id": "96cb4994-2b1e-4119-ae9b-218a91cb2f06",
+    "date": "2023-10-21T16:30:00",
+    "goals_principal": 6,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "ec2b39b1-5899-42dc-9a83-326ad5aca4b0",
+      "name": "Escondido",
+      "crest": "https://live.staticflickr.com/65535/53128687578_8b581ab45e_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "ff28018a-a3c9-496d-ac64-02dd27aebb7f",
+      "name": "Milan",
+      "crest": "https://live.staticflickr.com/65535/53128687533_2066724cdf_n.jpg"
+    }
+  },
+  {
+    "id": "f5db5377-136e-47b1-818f-10ea6bf1ae98",
+    "date": "2023-10-21T18:00:00",
+    "goals_principal": 4,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "060d4439-03ff-4357-985b-d76783acfa15",
+      "name": "Canabrava",
+      "crest": "https://live.staticflickr.com/65535/53128206266_a6133a0f0f_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "38a0e50f-b72d-41e9-ab50-448533242773",
+      "name": "Borussia",
+      "crest": "https://live.staticflickr.com/65535/53128206281_bc34f27aa1_n.jpg"
+    }
+  },
+  {
+    "id": "e49740fa-46b3-41a3-8d0b-0d66bcfeb772",
+    "date": "2023-10-21T19:30:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "3e609d33-7137-4396-9e96-ff878dc5c8c3",
+      "name": "Suturno",
+      "crest": "https://live.staticflickr.com/65535/53133846388_df059d0cd0_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "c574a266-ba02-4330-adde-92a77c499ab7",
+      "name": "Lambedouro",
+      "crest": "https://live.staticflickr.com/65535/53128206191_e3ea230967_n.jpg"
+    }
+  },
+  {
+    "id": "f4a70beb-9f47-48ab-b136-d128ec24d28d",
+    "date": "2023-10-25T18:30:00",
+    "goals_principal": 7,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "868b712c-99ed-443d-a702-44cc18a12b44",
+      "name": "Cariutaba",
+      "crest": "https://live.staticflickr.com/65535/53128206261_43502802a6_n.jpg"
+    },
+    "goals_visitant": 2,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "6fe4cb98-f1e6-4d63-912d-a194e0de8465",
+      "name": "Ríver",
+      "crest": "https://live.staticflickr.com/65535/53127614077_aba3188ac1_n.jpg"
+    }
+  },
+  {
+    "id": "d3f52c24-5e06-47f5-afc0-83b4c43e6ddd",
+    "date": "2023-10-25T20:00:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "cbd7b8f3-bd7b-4c02-91cc-89c829f28cd8",
+      "name": "Ribeirinha",
+      "crest": "https://live.staticflickr.com/65535/53135568871_4582b92fd2_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8827c070-c5f3-48d6-9ff8-8e904160518b",
+      "name": "Lagoa Seca",
+      "crest": "https://live.staticflickr.com/65535/53128418074_88cd06d169_n.jpg"
+    }
+  },
+  {
+    "id": "e5947bbe-6e17-408d-b4e7-5948bda90bd1",
+    "date": "2023-12-02T15:00:00",
+    "goals_principal": 4,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "868b712c-99ed-443d-a702-44cc18a12b44",
+      "name": "Cariutaba",
+      "crest": "https://live.staticflickr.com/65535/53128206261_43502802a6_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8674c513-08f8-4a6e-81df-8e20880b8fb8",
+      "name": "Juventude",
+      "crest": "https://live.staticflickr.com/65535/53128418054_fe2e1f7cb8_n.jpg"
+    }
+  },
+  {
+    "id": "2a0ef2d4-c101-4347-be35-6075a55e6ac1",
+    "date": "2023-12-02T16:30:00",
+    "goals_principal": 4,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "e2cef575-d252-45e6-8df5-87177780f40c",
+      "name": "Carás",
+      "crest": "https://live.staticflickr.com/65535/53132751677_4a1f616eb8_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "ec2b39b1-5899-42dc-9a83-326ad5aca4b0",
+      "name": "Escondido",
+      "crest": "https://live.staticflickr.com/65535/53128687578_8b581ab45e_n.jpg"
+    }
+  },
+  {
+    "id": "15d706e0-f996-4401-9ca5-a246162f6331",
+    "date": "2023-12-03T15:00:00",
+    "goals_principal": 3,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "060d4439-03ff-4357-985b-d76783acfa15",
+      "name": "Canabrava",
+      "crest": "https://live.staticflickr.com/65535/53128206266_a6133a0f0f_n.jpg"
+    },
+    "goals_visitant": 2,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "37c40288-d9ae-4155-8588-b1e76193b2c7",
+      "name": "Betânia",
+      "crest": "https://live.staticflickr.com/65535/53128418119_4014ec3500_n.jpg"
+    }
+  },
+  {
+    "id": "380922de-a290-4dea-9833-04c10cc69150",
+    "date": "2023-12-03T16:30:00",
+    "goals_principal": 3,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "3e609d33-7137-4396-9e96-ff878dc5c8c3",
+      "name": "Suturno",
+      "crest": "https://live.staticflickr.com/65535/53133846388_df059d0cd0_n.jpg"
+    },
+    "goals_visitant": 0,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "8827c070-c5f3-48d6-9ff8-8e904160518b",
+      "name": "Lagoa Seca",
+      "crest": "https://live.staticflickr.com/65535/53128418074_88cd06d169_n.jpg"
+    }
+  },
+  {
+    "id": "e5947bbe-6e17-408d-b4e7-5948bda90bd1",
+    "date": "2023-12-09T15:00:00",
+    "goals_principal": 1,
+    "goals_penalty_principal": 5,
+    "principal": {
+      "id": "868b712c-99ed-443d-a702-44cc18a12b44",
+      "name": "Cariutaba",
+      "crest": "https://live.staticflickr.com/65535/53128206261_43502802a6_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 4,
+    "visitant": {
+      "id": "060d4439-03ff-4357-985b-d76783acfa15",
+      "name": "Canabrava",
+      "crest": "https://live.staticflickr.com/65535/53128418054_fe2e1f7cb8_n.jpg"
+    }
+  },
+  {
+    "id": "15d706e0-f996-4401-9ca5-a246162f6331",
+    "date": "2023-12-09T16:30:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "e2cef575-d252-45e6-8df5-87177780f40c",
+      "name": "Carás",
+      "crest": "https://live.staticflickr.com/65535/53132751677_4a1f616eb8_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "3e609d33-7137-4396-9e96-ff878dc5c8c3",
+      "name": "Suturno",
+      "crest": "https://live.staticflickr.com/65535/53133846388_df059d0cd0_n.jpg"
+    }
+  },
+  {
+    "id": "15d706e0-f996-4401-9ca5-a246162f6331",
+    "date": "2023-12-09T16:30:00",
+    "goals_principal": 0,
+    "goals_penalty_principal": 0,
+    "principal": {
+      "id": "e2cef575-d252-45e6-8df5-87177780f40c",
+      "name": "Cariutaba",
+      "crest": "https://live.staticflickr.com/65535/53128206261_43502802a6_n.jpg"
+    },
+    "goals_visitant": 1,
+    "goals_penalty_visitant": 0,
+    "visitant": {
+      "id": "3e609d33-7137-4396-9e96-ff878dc5c8c3",
+      "name": "Suturno",
+      "crest": "https://live.staticflickr.com/65535/53133846388_df059d0cd0_n.jpg"
+    }
+  }
+]

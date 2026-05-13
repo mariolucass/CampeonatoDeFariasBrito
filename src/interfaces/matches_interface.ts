@@ -10,7 +10,7 @@ export interface Match {
   principal: {
     id: string;
     name: string;
-    crest: string;
+    crest: string | null;
   };
 
   goals_visitant: number;
@@ -18,7 +18,7 @@ export interface Match {
   visitant: {
     id: string;
     name: string;
-    crest: string;
+    crest: string | null;
   };
 }
 

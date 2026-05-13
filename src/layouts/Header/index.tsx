@@ -1,81 +1,84 @@
 "use client";
 
 import { NavBar } from "@/components/NavBar";
+import { Sheet, SheetContent } from "@/components/ui/sheet";
 import { useGlobalContext } from "@/context/global_context";
 import { navOptionsList } from "@/data/navOptions";
-import { Drawer } from "@material-tailwind/react";
+import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import Burguer from "../../assets/burguer.svg";
-import Logo from "../../assets/logo.png";
+import Logo from "../../../public/assets/logo.png";
 
 export const Header = () => {
   const pathName = usePathname();
   const router = useRouter();
   const { drawerState, openDrawer, closeDrawer } = useGlobalContext();
 
-  const items = [
-    {
-      component: Logo,
-      title: "PÁGINA INICIAL",
-      description: "Dashboard",
-      page: "/",
+  const items = [{ title: "INÍCIO", page: "/" }, ...navOptionsList].map(
+    (elem) => {
+      const isActive = pathName === elem.page;
+      return (
+        <li key={elem.title}>
+          <Link
+            href={elem.page}
+            className={`
+              flex items-center px-4 py-2 rounded-full text-[14px] font-bold uppercase tracking-widest transition-all duration-300
+              ${
+                isActive
+                  ? "bg-white text-[#1D1D1F] shadow-[0_2px_10px_rgba(255,255,255,0.15)] scale-105" // Pill branca nativa para o item ativo
+                  : "text-[#d2d2d6] hover:text-white hover:bg-white/10" // Vidro sutil no hover
+              }
+            `}
+          >
+            {elem.title}
+          </Link>
+        </li>
+      );
     },
-    ...navOptionsList,
-  ].map((elem) => (
-    <li
-      key={elem.title}
-      className={
-        pathName === elem.page ? "hover:scale-110 mb-2" : "hover:scale-110"
-      }
-    >
-      <Link href={elem.page} className="text-2xl">
-        {elem.title}
-      </Link>
-
-      {pathName === elem.page ? (
-        <div className="h-1 w-full justify-end items-end flex">
-          <div className="bg-white w-[40px] h-1 rounded-lg " />
-        </div>
-      ) : (
-        <></>
-      )}
-    </li>
-  ));
+  );
 
   return (
-    <header className="w-full bg-main p-4 flex lg:justify-around h-[104px]">
-      <Image
-        src={Burguer}
-        alt="logo"
-        width={30}
-        height={30}
-        className="lg:hidden cursor:pointer"
-        onClick={openDrawer}
-      />
+    <header className="w-full sticky top-0 z-50 bg-[#1D1D1F]/80 backdrop-blur-2xl border-b border-white/10 transition-all duration-300">
+      {/* Container Principal */}
+      <div className="flex items-center justify-between px-4 lg:px-8 h-[72px] lg:h-[80px] max-w-7xl mx-auto w-full">
+        {/* Hamburguer Dinâmico (Mobile) */}
+        <button
+          onClick={openDrawer}
+          className="lg:hidden flex items-center justify-center w-10 h-10 rounded-full bg-white/5 border border-white/10 hover:bg-white/15 text-white transition-all active:scale-95"
+          aria-label="Abrir menu"
+        >
+          {/* Substituí o SVG estático pelo Menu do Lucide para traços perfeitos e limpos */}
+          <Menu className="w-5 h-5" strokeWidth={2} />
+        </button>
 
-      <div className="h-full w-2/3 lg:w-44">
-        <Image
-          src={Logo}
-          alt="logo"
-          className="cursor-pointer ml-8 lg:ml-0"
+        {/* Logo */}
+        <div
+          className="h-12 w-32 lg:h-14 lg:w-40 cursor-pointer flex-shrink-0 transition-transform duration-300 hover:scale-105"
           onClick={() => router.push("/")}
-          style={{ width: "100%", height: "100%", objectFit: "contain" }}
-        />
+        >
+          <Image
+            src={Logo}
+            alt="Logo"
+            style={{ width: "100%", height: "100%", objectFit: "contain" }}
+          />
+        </div>
+
+        {/* Links de Navegação (Desktop) */}
+        <nav className="hidden lg:flex items-center flex-1 justify-end">
+          <ul className="flex items-center gap-2">{items}</ul>
+        </nav>
       </div>
 
-      <Drawer
-        open={drawerState}
-        onClose={closeDrawer}
-        className="w-1/2 rounded-r-[12px] lg:hidden"
-      >
-        <NavBar />
-      </Drawer>
-
-      <ul className="hidden lg:flex lg:gap-8 lg:font-bold lg:text-white lg:items-center lg:justify-center">
-        {items}
-      </ul>
+      {/* Mobile Sheet Drawer (Mantido limpo) */}
+      <Sheet open={drawerState} onOpenChange={(open) => !open && closeDrawer()}>
+        <SheetContent
+          side="left"
+          className="p-0 w-[80%] max-w-xs border-r border-[#1D1D1F]/10 bg-[#F5F5F7] shadow-2xl"
+        >
+          <NavBar />
+        </SheetContent>
+      </Sheet>
     </header>
   );
 };

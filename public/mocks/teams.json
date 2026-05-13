@@ -1,0 +1,3797 @@
+{
+  "Ajax": [
+    {
+      "id": "ply-1a86f0a1-71",
+      "name": "Alefi",
+      "nickname": "Alefi",
+      "image": "teams/Ajax/Ajax - Alefi.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 29,
+      "is_committee": false
+    },
+    {
+      "id": "ply-732d9c42-27",
+      "name": "Cristiano",
+      "nickname": "Cristiano",
+      "image": "teams/Ajax/Ajax - Cristiano.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 12,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0249751f-61",
+      "name": "Daniel",
+      "nickname": "Daniel",
+      "image": "teams/Ajax/Ajax - Daniel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-43f7d44d-78",
+      "name": "Flavio",
+      "nickname": "Flavio",
+      "image": "teams/Ajax/Ajax - Flavio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3f1ddb56-24",
+      "name": "Francimar",
+      "nickname": "Francimar",
+      "image": "teams/Ajax/Ajax - Francimar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    },
+    {
+      "id": "ply-53e00f73-51",
+      "name": "Igor",
+      "nickname": "Igor",
+      "image": "teams/Ajax/Ajax - Igor.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 15,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2bddcdfb-89",
+      "name": "João",
+      "nickname": "João",
+      "image": "teams/Ajax/Ajax - João.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 41,
+      "is_committee": false
+    },
+    {
+      "id": "ply-94660c9e-72",
+      "name": "Junior",
+      "nickname": "Junior",
+      "image": "teams/Ajax/Ajax - Junior.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-72b3e89e-64",
+      "name": "Klisman",
+      "nickname": "Klisman",
+      "image": "teams/Ajax/Ajax - Klisman.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 10,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d2bcc45c-82",
+      "name": "Laércio",
+      "nickname": "Laércio",
+      "image": "teams/Ajax/Ajax - Laércio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 4,
+      "is_committee": false
+    },
+    {
+      "id": "ply-635b0b88-01",
+      "name": "Leandro",
+      "nickname": "Leandro",
+      "image": "teams/Ajax/Ajax - Leandro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 40,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fdd50c79-29",
+      "name": "Levy",
+      "nickname": "Levy",
+      "image": "teams/Ajax/Ajax - Levy.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3e3930d3-84",
+      "name": "Lucas",
+      "nickname": "Lucas",
+      "image": "teams/Ajax/Ajax - Lucas - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-c44e2c89-33",
+      "name": "Luciano",
+      "nickname": "Luciano",
+      "image": "teams/Ajax/Ajax - Luciano.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4c3c8beb-00",
+      "name": "Marcelo",
+      "nickname": "Marcelo",
+      "image": "teams/Ajax/Ajax - Marcelo - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-4778ca48-85",
+      "name": "Marquim",
+      "nickname": "Marquim",
+      "image": "teams/Ajax/Ajax - Marquim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-68dd88cf-10",
+      "name": "Mauri",
+      "nickname": "Mauri",
+      "image": "teams/Ajax/Ajax - Mauri.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 48,
+      "is_committee": false
+    },
+    {
+      "id": "ply-caacf2ef-57",
+      "name": "Nael",
+      "nickname": "Nael",
+      "image": "teams/Ajax/Ajax - Nael.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 24,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3f4de1ed-77",
+      "name": "Neguim",
+      "nickname": "Neguim",
+      "image": "teams/Ajax/Ajax - Neguim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fe418e8c-97",
+      "name": "Neucim",
+      "nickname": "Neucim",
+      "image": "teams/Ajax/Ajax - Neucim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e6740b46-17",
+      "name": "Pedro",
+      "nickname": "Pedro",
+      "image": "teams/Ajax/Ajax - Pedro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a890e251-26",
+      "name": "Wilton",
+      "nickname": "Wilton",
+      "image": "teams/Ajax/Ajax - Wilton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    }
+  ],
+  "Atlético Lázio": [
+    {
+      "id": "ply-4de39d03-32",
+      "name": "Albervan",
+      "nickname": "Albervan",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Albervan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5b9489a6-03",
+      "name": "Aleff",
+      "nickname": "Aleff",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Aleff.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0a3025b7-22",
+      "name": "Arthur",
+      "nickname": "Arthur",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Arthur.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 42,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9e7c52a0-40",
+      "name": "Caique",
+      "nickname": "Caique",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Caique.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 4,
+      "is_committee": false
+    },
+    {
+      "id": "ply-51780640-16",
+      "name": "Charles",
+      "nickname": "Charles",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Charles.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 12,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8908fa46-49",
+      "name": "Cristovão",
+      "nickname": "Cristovão",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Cristovão - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-acffdf0b-98",
+      "name": "Cuquinha",
+      "nickname": "Cuquinha",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Cuquinha.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-81cc9f1a-86",
+      "name": "Daniel",
+      "nickname": "Daniel",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Daniel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-057e8646-76",
+      "name": "Elisandro",
+      "nickname": "Elisandro",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Elisandro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 27,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c7690d9a-10",
+      "name": "Everton",
+      "nickname": "Everton",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Everton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 50,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8a049147-53",
+      "name": "Gago",
+      "nickname": "Gago",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Gago.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5f4d365a-35",
+      "name": "Gustavo",
+      "nickname": "Gustavo",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Gustavo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3487deb0-98",
+      "name": "Iago",
+      "nickname": "Iago",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Iago.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4d1982be-69",
+      "name": "Juan",
+      "nickname": "Juan",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Juan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e80b3def-39",
+      "name": "Juninho",
+      "nickname": "Juninho",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Juninho.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-51e6a2f3-62",
+      "name": "Junior",
+      "nickname": "Junior",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Junior.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f074c851-62",
+      "name": "Kennedy",
+      "nickname": "Kennedy",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Kennedy.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9f998e83-66",
+      "name": "Kil",
+      "nickname": "Kil",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Kil.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e7b224e7-09",
+      "name": "Leko",
+      "nickname": "Leko",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Leko.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-21340085-56",
+      "name": "Leonardo",
+      "nickname": "Leonardo",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Leonardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-433056a5-93",
+      "name": "Maciel",
+      "nickname": "Maciel",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Maciel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 50,
+      "is_committee": false
+    },
+    {
+      "id": "ply-48ebab7f-31",
+      "name": "Marcelo",
+      "nickname": "Marcelo",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Marcelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a43d85bb-87",
+      "name": "Marcos",
+      "nickname": "Marcos",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Marcos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 27,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5c300eb4-07",
+      "name": "Messias",
+      "nickname": "Messias",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Messias - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-afc0ec4d-68",
+      "name": "Paulo",
+      "nickname": "Paulo",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Paulo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 18,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8f261c8c-68",
+      "name": "Pedro",
+      "nickname": "Pedro",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Pedro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 48,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c69560d4-67",
+      "name": "Raul",
+      "nickname": "Raul",
+      "image": "teams/Atlético Lázio/Atlético Lázio - Raul.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 34,
+      "is_committee": false
+    }
+  ],
+  "Betânia": [
+    {
+      "id": "ply-5d86075d-98",
+      "name": "Aldenisio",
+      "nickname": "Aldenisio",
+      "image": "teams/Betânia/Betânia - Aldenisio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 14,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c6e24051-61",
+      "name": "Alzir",
+      "nickname": "Alzir",
+      "image": "teams/Betânia/Betânia - Alzir.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-767203d4-08",
+      "name": "Antenor",
+      "nickname": "Antenor",
+      "image": "teams/Betânia/Betânia - Antenor.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d60c2899-54",
+      "name": "Caik",
+      "nickname": "Caik",
+      "image": "teams/Betânia/Betânia - Caik.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-bb748d08-61",
+      "name": "Cairon",
+      "nickname": "Cairon",
+      "image": "teams/Betânia/Betânia - Cairon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 42,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ba2b9079-42",
+      "name": "Denilson",
+      "nickname": "Denilson",
+      "image": "teams/Betânia/Betânia - Denilson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9b0a4bf1-43",
+      "name": "Edilanio",
+      "nickname": "Edilanio",
+      "image": "teams/Betânia/Betânia - Edilanio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c4bcf4fb-45",
+      "name": "Henrique",
+      "nickname": "Henrique",
+      "image": "teams/Betânia/Betânia - Henrique.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 24,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b668a169-15",
+      "name": "Israel",
+      "nickname": "Israel",
+      "image": "teams/Betânia/Betânia - Israel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 47,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8226376b-97",
+      "name": "Ivanildo",
+      "nickname": "Ivanildo",
+      "image": "teams/Betânia/Betânia - Ivanildo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4525361a-21",
+      "name": "Joislan",
+      "nickname": "Joislan",
+      "image": "teams/Betânia/Betânia - Joislan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-26b08f80-50",
+      "name": "José",
+      "nickname": "José",
+      "image": "teams/Betânia/Betânia - José.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2b81928c-93",
+      "name": "João",
+      "nickname": "João",
+      "image": "teams/Betânia/Betânia - João.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1b25ec33-96",
+      "name": "Kauan",
+      "nickname": "Kauan",
+      "image": "teams/Betânia/Betânia - Kauan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 6,
+      "is_committee": false
+    },
+    {
+      "id": "ply-39e272b8-58",
+      "name": "Leonardo",
+      "nickname": "Leonardo",
+      "image": "teams/Betânia/Betânia - Leonardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c1dcbbd6-01",
+      "name": "Lucas",
+      "nickname": "Lucas",
+      "image": "teams/Betânia/Betânia - Lucas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 27,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c17426fe-18",
+      "name": "Maxuel",
+      "nickname": "Maxuel",
+      "image": "teams/Betânia/Betânia - Maxuel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-bac230b1-24",
+      "name": "Miguel",
+      "nickname": "Miguel",
+      "image": "teams/Betânia/Betânia - Miguel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-cf7c3607-51",
+      "name": "Mário",
+      "nickname": "Mário",
+      "image": "teams/Betânia/Betânia - Mário.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b234c442-12",
+      "name": "Roberto",
+      "nickname": "Roberto",
+      "image": "teams/Betânia/Betânia - Roberto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 10,
+      "is_committee": false
+    },
+    {
+      "id": "ply-6f20b3a5-93",
+      "name": "Ruan",
+      "nickname": "Ruan",
+      "image": "teams/Betânia/Betânia - Ruan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 24,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fa6ce18b-31",
+      "name": "Thiago",
+      "nickname": "Thiago",
+      "image": "teams/Betânia/Betânia - Thiago.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3032746d-01",
+      "name": "Ângelo",
+      "nickname": "Ângelo",
+      "image": "teams/Betânia/Betânia - Ângelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    }
+  ],
+  "Borussia": [
+    {
+      "id": "ply-1798b51c-41",
+      "name": "Bebê",
+      "nickname": "Bebê",
+      "image": "teams/Borussia/Borussia - Bebê.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 32,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f6a24f09-73",
+      "name": "Der",
+      "nickname": "Der",
+      "image": "teams/Borussia/Borussia - Der.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 3,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3cf72532-50",
+      "name": "Duna",
+      "nickname": "Duna",
+      "image": "teams/Borussia/Borussia - Duna.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 6,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5294b2e2-20",
+      "name": "Emival",
+      "nickname": "Emival",
+      "image": "teams/Borussia/Borussia - Emival.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-93940f1c-05",
+      "name": "Eric",
+      "nickname": "Eric",
+      "image": "teams/Borussia/Borussia - Eric.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 3,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8d06c6a4-38",
+      "name": "Esmael",
+      "nickname": "Esmael",
+      "image": "teams/Borussia/Borussia - Esmael.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-7c733a47-48",
+      "name": "Flavio",
+      "nickname": "Flavio",
+      "image": "teams/Borussia/Borussia - Flavio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 47,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2a9c8b4d-36",
+      "name": "Gabriel",
+      "nickname": "Gabriel",
+      "image": "teams/Borussia/Borussia - Gabriel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8baef721-08",
+      "name": "Genilson",
+      "nickname": "Genilson",
+      "image": "teams/Borussia/Borussia - Genilson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 42,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d300b950-17",
+      "name": "Janael",
+      "nickname": "Janael",
+      "image": "teams/Borussia/Borussia - Janael.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-62a16528-44",
+      "name": "Lelé",
+      "nickname": "Lelé",
+      "image": "teams/Borussia/Borussia - Lelé.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-94504148-19",
+      "name": "Lukinhas",
+      "nickname": "Lukinhas",
+      "image": "teams/Borussia/Borussia - Lukinhas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 24,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fdee6b1c-11",
+      "name": "Manoel",
+      "nickname": "Manoel",
+      "image": "teams/Borussia/Borussia - Manoel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b853ae27-58",
+      "name": "Marcos",
+      "nickname": "Marcos",
+      "image": "teams/Borussia/Borussia - Marcos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e0be7e37-27",
+      "name": "Marquinhos",
+      "nickname": "Marquinhos",
+      "image": "teams/Borussia/Borussia - Marquinhos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 14,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a553a936-80",
+      "name": "Maycon",
+      "nickname": "Maycon",
+      "image": "teams/Borussia/Borussia - Maycon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b097a99d-55",
+      "name": "Ossean",
+      "nickname": "Ossean",
+      "image": "teams/Borussia/Borussia - Ossean.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9904cfd6-05",
+      "name": "Pedro",
+      "nickname": "Pedro",
+      "image": "teams/Borussia/Borussia - Pedro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-646ec0be-00",
+      "name": "Raimundo",
+      "nickname": "Raimundo",
+      "image": "teams/Borussia/Borussia - Raimundo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-abc5f1a5-68",
+      "name": "Renato",
+      "nickname": "Renato",
+      "image": "teams/Borussia/Borussia - Renato.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-db5e3cbe-46",
+      "name": "Vagner",
+      "nickname": "Vagner",
+      "image": "teams/Borussia/Borussia - Vagner.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    }
+  ],
+  "Canabrava": [
+    {
+      "id": "ply-c11485ab-74",
+      "name": "Alisson",
+      "nickname": "Alisson",
+      "image": "teams/Canabrava/Canabrava - Alisson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 47,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c095a341-77",
+      "name": "Anderson",
+      "nickname": "Anderson",
+      "image": "teams/Canabrava/Canabrava - Anderson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-48bcece1-23",
+      "name": "Cauã",
+      "nickname": "Cauã",
+      "image": "teams/Canabrava/Canabrava - Cauã.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0c520687-18",
+      "name": "Cleiton",
+      "nickname": "Cleiton",
+      "image": "teams/Canabrava/Canabrava - Cleiton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2a011fb7-93",
+      "name": "Felipinho",
+      "nickname": "Felipinho",
+      "image": "teams/Canabrava/Canabrava - Felipinho.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 48,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8117dc8d-45",
+      "name": "Gabriel",
+      "nickname": "Gabriel",
+      "image": "teams/Canabrava/Canabrava - Gabriel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 48,
+      "is_committee": false
+    },
+    {
+      "id": "ply-17da838a-18",
+      "name": "Gago",
+      "nickname": "Gago",
+      "image": "teams/Canabrava/Canabrava - Gago.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-bb0220c4-42",
+      "name": "Gilmário",
+      "nickname": "Gilmário",
+      "image": "teams/Canabrava/Canabrava - Gilmário.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5db8338a-46",
+      "name": "Juca",
+      "nickname": "Juca",
+      "image": "teams/Canabrava/Canabrava - Juca.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1e7d0b30-89",
+      "name": "Luan",
+      "nickname": "Luan",
+      "image": "teams/Canabrava/Canabrava - Luan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a1478018-63",
+      "name": "Lukas",
+      "nickname": "Lukas",
+      "image": "teams/Canabrava/Canabrava - Lukas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 37,
+      "is_committee": false
+    },
+    {
+      "id": "ply-25130d06-89",
+      "name": "Marcelo",
+      "nickname": "Marcelo",
+      "image": "teams/Canabrava/Canabrava - Marcelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e98a3e41-95",
+      "name": "Nandim",
+      "nickname": "Nandim",
+      "image": "teams/Canabrava/Canabrava - Nandim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fb508417-82",
+      "name": "Neném",
+      "nickname": "Neném",
+      "image": "teams/Canabrava/Canabrava - Neném.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-6c42580a-59",
+      "name": "Rafael",
+      "nickname": "Rafael",
+      "image": "teams/Canabrava/Canabrava - Rafael.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-92323654-77",
+      "name": "Renan",
+      "nickname": "Renan",
+      "image": "teams/Canabrava/Canabrava - Renan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-eae17943-06",
+      "name": "Roni",
+      "nickname": "Roni",
+      "image": "teams/Canabrava/Canabrava - Roni.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-54dfa1b9-46",
+      "name": "Walisson",
+      "nickname": "Walisson",
+      "image": "teams/Canabrava/Canabrava - Walisson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    }
+  ],
+  "Cariutaba": [
+    {
+      "id": "ply-8dc73096-26",
+      "name": "Adriano",
+      "nickname": "Adriano",
+      "image": "teams/Cariutaba/Cariutaba - Adriano.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e62115ca-99",
+      "name": "Ailton",
+      "nickname": "Ailton",
+      "image": "teams/Cariutaba/Cariutaba - Ailton - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-5071bbe0-20",
+      "name": "Alailson",
+      "nickname": "Alailson",
+      "image": "teams/Cariutaba/Cariutaba - Alailson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-cc6ff7dc-64",
+      "name": "Alef",
+      "nickname": "Alef",
+      "image": "teams/Cariutaba/Cariutaba - Alef.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-873ca26b-42",
+      "name": "Antônio",
+      "nickname": "Antônio",
+      "image": "teams/Cariutaba/Cariutaba - Antônio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 42,
+      "is_committee": false
+    },
+    {
+      "id": "ply-864422a6-83",
+      "name": "Caio",
+      "nickname": "Caio",
+      "image": "teams/Cariutaba/Cariutaba - Caio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 37,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5dab6545-40",
+      "name": "Caique",
+      "nickname": "Caique",
+      "image": "teams/Cariutaba/Cariutaba - Caique.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d36fb867-81",
+      "name": "Disney",
+      "nickname": "Disney",
+      "image": "teams/Cariutaba/Cariutaba - Disney.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 12,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b4679868-45",
+      "name": "Edino",
+      "nickname": "Edino",
+      "image": "teams/Cariutaba/Cariutaba - Edino - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-c9e98cb9-03",
+      "name": "Erbim",
+      "nickname": "Erbim",
+      "image": "teams/Cariutaba/Cariutaba - Erbim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-621fe44b-53",
+      "name": "Francisco",
+      "nickname": "Francisco",
+      "image": "teams/Cariutaba/Cariutaba - Francisco.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9fc60645-64",
+      "name": "Gilmar",
+      "nickname": "Gilmar",
+      "image": "teams/Cariutaba/Cariutaba - Gilmar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-01a7c22f-61",
+      "name": "Icaro",
+      "nickname": "Icaro",
+      "image": "teams/Cariutaba/Cariutaba - Icaro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ed67fd6c-38",
+      "name": "Jacó",
+      "nickname": "Jacó",
+      "image": "teams/Cariutaba/Cariutaba - Jacó.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a9df10b0-71",
+      "name": "Jefferson",
+      "nickname": "Jefferson",
+      "image": "teams/Cariutaba/Cariutaba - Jefferson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1a634f82-35",
+      "name": "Kevin",
+      "nickname": "Kevin",
+      "image": "teams/Cariutaba/Cariutaba - Kevin.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    },
+    {
+      "id": "ply-57bba1ca-58",
+      "name": "Maicon",
+      "nickname": "Maicon",
+      "image": "teams/Cariutaba/Cariutaba - Maicon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 50,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ad548717-06",
+      "name": "Mailson",
+      "nickname": "Mailson",
+      "image": "teams/Cariutaba/Cariutaba - Mailson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1ff04aa6-89",
+      "name": "Marcelo",
+      "nickname": "Marcelo",
+      "image": "teams/Cariutaba/Cariutaba - Marcelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 41,
+      "is_committee": false
+    },
+    {
+      "id": "ply-716a90c6-07",
+      "name": "Pedro",
+      "nickname": "Pedro",
+      "image": "teams/Cariutaba/Cariutaba - Pedro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 14,
+      "is_committee": false
+    },
+    {
+      "id": "ply-211ef979-79",
+      "name": "Rafinha",
+      "nickname": "Rafinha",
+      "image": "teams/Cariutaba/Cariutaba - Rafinha.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 47,
+      "is_committee": false
+    },
+    {
+      "id": "ply-70fa5a07-85",
+      "name": "Ricardo",
+      "nickname": "Ricardo",
+      "image": "teams/Cariutaba/Cariutaba - Ricardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 10,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0dcc00b7-08",
+      "name": "Régis",
+      "nickname": "Régis",
+      "image": "teams/Cariutaba/Cariutaba - Régis.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 15,
+      "is_committee": false
+    },
+    {
+      "id": "ply-aa778a16-49",
+      "name": "Samuel",
+      "nickname": "Samuel",
+      "image": "teams/Cariutaba/Cariutaba - Samuel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-470dc09e-59",
+      "name": "Silvestre",
+      "nickname": "Silvestre",
+      "image": "teams/Cariutaba/Cariutaba - Silvestre.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-715567cc-87",
+      "name": "Telê",
+      "nickname": "Telê",
+      "image": "teams/Cariutaba/Cariutaba - Telê.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5c23a432-78",
+      "name": "Vagner",
+      "nickname": "Vagner",
+      "image": "teams/Cariutaba/Cariutaba - Vagner.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    }
+  ],
+  "Carás": [
+    {
+      "id": "ply-8546625b-22",
+      "name": "Alan",
+      "nickname": "Alan",
+      "image": "teams/Carás/Carás - Alan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 12,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0e7a350b-03",
+      "name": "Arão",
+      "nickname": "Arão",
+      "image": "teams/Carás/Carás - Arão.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 48,
+      "is_committee": false
+    },
+    {
+      "id": "ply-7a1342eb-19",
+      "name": "Cieudo",
+      "nickname": "Cieudo",
+      "image": "teams/Carás/Carás - Cieudo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-51c25489-54",
+      "name": "David M",
+      "nickname": "David M",
+      "image": "teams/Carás/Carás - David M.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a87e464c-36",
+      "name": "David",
+      "nickname": "David",
+      "image": "teams/Carás/Carás - David.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-526ef5a6-51",
+      "name": "Doildo",
+      "nickname": "Doildo",
+      "image": "teams/Carás/Carás - Doildo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1faa32f2-43",
+      "name": "Henrique",
+      "nickname": "Henrique",
+      "image": "teams/Carás/Carás - Henrique.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ffb0a376-27",
+      "name": "Janailson",
+      "nickname": "Janailson",
+      "image": "teams/Carás/Carás - Janailson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-395208f2-44",
+      "name": "Jardel",
+      "nickname": "Jardel",
+      "image": "teams/Carás/Carás - Jardel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 40,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ad280993-64",
+      "name": "Leonardo",
+      "nickname": "Leonardo",
+      "image": "teams/Carás/Carás - Leonardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e73be5bd-21",
+      "name": "Marcelo",
+      "nickname": "Marcelo",
+      "image": "teams/Carás/Carás - Marcelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e8d718f0-07",
+      "name": "Maurício",
+      "nickname": "Maurício",
+      "image": "teams/Carás/Carás - Maurício.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4451fab1-80",
+      "name": "Muel",
+      "nickname": "Muel",
+      "image": "teams/Carás/Carás - Muel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 27,
+      "is_committee": false
+    },
+    {
+      "id": "ply-75947191-90",
+      "name": "Narum",
+      "nickname": "Narum",
+      "image": "teams/Carás/Carás - Narum.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 32,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ce18dde9-35",
+      "name": "Raellyson",
+      "nickname": "Raellyson",
+      "image": "teams/Carás/Carás - Raellyson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8434e192-27",
+      "name": "Roberto",
+      "nickname": "Roberto",
+      "image": "teams/Carás/Carás - Roberto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 18,
+      "is_committee": false
+    },
+    {
+      "id": "ply-725a63b1-83",
+      "name": "Wedson",
+      "nickname": "Wedson",
+      "image": "teams/Carás/Carás - Wedson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 40,
+      "is_committee": false
+    },
+    {
+      "id": "ply-632feadc-22",
+      "name": "Werisleyk",
+      "nickname": "Werisleyk",
+      "image": "teams/Carás/Carás - Werisleyk.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9219f3a7-98",
+      "name": "Xavier",
+      "nickname": "Xavier",
+      "image": "teams/Carás/Carás - Xavier.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-14704459-83",
+      "name": "Yarlei",
+      "nickname": "Yarlei",
+      "image": "teams/Carás/Carás - Yarlei.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 34,
+      "is_committee": false
+    }
+  ],
+  "Confiança": [
+    {
+      "id": "ply-d097546f-66",
+      "name": "Alexandre",
+      "nickname": "Alexandre",
+      "image": "teams/Confiança/Confiança - Alexandre.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-24228f44-65",
+      "name": "Bruno",
+      "nickname": "Bruno",
+      "image": "teams/Confiança/Confiança - Bruno.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 37,
+      "is_committee": false
+    },
+    {
+      "id": "ply-52651bb5-89",
+      "name": "Cavani",
+      "nickname": "Cavani",
+      "image": "teams/Confiança/Confiança - Cavani.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 50,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4b50068e-54",
+      "name": "Cimar",
+      "nickname": "Cimar",
+      "image": "teams/Confiança/Confiança - Cimar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 39,
+      "is_committee": false
+    },
+    {
+      "id": "ply-6347c869-44",
+      "name": "Claúdio",
+      "nickname": "Claúdio",
+      "image": "teams/Confiança/Confiança - Claúdio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d102ab73-72",
+      "name": "Cícero",
+      "nickname": "Cícero",
+      "image": "teams/Confiança/Confiança - Cícero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-be95685f-79",
+      "name": "Douglas",
+      "nickname": "Douglas",
+      "image": "teams/Confiança/Confiança - Douglas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 37,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f3efd3c1-65",
+      "name": "Edson",
+      "nickname": "Edson",
+      "image": "teams/Confiança/Confiança - Edson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-daf4adc3-20",
+      "name": "Francisco",
+      "nickname": "Francisco",
+      "image": "teams/Confiança/Confiança - Francisco.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2cf7f93c-39",
+      "name": "Fábio",
+      "nickname": "Fábio",
+      "image": "teams/Confiança/Confiança - Fábio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1746767a-64",
+      "name": "Gabriel",
+      "nickname": "Gabriel",
+      "image": "teams/Confiança/Confiança - Gabriel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-940498b5-29",
+      "name": "Gildo",
+      "nickname": "Gildo",
+      "image": "teams/Confiança/Confiança - Gildo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ca1cc030-10",
+      "name": "Guilherme",
+      "nickname": "Guilherme",
+      "image": "teams/Confiança/Confiança - Guilherme.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fe96e934-43",
+      "name": "Louco Abreu",
+      "nickname": "Louco Abreu",
+      "image": "teams/Confiança/Confiança - Louco Abreu.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-85588a93-66",
+      "name": "Marcelo",
+      "nickname": "Marcelo",
+      "image": "teams/Confiança/Confiança - Marcelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-01506af4-23",
+      "name": "Matheus",
+      "nickname": "Matheus",
+      "image": "teams/Confiança/Confiança - Matheus.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1806debb-00",
+      "name": "Nego",
+      "nickname": "Nego",
+      "image": "teams/Confiança/Confiança - Nego - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-728a1ff0-82",
+      "name": "Paulo Henrique",
+      "nickname": "Paulo Henrique",
+      "image": "teams/Confiança/Confiança - Paulo Henrique.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0c51c6c3-81",
+      "name": "Sayron",
+      "nickname": "Sayron",
+      "image": "teams/Confiança/Confiança - Sayron.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    }
+  ],
+  "Escondido": [
+    {
+      "id": "ply-5f4d08eb-61",
+      "name": "André",
+      "nickname": "André",
+      "image": "teams/Escondido/Escondido - André.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e3e9801e-23",
+      "name": "Anthony",
+      "nickname": "Anthony",
+      "image": "teams/Escondido/Escondido - Anthony.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-7a7e4c70-41",
+      "name": "Buzim",
+      "nickname": "Buzim",
+      "image": "teams/Escondido/Escondido - Buzim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-be14978e-35",
+      "name": "Carlos",
+      "nickname": "Carlos",
+      "image": "teams/Escondido/Escondido - Carlos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    },
+    {
+      "id": "ply-6205e806-16",
+      "name": "Cimar",
+      "nickname": "Cimar",
+      "image": "teams/Escondido/Escondido - Cimar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-7e1ec290-92",
+      "name": "Dalton",
+      "nickname": "Dalton",
+      "image": "teams/Escondido/Escondido - Dalton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 39,
+      "is_committee": false
+    },
+    {
+      "id": "ply-72e028ae-42",
+      "name": "Diego",
+      "nickname": "Diego",
+      "image": "teams/Escondido/Escondido - Diego.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a8ee6a2e-27",
+      "name": "Duduquinha",
+      "nickname": "Duduquinha",
+      "image": "teams/Escondido/Escondido - Duduquinha.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-02adccf1-84",
+      "name": "Gustavo Mota",
+      "nickname": "Gustavo Mota",
+      "image": "teams/Escondido/Escondido - Gustavo Mota.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-69c274b2-11",
+      "name": "Gustavo",
+      "nickname": "Gustavo",
+      "image": "teams/Escondido/Escondido - Gustavo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1cf7fc88-32",
+      "name": "Jó",
+      "nickname": "Jó",
+      "image": "teams/Escondido/Escondido - Jó.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d918829c-50",
+      "name": "Luiz",
+      "nickname": "Luiz",
+      "image": "teams/Escondido/Escondido - Luiz.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8b207f05-02",
+      "name": "Mikael",
+      "nickname": "Mikael",
+      "image": "teams/Escondido/Escondido - Mikael.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e651dd97-90",
+      "name": "Natan",
+      "nickname": "Natan",
+      "image": "teams/Escondido/Escondido - Natan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5e3a1929-62",
+      "name": "Rafael",
+      "nickname": "Rafael",
+      "image": "teams/Escondido/Escondido - Rafael.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ff1443d3-49",
+      "name": "Renan",
+      "nickname": "Renan",
+      "image": "teams/Escondido/Escondido - Renan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 12,
+      "is_committee": false
+    },
+    {
+      "id": "ply-047d6f3f-88",
+      "name": "Roberto",
+      "nickname": "Roberto",
+      "image": "teams/Escondido/Escondido - Roberto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-14cf67fc-48",
+      "name": "Samuel",
+      "nickname": "Samuel",
+      "image": "teams/Escondido/Escondido - Samuel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 41,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c8db3657-87",
+      "name": "Sávio A.",
+      "nickname": "Sávio A.",
+      "image": "teams/Escondido/Escondido - Sávio A..jpeg",
+      "city": "Farias Brito",
+      "matches_played": 18,
+      "is_committee": false
+    },
+    {
+      "id": "ply-769413a3-36",
+      "name": "Sávio",
+      "nickname": "Sávio",
+      "image": "teams/Escondido/Escondido - Sávio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 12,
+      "is_committee": false
+    }
+  ],
+  "Holanda": [
+    {
+      "id": "ply-4818fec4-27",
+      "name": "Antonio",
+      "nickname": "Antonio",
+      "image": "teams/Holanda/Holanda - Antonio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9eb143d9-48",
+      "name": "Bruno",
+      "nickname": "Bruno",
+      "image": "teams/Holanda/Holanda - Bruno.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-22475685-90",
+      "name": "Fernando",
+      "nickname": "Fernando",
+      "image": "teams/Holanda/Holanda - Fernando.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 14,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8f89a07e-75",
+      "name": "Gilmar",
+      "nickname": "Gilmar",
+      "image": "teams/Holanda/Holanda - Gilmar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9a6790f4-56",
+      "name": "Ivan",
+      "nickname": "Ivan",
+      "image": "teams/Holanda/Holanda - Ivan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-40331df4-36",
+      "name": "João",
+      "nickname": "João",
+      "image": "teams/Holanda/Holanda - João.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a25c7afb-27",
+      "name": "Lenaldo",
+      "nickname": "Lenaldo",
+      "image": "teams/Holanda/Holanda - Lenaldo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 10,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3e7e15ff-51",
+      "name": "Lukinha",
+      "nickname": "Lukinha",
+      "image": "teams/Holanda/Holanda - Lukinha.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 27,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ce239a72-22",
+      "name": "Murilo",
+      "nickname": "Murilo",
+      "image": "teams/Holanda/Holanda - Murilo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 37,
+      "is_committee": false
+    },
+    {
+      "id": "ply-afc183a0-75",
+      "name": "Pracinha",
+      "nickname": "Pracinha",
+      "image": "teams/Holanda/Holanda - Pracinha.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    },
+    {
+      "id": "ply-817c6873-42",
+      "name": "Rafael",
+      "nickname": "Rafael",
+      "image": "teams/Holanda/Holanda - Rafael - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-d8b8c489-95",
+      "name": "Rai",
+      "nickname": "Rai",
+      "image": "teams/Holanda/Holanda - Rai.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-37f748dc-07",
+      "name": "Renato",
+      "nickname": "Renato",
+      "image": "teams/Holanda/Holanda - Renato.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 15,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4f039859-10",
+      "name": "Roni",
+      "nickname": "Roni",
+      "image": "teams/Holanda/Holanda - Roni.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-48c18881-74",
+      "name": "Santos",
+      "nickname": "Santos",
+      "image": "teams/Holanda/Holanda - Santos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    }
+  ],
+  "Juventude": [
+    {
+      "id": "ply-0463a772-11",
+      "name": "Anderson",
+      "nickname": "Anderson",
+      "image": "teams/Juventude/Juventude - Anderson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-24889c06-43",
+      "name": "Antônio",
+      "nickname": "Antônio",
+      "image": "teams/Juventude/Juventude - Antônio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-459178e4-14",
+      "name": "Carlos",
+      "nickname": "Carlos",
+      "image": "teams/Juventude/Juventude - Carlos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0aba644b-79",
+      "name": "Cícero",
+      "nickname": "Cícero",
+      "image": "teams/Juventude/Juventude - Cícero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 14,
+      "is_committee": false
+    },
+    {
+      "id": "ply-34a6fd34-46",
+      "name": "Emanuel",
+      "nickname": "Emanuel",
+      "image": "teams/Juventude/Juventude - Emanuel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e689cf4c-15",
+      "name": "Francisca",
+      "nickname": "Francisca",
+      "image": "teams/Juventude/Juventude - Francisca - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-c6256c0e-45",
+      "name": "Francisco",
+      "nickname": "Francisco",
+      "image": "teams/Juventude/Juventude - Francisco.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0595b91a-88",
+      "name": "Franscisco B.",
+      "nickname": "Franscisco B.",
+      "image": "teams/Juventude/Juventude - Franscisco B..jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-be951da8-76",
+      "name": "Fábio",
+      "nickname": "Fábio",
+      "image": "teams/Juventude/Juventude - Fábio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-cac4c42e-90",
+      "name": "Gabriel",
+      "nickname": "Gabriel",
+      "image": "teams/Juventude/Juventude - Gabriel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-963339a9-61",
+      "name": "Gilson",
+      "nickname": "Gilson",
+      "image": "teams/Juventude/Juventude - Gilson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 40,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ba1b02d7-32",
+      "name": "Henrique",
+      "nickname": "Henrique",
+      "image": "teams/Juventude/Juventude - Henrique.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9c223c14-07",
+      "name": "Ivan",
+      "nickname": "Ivan",
+      "image": "teams/Juventude/Juventude - Ivan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 4,
+      "is_committee": false
+    },
+    {
+      "id": "ply-75a96a72-84",
+      "name": "José",
+      "nickname": "José",
+      "image": "teams/Juventude/Juventude - José.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d99b6de0-50",
+      "name": "Juan",
+      "nickname": "Juan",
+      "image": "teams/Juventude/Juventude - Juan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 48,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4a925254-45",
+      "name": "Lucas",
+      "nickname": "Lucas",
+      "image": "teams/Juventude/Juventude - Lucas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 30,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b640c8fe-44",
+      "name": "Luiz",
+      "nickname": "Luiz",
+      "image": "teams/Juventude/Juventude - Luiz.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ab75e934-84",
+      "name": "Rodrigo",
+      "nickname": "Rodrigo",
+      "image": "teams/Juventude/Juventude - Rodrigo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2075798e-06",
+      "name": "Wellington",
+      "nickname": "Wellington",
+      "image": "teams/Juventude/Juventude - Wellington.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    }
+  ],
+  "Lagoa Seca": [
+    {
+      "id": "ply-efc8bf94-69",
+      "name": "Anderson",
+      "nickname": "Anderson",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Anderson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-29a9504f-33",
+      "name": "Cícero",
+      "nickname": "Cícero",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Cícero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-45bf238e-99",
+      "name": "Eduardo",
+      "nickname": "Eduardo",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Eduardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c172026b-42",
+      "name": "Erismar",
+      "nickname": "Erismar",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Erismar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 41,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b667874a-51",
+      "name": "Francinaldo",
+      "nickname": "Francinaldo",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Francinaldo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1552ed81-96",
+      "name": "Francisco",
+      "nickname": "Francisco",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Francisco.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 50,
+      "is_committee": false
+    },
+    {
+      "id": "ply-682fc3d7-23",
+      "name": "Genival",
+      "nickname": "Genival",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Genival - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-de90addb-23",
+      "name": "Jean",
+      "nickname": "Jean",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Jean.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 32,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e13407e9-37",
+      "name": "Manoel",
+      "nickname": "Manoel",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Manoel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-25e681a3-66",
+      "name": "Marcos",
+      "nickname": "Marcos",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Marcos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a0ec2bfe-55",
+      "name": "Ronaldo",
+      "nickname": "Ronaldo",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Ronaldo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    },
+    {
+      "id": "ply-47ab78f7-03",
+      "name": "Salomão",
+      "nickname": "Salomão",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Salomão.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e5edad6d-65",
+      "name": "Valdson",
+      "nickname": "Valdson",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Valdson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-df05fe9a-15",
+      "name": "Wellington",
+      "nickname": "Wellington",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Wellington.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-097ef7ea-65",
+      "name": "Éverton",
+      "nickname": "Éverton",
+      "image": "teams/Lagoa Seca/Lagoa Seca - Éverton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 2,
+      "is_committee": false
+    }
+  ],
+  "Lamaju": [
+    {
+      "id": "ply-f2b203cb-23",
+      "name": "Afrânio",
+      "nickname": "Afrânio",
+      "image": "teams/Lamaju/Lamaju - Afrânio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-21266f57-33",
+      "name": "Alberto",
+      "nickname": "Alberto",
+      "image": "teams/Lamaju/Lamaju - Alberto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-38e2eae8-80",
+      "name": "Chico",
+      "nickname": "Chico",
+      "image": "teams/Lamaju/Lamaju - Chico - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-e87801c2-89",
+      "name": "Cicinho L.",
+      "nickname": "Cicinho L.",
+      "image": "teams/Lamaju/Lamaju - Cicinho L..jpeg",
+      "city": "Farias Brito",
+      "matches_played": 15,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3dc61122-21",
+      "name": "Cicinho",
+      "nickname": "Cicinho",
+      "image": "teams/Lamaju/Lamaju - Cicinho.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3b69d34f-13",
+      "name": "David",
+      "nickname": "David",
+      "image": "teams/Lamaju/Lamaju - David.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 39,
+      "is_committee": false
+    },
+    {
+      "id": "ply-66af8e9a-45",
+      "name": "Dudu",
+      "nickname": "Dudu",
+      "image": "teams/Lamaju/Lamaju - Dudu.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 6,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d7236060-37",
+      "name": "Eduardo",
+      "nickname": "Eduardo",
+      "image": "teams/Lamaju/Lamaju - Eduardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f8aae239-60",
+      "name": "Firmino",
+      "nickname": "Firmino",
+      "image": "teams/Lamaju/Lamaju - Firmino.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3b8ed45e-73",
+      "name": "Guilherme",
+      "nickname": "Guilherme",
+      "image": "teams/Lamaju/Lamaju - Guilherme.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-70ccd232-91",
+      "name": "Igor",
+      "nickname": "Igor",
+      "image": "teams/Lamaju/Lamaju - Igor.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-7b1cff2b-99",
+      "name": "Jardel",
+      "nickname": "Jardel",
+      "image": "teams/Lamaju/Lamaju - Jardel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-88e0641f-92",
+      "name": "José Wilson",
+      "nickname": "José Wilson",
+      "image": "teams/Lamaju/Lamaju - José Wilson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2bd01f4b-14",
+      "name": "Lu",
+      "nickname": "Lu",
+      "image": "teams/Lamaju/Lamaju - Lu.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9b2edf9b-36",
+      "name": "Luan",
+      "nickname": "Luan",
+      "image": "teams/Lamaju/Lamaju - Luan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-905f5693-14",
+      "name": "Marcos",
+      "nickname": "Marcos",
+      "image": "teams/Lamaju/Lamaju - Marcos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    },
+    {
+      "id": "ply-329c26bf-01",
+      "name": "Matheus",
+      "nickname": "Matheus",
+      "image": "teams/Lamaju/Lamaju - Matheus.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3b54814d-77",
+      "name": "Olímpio",
+      "nickname": "Olímpio",
+      "image": "teams/Lamaju/Lamaju - Olímpio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 15,
+      "is_committee": false
+    },
+    {
+      "id": "ply-af1ca137-40",
+      "name": "Remerson",
+      "nickname": "Remerson",
+      "image": "teams/Lamaju/Lamaju - Remerson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f487fb2a-09",
+      "name": "Walace",
+      "nickname": "Walace",
+      "image": "teams/Lamaju/Lamaju - Walace.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    }
+  ],
+  "Lambedouro": [
+    {
+      "id": "ply-0c92973a-37",
+      "name": "Antônio",
+      "nickname": "Antônio",
+      "image": "teams/Lambedouro/Lambedouro - Antônio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 22,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d9da92a2-66",
+      "name": "Biá",
+      "nickname": "Biá",
+      "image": "teams/Lambedouro/Lambedouro - Biá  - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-b2d7addb-48",
+      "name": "Cícero",
+      "nickname": "Cícero",
+      "image": "teams/Lambedouro/Lambedouro - Cícero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8d820110-44",
+      "name": "Eduardo",
+      "nickname": "Eduardo",
+      "image": "teams/Lambedouro/Lambedouro - Eduardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-7c91787a-13",
+      "name": "Erikim",
+      "nickname": "Erikim",
+      "image": "teams/Lambedouro/Lambedouro - Erikim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 12,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fbdd65ce-25",
+      "name": "Fernando",
+      "nickname": "Fernando",
+      "image": "teams/Lambedouro/Lambedouro - Fernando - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-29a4bfa8-46",
+      "name": "Geovane",
+      "nickname": "Geovane",
+      "image": "teams/Lambedouro/Lambedouro - Geovane.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c5488658-34",
+      "name": "Gilson",
+      "nickname": "Gilson",
+      "image": "teams/Lambedouro/Lambedouro - Gilson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 18,
+      "is_committee": false
+    },
+    {
+      "id": "ply-12fc11c3-90",
+      "name": "Hélio",
+      "nickname": "Hélio",
+      "image": "teams/Lambedouro/Lambedouro - Hélio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 6,
+      "is_committee": false
+    },
+    {
+      "id": "ply-474922a2-38",
+      "name": "Igor",
+      "nickname": "Igor",
+      "image": "teams/Lambedouro/Lambedouro - Igor.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    },
+    {
+      "id": "ply-51891a55-39",
+      "name": "Jakson",
+      "nickname": "Jakson",
+      "image": "teams/Lambedouro/Lambedouro - Jakson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-834fe183-07",
+      "name": "Jefferson",
+      "nickname": "Jefferson",
+      "image": "teams/Lambedouro/Lambedouro - Jefferson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 21,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e3fab4ad-52",
+      "name": "José",
+      "nickname": "José",
+      "image": "teams/Lambedouro/Lambedouro - José.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 37,
+      "is_committee": false
+    },
+    {
+      "id": "ply-944227e4-59",
+      "name": "Marques",
+      "nickname": "Marques",
+      "image": "teams/Lambedouro/Lambedouro - Marques.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    },
+    {
+      "id": "ply-cbfbffa5-62",
+      "name": "Matheus",
+      "nickname": "Matheus",
+      "image": "teams/Lambedouro/Lambedouro - Matheus.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 27,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fbd693fe-79",
+      "name": "Neto",
+      "nickname": "Neto",
+      "image": "teams/Lambedouro/Lambedouro - Neto - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-4fb31e6c-36",
+      "name": "Nilmar",
+      "nickname": "Nilmar",
+      "image": "teams/Lambedouro/Lambedouro - Nilmar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 40,
+      "is_committee": false
+    },
+    {
+      "id": "ply-90517fd6-67",
+      "name": "Nilton",
+      "nickname": "Nilton",
+      "image": "teams/Lambedouro/Lambedouro - Nilton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c2e6763d-06",
+      "name": "Nininha",
+      "nickname": "Nininha",
+      "image": "teams/Lambedouro/Lambedouro - Nininha.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 18,
+      "is_committee": false
+    },
+    {
+      "id": "ply-fe5ad64b-34",
+      "name": "Paulo",
+      "nickname": "Paulo",
+      "image": "teams/Lambedouro/Lambedouro - Paulo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2539b2a0-28",
+      "name": "Rumão",
+      "nickname": "Rumão",
+      "image": "teams/Lambedouro/Lambedouro - Rumão.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 10,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f8aa795e-12",
+      "name": "Sheila",
+      "nickname": "Sheila",
+      "image": "teams/Lambedouro/Lambedouro - Sheila.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 22,
+      "is_committee": false
+    },
+    {
+      "id": "ply-422e9bf1-13",
+      "name": "William",
+      "nickname": "William",
+      "image": "teams/Lambedouro/Lambedouro - William.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    }
+  ],
+  "Meninos da Vila": [
+    {
+      "id": "ply-d919dcea-39",
+      "name": "Antonio",
+      "nickname": "Antonio",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Antonio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 34,
+      "is_committee": false
+    },
+    {
+      "id": "ply-202585a0-59",
+      "name": "Beira Mar",
+      "nickname": "Beira Mar",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Beira Mar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e0094c1e-35",
+      "name": "Cafu",
+      "nickname": "Cafu",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Cafu.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 39,
+      "is_committee": false
+    },
+    {
+      "id": "ply-85aa5073-77",
+      "name": "Cicero",
+      "nickname": "Cicero",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Cicero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 47,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d2fa09ac-10",
+      "name": "Denis",
+      "nickname": "Denis",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Denis.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-53a5a611-47",
+      "name": "Gabriel",
+      "nickname": "Gabriel",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Gabriel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4e0b2587-41",
+      "name": "Ismael",
+      "nickname": "Ismael",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Ismael.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-12c6a221-01",
+      "name": "Maicon",
+      "nickname": "Maicon",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Maicon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f3bc6599-12",
+      "name": "Marciel",
+      "nickname": "Marciel",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Marciel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0d8228b3-25",
+      "name": "Sandro",
+      "nickname": "Sandro",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Sandro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 29,
+      "is_committee": false
+    },
+    {
+      "id": "ply-dfe61ead-25",
+      "name": "Shrek",
+      "nickname": "Shrek",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Shrek.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4d3f7799-23",
+      "name": "Victor",
+      "nickname": "Victor",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Victor.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1160a41a-39",
+      "name": "Zezinho",
+      "nickname": "Zezinho",
+      "image": "teams/Meninos da Vila/Meninos da Vila - Zezinho.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    }
+  ],
+  "Milan": [
+    {
+      "id": "ply-692ce890-29",
+      "name": "Ailton",
+      "nickname": "Ailton",
+      "image": "teams/Milan/Milan - Ailton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0f6fa5d9-29",
+      "name": "Alex",
+      "nickname": "Alex",
+      "image": "teams/Milan/Milan - Alex.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9fdb9e5d-23",
+      "name": "Antonio",
+      "nickname": "Antonio",
+      "image": "teams/Milan/Milan - Antonio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c8bffc31-66",
+      "name": "Cícero",
+      "nickname": "Cícero",
+      "image": "teams/Milan/Milan - Cícero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-b355c818-83",
+      "name": "Edilberto",
+      "nickname": "Edilberto",
+      "image": "teams/Milan/Milan - Edilberto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-62d516ce-44",
+      "name": "Geilson",
+      "nickname": "Geilson",
+      "image": "teams/Milan/Milan - Geilson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-12398bdf-45",
+      "name": "Geovanio",
+      "nickname": "Geovanio",
+      "image": "teams/Milan/Milan - Geovanio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 32,
+      "is_committee": false
+    },
+    {
+      "id": "ply-eb9cbbdd-17",
+      "name": "Jean",
+      "nickname": "Jean",
+      "image": "teams/Milan/Milan - Jean.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-6a44cbba-50",
+      "name": "João",
+      "nickname": "João",
+      "image": "teams/Milan/Milan - João.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9ebfee81-44",
+      "name": "Leandro",
+      "nickname": "Leandro",
+      "image": "teams/Milan/Milan - Leandro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-29f2efac-38",
+      "name": "Lucas",
+      "nickname": "Lucas",
+      "image": "teams/Milan/Milan - Lucas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 23,
+      "is_committee": false
+    },
+    {
+      "id": "ply-68f11246-88",
+      "name": "Marleudo",
+      "nickname": "Marleudo",
+      "image": "teams/Milan/Milan - Marleudo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 6,
+      "is_committee": false
+    },
+    {
+      "id": "ply-55fa409e-57",
+      "name": "Meireles",
+      "nickname": "Meireles",
+      "image": "teams/Milan/Milan - Meireles.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0e5d3b74-00",
+      "name": "Paulino",
+      "nickname": "Paulino",
+      "image": "teams/Milan/Milan - Paulino.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 4,
+      "is_committee": false
+    },
+    {
+      "id": "ply-14ee7f43-53",
+      "name": "Romário",
+      "nickname": "Romário",
+      "image": "teams/Milan/Milan - Romário.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    }
+  ],
+  "Monte Pio": [
+    {
+      "id": "ply-e83e8733-88",
+      "name": "Cícero",
+      "nickname": "Cícero",
+      "image": "teams/Monte Pio/Monte Pio - Cícero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-69522038-53",
+      "name": "Damião",
+      "nickname": "Damião",
+      "image": "teams/Monte Pio/Monte Pio - Damião.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1103c864-97",
+      "name": "Daniel",
+      "nickname": "Daniel",
+      "image": "teams/Monte Pio/Monte Pio - Daniel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2e41a952-41",
+      "name": "Edilberto",
+      "nickname": "Edilberto",
+      "image": "teams/Monte Pio/Monte Pio - Edilberto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 50,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a13912d6-94",
+      "name": "Elsin",
+      "nickname": "Elsin",
+      "image": "teams/Monte Pio/Monte Pio - Elsin.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-846bd869-76",
+      "name": "Francisco",
+      "nickname": "Francisco",
+      "image": "teams/Monte Pio/Monte Pio - Francisco.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 43,
+      "is_committee": false
+    },
+    {
+      "id": "ply-29a30d07-71",
+      "name": "Fábio",
+      "nickname": "Fábio",
+      "image": "teams/Monte Pio/Monte Pio - Fábio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 34,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e1e8d9c0-48",
+      "name": "Gaguin",
+      "nickname": "Gaguin",
+      "image": "teams/Monte Pio/Monte Pio - Gaguin.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 34,
+      "is_committee": false
+    },
+    {
+      "id": "ply-bc5f11bc-03",
+      "name": "Galego",
+      "nickname": "Galego",
+      "image": "teams/Monte Pio/Monte Pio - Galego.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": false
+    },
+    {
+      "id": "ply-738eb85c-24",
+      "name": "Jair",
+      "nickname": "Jair",
+      "image": "teams/Monte Pio/Monte Pio - Jair.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f46f1ed5-92",
+      "name": "Janilton",
+      "nickname": "Janilton",
+      "image": "teams/Monte Pio/Monte Pio - Janilton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-cb0583ef-79",
+      "name": "Jhony",
+      "nickname": "Jhony",
+      "image": "teams/Monte Pio/Monte Pio - Jhony.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-7bdc064f-90",
+      "name": "Josemberg",
+      "nickname": "Josemberg",
+      "image": "teams/Monte Pio/Monte Pio - Josemberg.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c17b462f-40",
+      "name": "João",
+      "nickname": "João",
+      "image": "teams/Monte Pio/Monte Pio - João.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 34,
+      "is_committee": false
+    },
+    {
+      "id": "ply-600e2213-57",
+      "name": "Lucas",
+      "nickname": "Lucas",
+      "image": "teams/Monte Pio/Monte Pio - Lucas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-725cfe16-63",
+      "name": "Luigi",
+      "nickname": "Luigi",
+      "image": "teams/Monte Pio/Monte Pio - Luigi.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-27e3c700-86",
+      "name": "Marcelo",
+      "nickname": "Marcelo",
+      "image": "teams/Monte Pio/Monte Pio - Marcelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3388f98f-05",
+      "name": "Paulo",
+      "nickname": "Paulo",
+      "image": "teams/Monte Pio/Monte Pio - Paulo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-123a4d75-52",
+      "name": "Peta",
+      "nickname": "Peta",
+      "image": "teams/Monte Pio/Monte Pio - Peta.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 6,
+      "is_committee": false
+    },
+    {
+      "id": "ply-13b77890-39",
+      "name": "Samuel",
+      "nickname": "Samuel",
+      "image": "teams/Monte Pio/Monte Pio - Samuel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3235fbeb-82",
+      "name": "Sheldon",
+      "nickname": "Sheldon",
+      "image": "teams/Monte Pio/Monte Pio - Sheldon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 5,
+      "is_committee": false
+    },
+    {
+      "id": "ply-866aa419-33",
+      "name": "Walace",
+      "nickname": "Walace",
+      "image": "teams/Monte Pio/Monte Pio - Walace.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 28,
+      "is_committee": false
+    },
+    {
+      "id": "ply-feb1b88c-22",
+      "name": "William",
+      "nickname": "William",
+      "image": "teams/Monte Pio/Monte Pio - William.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4c82f40c-43",
+      "name": "WhatsApp Image 2023-09-12 at 15.45.50",
+      "nickname": "WhatsApp Image 2023-09-12 at 15.45.50",
+      "image": "teams/Monte Pio/WhatsApp Image 2023-09-12 at 15.45.50.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 22,
+      "is_committee": false
+    },
+    {
+      "id": "ply-523b291a-58",
+      "name": "WhatsApp Image 2023-09-13 at 05.14.51",
+      "nickname": "WhatsApp Image 2023-09-13 at 05.14.51",
+      "image": "teams/Monte Pio/WhatsApp Image 2023-09-13 at 05.14.51.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 18,
+      "is_committee": false
+    }
+  ],
+  "Pedro Fernandes": [
+    {
+      "id": "ply-6935c881-98",
+      "name": "Ailton",
+      "nickname": "Ailton",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Ailton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 25,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f431b12d-40",
+      "name": "Beto",
+      "nickname": "Beto",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Beto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9e8fb035-27",
+      "name": "Buguelo",
+      "nickname": "Buguelo",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Buguelo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9b4733cb-97",
+      "name": "Caio",
+      "nickname": "Caio",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Caio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 22,
+      "is_committee": false
+    },
+    {
+      "id": "ply-93a6d18f-33",
+      "name": "Caislan",
+      "nickname": "Caislan",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Caislan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 39,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4e4d2feb-53",
+      "name": "Chico",
+      "nickname": "Chico",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Chico.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 22,
+      "is_committee": false
+    },
+    {
+      "id": "ply-409053b2-89",
+      "name": "Cho",
+      "nickname": "Cho",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Cho.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-a82a2e08-21",
+      "name": "Cinquentinha",
+      "nickname": "Cinquentinha",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Cinquentinha.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9615b15b-45",
+      "name": "Cristiano",
+      "nickname": "Cristiano",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Cristiano.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-296c4185-17",
+      "name": "Diego",
+      "nickname": "Diego",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Diego.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 15,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e3a05a15-70",
+      "name": "Elvis",
+      "nickname": "Elvis",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Elvis.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 41,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e394dfa0-86",
+      "name": "Irim",
+      "nickname": "Irim",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Irim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 41,
+      "is_committee": false
+    },
+    {
+      "id": "ply-805c24c6-50",
+      "name": "Jenilsom",
+      "nickname": "Jenilsom",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Jenilsom.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c9deb76d-48",
+      "name": "John",
+      "nickname": "John",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - John.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 1,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c4fed918-23",
+      "name": "Joãozinho",
+      "nickname": "Joãozinho",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Joãozinho.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c17bc483-67",
+      "name": "Marcos",
+      "nickname": "Marcos",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Marcos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-98456c54-11",
+      "name": "Neilton",
+      "nickname": "Neilton",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Neilton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-267fc0f3-55",
+      "name": "Pedro Jorge",
+      "nickname": "Pedro Jorge",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Pedro Jorge.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-591804b0-30",
+      "name": "Robério",
+      "nickname": "Robério",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Robério - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-d1bb546c-44",
+      "name": "Stayone",
+      "nickname": "Stayone",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Stayone.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 3,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8c0c2ce9-67",
+      "name": "Tenisvan",
+      "nickname": "Tenisvan",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Tenisvan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-011103e5-96",
+      "name": "Tione",
+      "nickname": "Tione",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Tione.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 35,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d3e1f433-38",
+      "name": "Vitim",
+      "nickname": "Vitim",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Vitim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d0f5da0f-05",
+      "name": "Vitor",
+      "nickname": "Vitor",
+      "image": "teams/Pedro Fernandes/Pedro Fernandes - Vitor.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 20,
+      "is_committee": false
+    }
+  ],
+  "Ribeirinha": [
+    {
+      "id": "ply-cf98ffc2-84",
+      "name": "Cicero",
+      "nickname": "Cicero",
+      "image": "teams/Ribeirinha/Ribeirinha - Cicero.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 6,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9ee1cf11-13",
+      "name": "Eduardo",
+      "nickname": "Eduardo",
+      "image": "teams/Ribeirinha/Ribeirinha - Eduardo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8e4129a7-45",
+      "name": "Francisco",
+      "nickname": "Francisco",
+      "image": "teams/Ribeirinha/Ribeirinha - Francisco.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 24,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0db1c19c-02",
+      "name": "Henrique",
+      "nickname": "Henrique",
+      "image": "teams/Ribeirinha/Ribeirinha - Henrique.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-1ab8bb02-15",
+      "name": "Israel",
+      "nickname": "Israel",
+      "image": "teams/Ribeirinha/Ribeirinha - Israel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-072ffbcd-86",
+      "name": "José",
+      "nickname": "José",
+      "image": "teams/Ribeirinha/Ribeirinha - José.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2d1d794e-66",
+      "name": "Leandro",
+      "nickname": "Leandro",
+      "image": "teams/Ribeirinha/Ribeirinha - Leandro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 48,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ab025536-33",
+      "name": "Manim",
+      "nickname": "Manim",
+      "image": "teams/Ribeirinha/Ribeirinha - Manim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 13,
+      "is_committee": false
+    },
+    {
+      "id": "ply-53d9b5a0-69",
+      "name": "Marcos",
+      "nickname": "Marcos",
+      "image": "teams/Ribeirinha/Ribeirinha - Marcos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    },
+    {
+      "id": "ply-00cecb26-58",
+      "name": "Matheus",
+      "nickname": "Matheus",
+      "image": "teams/Ribeirinha/Ribeirinha - Matheus.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 42,
+      "is_committee": false
+    },
+    {
+      "id": "ply-24ceacf8-09",
+      "name": "Miguel",
+      "nickname": "Miguel",
+      "image": "teams/Ribeirinha/Ribeirinha - Miguel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f17a256b-64",
+      "name": "Naylon",
+      "nickname": "Naylon",
+      "image": "teams/Ribeirinha/Ribeirinha - Naylon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 36,
+      "is_committee": false
+    },
+    {
+      "id": "ply-ad12e859-85",
+      "name": "Samuel",
+      "nickname": "Samuel",
+      "image": "teams/Ribeirinha/Ribeirinha - Samuel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d9414835-41",
+      "name": "Vinicius",
+      "nickname": "Vinicius",
+      "image": "teams/Ribeirinha/Ribeirinha - Vinicius.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 29,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f77541ba-61",
+      "name": "Wesley",
+      "nickname": "Wesley",
+      "image": "teams/Ribeirinha/Ribeirinha - Wesley.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    }
+  ],
+  "Ríver": [
+    {
+      "id": "ply-5e67995c-02",
+      "name": "Anailson",
+      "nickname": "Anailson",
+      "image": "teams/Ríver/Ríver - Anailson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2dc880fc-23",
+      "name": "Antônio",
+      "nickname": "Antônio",
+      "image": "teams/Ríver/Ríver - Antônio - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-d42be8b6-51",
+      "name": "Ariel",
+      "nickname": "Ariel",
+      "image": "teams/Ríver/Ríver - Ariel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 31,
+      "is_committee": false
+    },
+    {
+      "id": "ply-4f28a9ae-56",
+      "name": "Cadu",
+      "nickname": "Cadu",
+      "image": "teams/Ríver/Ríver - Cadu.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": false
+    },
+    {
+      "id": "ply-dd4db3a6-56",
+      "name": "Cauã",
+      "nickname": "Cauã",
+      "image": "teams/Ríver/Ríver - Cauã.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-8d07db8d-57",
+      "name": "Charlys",
+      "nickname": "Charlys",
+      "image": "teams/Ríver/Ríver - Charlys - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-b7e1392f-38",
+      "name": "Edival",
+      "nickname": "Edival",
+      "image": "teams/Ríver/Ríver - Edival.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0dad0c22-41",
+      "name": "Erismar",
+      "nickname": "Erismar",
+      "image": "teams/Ríver/Ríver - Erismar.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3c46795d-16",
+      "name": "Iarlen",
+      "nickname": "Iarlen",
+      "image": "teams/Ríver/Ríver - Iarlen.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 7,
+      "is_committee": false
+    },
+    {
+      "id": "ply-85728464-03",
+      "name": "Josias",
+      "nickname": "Josias",
+      "image": "teams/Ríver/Ríver - Josias.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c7130b82-13",
+      "name": "Kerlon",
+      "nickname": "Kerlon",
+      "image": "teams/Ríver/Ríver - Kerlon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 49,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c4d6ea4e-81",
+      "name": "Maicon",
+      "nickname": "Maicon",
+      "image": "teams/Ríver/Ríver - Maicon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-81b7d7c2-31",
+      "name": "Maurício",
+      "nickname": "Maurício",
+      "image": "teams/Ríver/Ríver - Maurício.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-baf13154-37",
+      "name": "Pedro L.",
+      "nickname": "Pedro L.",
+      "image": "teams/Ríver/Ríver - Pedro L..jpeg",
+      "city": "Farias Brito",
+      "matches_played": 16,
+      "is_committee": false
+    },
+    {
+      "id": "ply-f9a30248-10",
+      "name": "Pedro",
+      "nickname": "Pedro",
+      "image": "teams/Ríver/Ríver - Pedro.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 39,
+      "is_committee": false
+    },
+    {
+      "id": "ply-445cc7c8-95",
+      "name": "Sávio",
+      "nickname": "Sávio",
+      "image": "teams/Ríver/Ríver - Sávio - CT.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 0,
+      "is_committee": true
+    },
+    {
+      "id": "ply-7887f850-69",
+      "name": "Viner",
+      "nickname": "Viner",
+      "image": "teams/Ríver/Ríver - Viner.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 46,
+      "is_committee": false
+    }
+  ],
+  "Suturno": [
+    {
+      "id": "ply-6e485ae9-18",
+      "name": "Alan",
+      "nickname": "Alan",
+      "image": "teams/Suturno/Suturno - Alan.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-35dc4bfb-54",
+      "name": "Allanon",
+      "nickname": "Allanon",
+      "image": "teams/Suturno/Suturno - Allanon.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 41,
+      "is_committee": false
+    },
+    {
+      "id": "ply-2902fa85-10",
+      "name": "Anderson",
+      "nickname": "Anderson",
+      "image": "teams/Suturno/Suturno - Anderson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e606abbc-38",
+      "name": "Carlos",
+      "nickname": "Carlos",
+      "image": "teams/Suturno/Suturno - Carlos.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 24,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5536526e-62",
+      "name": "Celim",
+      "nickname": "Celim",
+      "image": "teams/Suturno/Suturno - Celim.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 45,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d097534b-03",
+      "name": "Claudivam",
+      "nickname": "Claudivam",
+      "image": "teams/Suturno/Suturno - Claudivam.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 8,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5aa487c7-41",
+      "name": "Dadá",
+      "nickname": "Dadá",
+      "image": "teams/Suturno/Suturno - Dadá.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 17,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c2e4c6cd-81",
+      "name": "Danilo",
+      "nickname": "Danilo",
+      "image": "teams/Suturno/Suturno - Danilo.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 33,
+      "is_committee": false
+    },
+    {
+      "id": "ply-9516452b-95",
+      "name": "David",
+      "nickname": "David",
+      "image": "teams/Suturno/Suturno - David.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 27,
+      "is_committee": false
+    },
+    {
+      "id": "ply-5c812653-71",
+      "name": "Emanoel",
+      "nickname": "Emanoel",
+      "image": "teams/Suturno/Suturno - Emanoel.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 40,
+      "is_committee": false
+    },
+    {
+      "id": "ply-897b2fb7-80",
+      "name": "Galego",
+      "nickname": "Galego",
+      "image": "teams/Suturno/Suturno - Galego.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-94341607-80",
+      "name": "Jeferson",
+      "nickname": "Jeferson",
+      "image": "teams/Suturno/Suturno - Jeferson.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 44,
+      "is_committee": false
+    },
+    {
+      "id": "ply-0169bfaf-58",
+      "name": "Lucas",
+      "nickname": "Lucas",
+      "image": "teams/Suturno/Suturno - Lucas.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 19,
+      "is_committee": false
+    },
+    {
+      "id": "ply-e8ed64a5-11",
+      "name": "Marcílio",
+      "nickname": "Marcílio",
+      "image": "teams/Suturno/Suturno - Marcílio.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    },
+    {
+      "id": "ply-c28e6974-88",
+      "name": "Neylton",
+      "nickname": "Neylton",
+      "image": "teams/Suturno/Suturno - Neylton.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 37,
+      "is_committee": false
+    },
+    {
+      "id": "ply-612d05da-27",
+      "name": "Paulinho",
+      "nickname": "Paulinho",
+      "image": "teams/Suturno/Suturno - Paulinho.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 9,
+      "is_committee": false
+    },
+    {
+      "id": "ply-3d24c61d-90",
+      "name": "Raul",
+      "nickname": "Raul",
+      "image": "teams/Suturno/Suturno - Raul.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 38,
+      "is_committee": false
+    },
+    {
+      "id": "ply-d9689bb8-77",
+      "name": "Zé Neto",
+      "nickname": "Zé Neto",
+      "image": "teams/Suturno/Suturno - Zé Neto.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 11,
+      "is_committee": false
+    },
+    {
+      "id": "ply-65662bb7-21",
+      "name": "Óssean",
+      "nickname": "Óssean",
+      "image": "teams/Suturno/Suturno - Óssean.jpeg",
+      "city": "Farias Brito",
+      "matches_played": 26,
+      "is_committee": false
+    }
+  ]
+}

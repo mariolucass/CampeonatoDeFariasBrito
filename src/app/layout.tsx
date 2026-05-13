@@ -1,44 +1,27 @@
-"use client";
+import { conduit } from "@/config/font";
+import { defaultMetadata, defaultViewport } from "@/config/metadata";
 import { ContextProvider } from "@/context";
 import { IChildren } from "@/interfaces/global";
 import { ArrowFooter } from "@/layouts/ArrowFooter";
 import { Footer } from "@/layouts/Footer";
 import { Header } from "@/layouts/Header";
-import localfont from "@next/font/local";
-import "swiper/css";
-import "swiper/css/bundle";
-import "swiper/css/effect-cards";
-import "swiper/css/effect-coverflow";
-import "swiper/css/effect-creative";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
+import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
-import Head from "./head";
 
-const conduit = localfont({
-  src: [
-    { path: "../../public/fonts/Conduit ITC Regular.otf", weight: "100" },
-    { path: "../../public/fonts/Conduit ITC Regular.otf", weight: "200" },
-    { path: "../../public/fonts/Conduit ITC Regular.otf", weight: "300" },
-    { path: "../../public/fonts/Conduit ITC Regular.otf", weight: "400" },
-    { path: "../../public/fonts/Conduit ITC Bold.otf", weight: "500" },
-    { path: "../../public/fonts/Conduit ITC Bold.otf", weight: "600" },
-    { path: "../../public/fonts/Conduit ITC Bold.otf", weight: "700" },
-    { path: "../../public/fonts/Conduit ITC Bold.otf", weight: "800" },
-  ],
-  variable: "--font-conduit",
-});
+export const metadata = defaultMetadata;
+export const viewport = defaultViewport;
 
 const RootLayout = ({ children }: IChildren) => (
-  <html lang="pt-br" suppressHydrationWarning={true}>
-    <Head />
-    <body className={`${conduit.variable} font-sans`}>
+  <html lang="pt-br" suppressHydrationWarning className={cn(conduit.variable)}>
+    <body className="font-sans">
       <ContextProvider>
         <Header />
         {children}
         <Footer />
         <ArrowFooter />
       </ContextProvider>
+      <Analytics />
     </body>
   </html>
 );

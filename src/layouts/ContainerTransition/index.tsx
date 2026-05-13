@@ -1,18 +1,19 @@
 import { IChildren } from "@/interfaces/global";
 import { motion } from "framer-motion";
 
+const EASING = [0.25, 0.1, 0.25, 1] as const;
+
 export const ContainerTransition = ({ children }: IChildren) => (
   <motion.div
-    className=""
-    initial={{ x: 300, opacity: 0 }}
-    animate={{ x: 0, opacity: 1 }}
-    exit={{ x: -300, opacity: 0 }}
+    initial={{ opacity: 0, y: 12, scale: 0.985 }}
+    animate={{ opacity: 1, y: 0, scale: 1 }}
+    exit={{ opacity: 0, y: -6, scale: 0.99 }}
     transition={{
-      type: "spring",
-      stiffness: 200,
-      damping: 20,
-      duration: 1.1,
+      duration: 0.35,
+      ease: EASING,
+      opacity: { duration: 0.25, ease: EASING },
     }}
+    style={{ willChange: "transform, opacity" }}
   >
     {children}
   </motion.div>

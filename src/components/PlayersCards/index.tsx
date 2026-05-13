@@ -2,9 +2,10 @@ import { CommitteeMember } from "@/interfaces/context_interface";
 import { Player } from "@/interfaces/players_interface";
 import { getComitteesByTeam } from "@/services/committee_service";
 import { getPlayersByTeam } from "@/services/players_service";
-import { Spinner } from "@material-tailwind/react";
+
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { Spinner } from "../ui/spinner";
 
 interface PlayersCardsProps {
   teamId: string;
@@ -14,60 +15,77 @@ interface PlayersCardsProps {
 export const PlayersCards = ({ teamId, isCommitte }: PlayersCardsProps) => {
   const [players, setPlayers] = useState<Player[]>([]);
   const [committees, setCommittees] = useState<CommitteeMember[]>([]);
-  const [loading, setLoading] = useState<boolean>(true);
-
-  const getInfos = async () => {
-    if (isCommitte) {
-      await getComitteesByTeam({ teamId, setCommittees });
-      setLoading(false);
-    } else {
-      await getPlayersByTeam({ teamId, setPlayers });
-      setLoading(false);
-    }
-  };
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getInfos();
+    const load = async () => {
+      if (isCommitte) {
+        await getComitteesByTeam({ teamId, setCommittees });
+      } else {
+        await getPlayersByTeam({ teamId, setPlayers });
+      }
+      setLoading(false);
+    };
+    load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [teamId]);
 
-  const listToUse = isCommitte
-    ? committees.sort((a, b) => a.nickname.localeCompare(b.nickname))
-    : players.sort((a, b) => a.nickname.localeCompare(b.nickname));
+  const listToUse = (
+    isCommitte
+      ? committees.sort((a, b) => a.nickname.localeCompare(b.nickname))
+      : players.sort((a, b) => a.nickname.localeCompare(b.nickname))
+  ) as any[];
 
-  const renderPlayerCard = listToUse.map((elem: any) => (
-    <li
-      key={elem.id}
-      className="w-1/3 flex flex-col bg-bgone rounded-lg justify-center items-center lg:w-1/5"
-    >
-      <div className="w-full m-auto flex justify-center items-center h-[128px] lg:h-[208px]">
-        <Image
-          src={elem.image}
-          alt={elem.name}
-          width={"104"}
-          height={"100"}
-          className="rounded-lg m-0 mt-2"
-          style={{ width: "80%", height: "90%", objectFit: "cover" }}
-        />
+  /* ── Loading ── */
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-3 py-10 opacity-40">
+        <Spinner className="h-8 w-8" />
+        <span className="text-[10px] font-black uppercase tracking-widest">
+          Carregando...
+        </span>
       </div>
+    );
+  }
 
-      <div className="flex flex-col my-auto text-center">
-        <span className="font-bold text-xl">{elem.nickname}</span>
+  /* ── Empty ── */
+  if (!listToUse.length) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-2 py-10 opacity-30">
+        <span className="text-3xl select-none">—</span>
+        <span className="text-xs font-black uppercase tracking-widest">
+          Ainda sem informações
+        </span>
       </div>
-    </li>
-  ));
+    );
+  }
 
-  return loading ? (
-    <div className=" w-full flex flex-col flex-wrap gap-4 p-4 justify-center items-center text-bgmodal">
-      <Spinner className="h-12 w-12" />
-    </div>
-  ) : listToUse.length ? (
-    <ul className="flex flex-wrap gap-0 p-0 justify-center items-center bg-bgone rounded-lg pb-2">
-      {renderPlayerCard}
+  /* ── Cards ── */
+  return (
+    <ul className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-3 p-3 w-full">
+      {listToUse.map((elem) => (
+        <li
+          key={elem.id}
+          className="group flex flex-col items-center gap-2 rounded-xl bg-bgtwo border border-current border-opacity-[0.07] p-3 transition-all duration-200 hover:-translate-y-0.5 hover:border-main/30 hover:shadow-md"
+        >
+          {/* Photo */}
+          <div className="relative w-full aspect-square rounded-lg overflow-hidden bg-bgone">
+            <Image
+              src={`/mocks/${elem.image}`}
+              alt={elem.nickname}
+              fill
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            {/* Subtle gradient at bottom */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+          </div>
+
+          {/* Name */}
+          <span className="w-full text-center font-black uppercase text-xs lg:text-lg tracking-tight leading-tight line-clamp-2">
+            {elem.nickname}
+          </span>
+        </li>
+      ))}
     </ul>
-  ) : (
-    <div className=" w-full flex flex-col flex-wrap gap-4 p-4 justify-center items-center">
-      <h2 className="text-xl">Ainda sem informações</h2>
-    </div>
   );
 };

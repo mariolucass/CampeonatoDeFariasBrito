@@ -3,8 +3,8 @@
 import { dictPages } from "@/data/titlePages";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import ClassificacaoIcon from "../../assets/pages/classificacao.svg";
-import TabelaIcon from "../../assets/pages/tabela.svg";
+import ClassificacaoIcon from "../../../public/assets/pages/classificacao.svg";
+import TabelaIcon from "../../../public/assets/pages/tabela.svg";
 
 export const SectionTitle = () => {
   const pathName = usePathname();
@@ -88,7 +88,7 @@ export const SectionTitle = () => {
         />
       </div>
       <h1 className="text-4xl font-bold">{dictPages[path].title}</h1>
-      <span className="text-sm">{dictPages[path].description}</span>
+      <span className="text-lg">{dictPages[path].description}</span>
     </section>
   );
 };
