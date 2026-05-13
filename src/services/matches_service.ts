@@ -1,10 +1,16 @@
-import { IMatchesState } from "@/interfaces/matches_interface";
+import { IMatchesState, Match } from "@/interfaces/matches_interface";
 import { api } from "./axios";
+import { fetchMock, isMockMode } from "./mock_handler";
 
 export const getMatches = async ({ matches, setMatches }: IMatchesState) => {
   if (!matches.length) {
-    const { data } = await api.get("/matches/");
-    setMatches(data);
+    if (isMockMode) {
+      const data = await fetchMock<Match[]>("/mocks/matches.json");
+      setMatches(data);
+    } else {
+      const { data } = await api.get("/matches/");
+      setMatches(data);
+    }
   }
 };
 

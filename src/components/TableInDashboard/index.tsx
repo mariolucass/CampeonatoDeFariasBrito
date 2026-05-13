@@ -1,134 +1,97 @@
-import { useGlobalContext } from "@/context/global_context";
 import { useMatchesContext } from "@/context/matches_context";
+import { defaultCrest } from "@/data/teamsData";
 import { RenderTeamInMatch } from "@/interfaces/teams_interface";
 import { getMatches } from "@/services/matches_service";
 import { changeNameTeamsInMatches } from "@/utils/changeNameTeams";
-import { Spinner } from "@material-tailwind/react";
-import moment from "moment";
-import "moment/locale/pt-br";
-import Image from "next/image";
-import { useEffect } from "react";
-import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { RenderCrest } from "@/utils/renderCrest";
+import { useEffect, useMemo } from "react";
+
+// Componente visual mantido limpo e isolado
+const TeamDisplay = ({ name, image }: RenderTeamInMatch) => (
+  <div className="flex flex-col justify-center items-center w-1/3 gap-4">
+    <div className="w-[72px] h-[72px] lg:w-[88px] lg:h-[88px] drop-shadow-md transition-transform duration-300 hover:scale-105">
+      {RenderCrest(image)}
+    </div>
+    <span className="w-full text-base lg:text-lg text-center px-2 font-semibold text-gray-800 tracking-tight leading-tight">
+      {name}
+    </span>
+  </div>
+);
 
 export const TableInDashboard = () => {
-  const { useWindowSize } = useGlobalContext();
-  const size = useWindowSize();
-
   const { matches, setMatches } = useMatchesContext();
+
   useEffect(() => {
     getMatches({ matches, setMatches });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const listFiltered = matches.slice(0, 4);
-  const filterList = listFiltered.map((elem) => changeNameTeamsInMatches(elem));
+  const finalMatch = useMemo(() => {
+    if (!matches || matches.length === 0) return null;
 
-  const RenderPrincipal = ({ name, image }: RenderTeamInMatch) => {
+    // Pegamos a lista filtrada
+    const filtered = matches
+      .slice(43)
+      .map((elem) => changeNameTeamsInMatches(elem));
+
+    // Como é apenas a final, assumimos que é o último/único item relevante desta lista
+    // Retornamos apenas o primeiro elemento encontrado para o destaque
+    return filtered[0];
+  }, [matches]);
+
+  // Skeleton de loading atualizado para o novo formato estático
+  if (!finalMatch) {
     return (
-      <div className="m-w-2/3 rounded-lg flex flex-col justify-center items-center">
-        <div className="w-[48px] h-[48px]">
-          <Image
-            src={
-              image
-                ? image
-                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
-            }
-            className="multiplyimage"
-            alt="crestTeam"
-            width={48}
-            height={48}
-            style={{ width: "100%", height: "100%", objectFit: "contain" }}
-          />
+      <div className="flex justify-center items-center w-full lg:w-11/12 mx-auto my-6">
+        <div className="w-full max-w-4xl h-[220px] bg-[#F5F5F7] rounded-[2.5rem] flex items-center justify-center p-8 animate-pulse shadow-sm">
+          <div className="flex flex-col items-center gap-6 w-full">
+            <div className="h-3 w-24 bg-gray-300/50 rounded-full"></div>
+            <div className="flex w-full justify-center gap-10 items-center">
+              <div className="w-[72px] h-[72px] rounded-full bg-gray-300/50"></div>
+              <div className="h-12 w-28 bg-gray-300/50 rounded-2xl"></div>
+              <div className="w-[72px] h-[72px] rounded-full bg-gray-300/50"></div>
+            </div>
+          </div>
         </div>
-
-        <span className="w-full text-base text-center px-1 font-bold lg:text-xl">
-          {name}
-        </span>
       </div>
     );
-  };
+  }
 
-  const RenderVisitant = ({ name, image }: RenderTeamInMatch) => {
-    return (
-      <div className="m-w-2/3 rounded-lg flex flex-col justify-center items-center">
-        <div className="w-[48px] h-[48px]">
-          <Image
-            src={
-              image
-                ? image
-                : "https://live.staticflickr.com/65535/53133352780_be09a37cd2_n.jpg"
-            }
-            className="multiplyimage"
-            alt="crestTeam"
-            width={48}
-            height={48}
-            style={{ width: "100%", height: "100%", objectFit: "contain" }}
-          />
-        </div>
-
-        <span className="w-full text-base text-center px-1 font-bold lg:text-xl">
-          {name}
+  return (
+    <div className="flex justify-center w-full lg:w-11/12 mx-auto my-6 px-4 lg:px-0">
+      {/* Container Hero Apple Pro: 
+        - shadow-[0_8px_30px_rgb(0,0,0,0.04)]: Sombra super difusa e elegante
+        - border border-black/[0.03]: Borda quase invisível para dar limite físico ao card
+        - p-10 lg:p-14: Respiro (whitespace) generoso
+      */}
+      <div className="w-full max-w-4xl bg-[#F5F5F7] rounded-[2.5rem] p-10 lg:p-14 flex flex-col items-center justify-center shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-black/[0.03]">
+        {/* Badge superior */}
+        <span className="text-xs lg:text-sm font-bold text-gray-400 tracking-[0.25em] uppercase mb-8 text-center block w-full">
+          Grande Final
         </span>
-      </div>
-    );
-  };
 
-  const renderMatches = filterList.map((elem, index) => {
-    const handleDate = () => {
-      moment.locale("pt-br");
-      const time = moment(elem.date, "YYYY-MM-DDTHH:mm")
-        .format("LLLL")
-        .replace(",", " -")
-        .replace("às", " -")
-        .replace("de 2023", "")
-        .toUpperCase();
-
-      return time;
-    };
-
-    return (
-      <SwiperSlide
-        key={index}
-        className="flex flex-col w-full bg-bgone mt-4 lg:w-1/3"
-      >
-        <h3 className="flex w-full justify-center font-bold relative top-2 mb-4">
-          {handleDate()}
-        </h3>
-
-        <div className="flex justify-center p-2 w-full">
-          <RenderPrincipal
-            name={elem.principal.name.toUpperCase()}
-            image={elem.principal.crest}
+        {/* Layout do Placar */}
+        <div className="flex justify-between items-center w-full max-w-2xl mx-auto">
+          <TeamDisplay
+            name={finalMatch.principal.name.toUpperCase()}
+            image={finalMatch.principal.crest || defaultCrest}
           />
 
-          <div className="w-1/3 text-4xl p-1 h-[32px] my-auto text-black flex justify-around items-center font-bold">
-            <span>X</span>
+          {/* Placar em Destaque */}
+          <div className="flex flex-1 justify-center items-center gap-4 lg:gap-8 text-5xl lg:text-7xl font-black text-gray-900 tracking-tighter">
+            <span>{finalMatch.goals_principal}</span>
+            <span className="text-2xl lg:text-3xl text-gray-300 font-medium pb-2 lg:pb-3">
+              X
+            </span>
+            <span>{finalMatch.goals_visitant}</span>
           </div>
 
-          <RenderVisitant
-            name={elem.visitant.name.toUpperCase()}
-            image={elem.visitant.crest}
+          <TeamDisplay
+            name={finalMatch.visitant.name.toUpperCase()}
+            image={finalMatch.visitant.crest || defaultCrest}
           />
         </div>
-      </SwiperSlide>
-    );
-  });
-
-  return !matches.length ? (
-    <div className="flex items-start gap-8 text-bgmodal p-16">
-      <Spinner className="h-12 w-12" />
-    </div>
-  ) : (
-    <div className="flex lg:w-11/12 w-full h-full">
-      <Swiper
-        navigation={true}
-        modules={[Navigation]}
-        className="h-full arrows-2"
-        slidesPerView={size.width! < 1024 ? 1 : 2}
-      >
-        {renderMatches}
-      </Swiper>
+      </div>
     </div>
   );
 };

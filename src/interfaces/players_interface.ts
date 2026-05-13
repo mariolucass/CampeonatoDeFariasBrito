@@ -2,6 +2,7 @@ import { Dispatch, SetStateAction } from "react";
 
 export interface Player {
   id: string;
+  image: string;
   matches_played: string;
   name: string;
   age: number;

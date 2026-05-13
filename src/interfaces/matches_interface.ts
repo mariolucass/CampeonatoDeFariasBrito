@@ -5,17 +5,20 @@ export interface Match {
   date: string;
 
   goals_principal: number;
+  goals_penalty_principal: number;
+
   principal: {
     id: string;
     name: string;
-    crest: string;
+    crest: string | null;
   };
 
   goals_visitant: number;
+  goals_penalty_visitant: number;
   visitant: {
     id: string;
     name: string;
-    crest: string;
+    crest: string | null;
   };
 }
 

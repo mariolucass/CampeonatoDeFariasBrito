@@ -1,5 +1,4 @@
 import { Match } from "@/interfaces/matches_interface";
-import { Team } from "@/interfaces/teams_interface";
 
 const listTeamsFiltered = [
   "Pedro Fernandes",
@@ -22,7 +21,7 @@ export const changeNameTeamsInMatches = (elem: Match) => {
   return elem;
 };
 
-export const changeNameTeams = (elem: Team) => {
+export const changeNameTeams = (elem: any) => {
   if (listTeamsFiltered.includes(elem.name)) {
     const index = listTeamsFiltered.indexOf(elem.name);
     elem.name = teamsChanged[index];

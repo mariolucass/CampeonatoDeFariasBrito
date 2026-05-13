@@ -10,7 +10,7 @@ import {
   Navigation,
 } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+// Swiper CSS is imported once in globals.css — no duplicate here.
 export const CarrouselPageMain = () => {
   const { useWindowSize } = useGlobalContext();
   const size = useWindowSize();
@@ -19,11 +19,17 @@ export const CarrouselPageMain = () => {
       key={elem!.name}
       className="h-full rounded-lg lg:w-full lg:min-h-max lg:flex lg:justify-center lg:items-center "
     >
-      <Image
-        src={elem!.image}
-        alt={elem!.name}
-        className="h-full w-full rounded-lg lg:w-full object-cover lg:h-full lg:m-auto drop-shadow-lg"
-      />
+      {/* Fill + sizes: browser fetches only the right-sized image for the slot */}
+      <div className="relative w-full h-full min-h-[300px] lg:min-h-[480px]">
+        <Image
+          src={elem!.image}
+          alt={elem!.name}
+          fill
+          loading="lazy"
+          sizes="(max-width: 1024px) 90vw, 45vw"
+          className="rounded-lg object-cover drop-shadow-lg"
+        />
+      </div>
     </SwiperSlide>
   ));
 
@@ -36,7 +42,7 @@ export const CarrouselPageMain = () => {
           modules={[EffectCards, Autoplay, Navigation]}
           navigation={true}
           className="w-full arrows-black"
-          initialSlide={2}
+          initialSlide={3}
         >
           {renderSwiperSlide}
         </Swiper>
@@ -50,7 +56,7 @@ export const CarrouselPageMain = () => {
           modules={[EffectCoverflow, Autoplay, Navigation]}
           navigation={true}
           className="w-full arrows-black"
-          initialSlide={2}
+          initialSlide={3}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
