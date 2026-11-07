@@ -1,7 +1,7 @@
 "use client";
 
 import { useMatchesContext } from "@/context/matches_context";
-import { matches_wo } from "@/data/secondFase";
+import { matches_wo } from "@/data/secondfase";
 import { defaultCrest } from "@/data/teamsData";
 import { getMatches } from "@/services/matches_service";
 import { changeNameTeamsInMatches } from "@/utils/changeNameTeams";
